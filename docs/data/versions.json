@@ -1,0 +1,14 @@
+[
+  {
+    "id": "beta",
+    "label": "Microsoft Graph beta",
+    "targetsFile": "targets-beta.json",
+    "summaryFile": "summary-beta.json"
+  },
+  {
+    "id": "v1.0",
+    "label": "Microsoft Graph v1.0",
+    "targetsFile": "targets-v1.json",
+    "summaryFile": "summary-v1.json"
+  }
+]

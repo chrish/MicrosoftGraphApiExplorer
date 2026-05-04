@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Graph API Metadata Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1>Microsoft Graph Metadata Explorer</h1>
+      <p>
+        Annotation target navigator generated from the
+        <a href="https://graph.microsoft.com/beta/$metadata">Graph beta</a> and
+        <a href="https://graph.microsoft.com/v1.0/$metadata">Graph v1.0</a> metadata.
+      </p>
+      <div id="summary" class="summary">Loading metadata summary...</div>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Unified Search</h2>
+        <p>Search once to filter the catalog and expand the namespace tree to matching nodes.</p>
+        <div class="search-row">
+          <label for="versionSelect">API version</label>
+          <select id="versionSelect"></select>
+        </div>
+        <div class="search-row">
+          <label for="globalSearch">Search targets, members, descriptions, or terms</label>
+          <input
+            id="globalSearch"
+            type="search"
+            placeholder="Example: androidManagedStoreApp appTracks"
+            autocomplete="off"
+          />
+        </div>
+        <div id="searchStatus" class="search-status">Showing all targets.</div>
+      </section>
+
+      <section class="panel">
+        <h2>Namespace Tree</h2>
+        <p>
+          Browse targets hierarchically. During search, only matching branches are shown and expanded.
+        </p>
+        <div id="tree"></div>
+      </section>
+
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
