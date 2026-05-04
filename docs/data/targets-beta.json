@@ -21571,22 +21571,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.androidWorkProfileVpnConfiguration/lockdownExclusionList",
-    "typePath": "microsoft.graph.androidWorkProfileVpnConfiguration",
-    "member": "lockdownExclusionList",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AndroidWorkProfileVpnConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "List of app package names that will be able to access the network directly when VPN is in lockdown mode but not connected.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.androidWorkProfileVpnConfiguration/microsoftTunnelSiteId",
     "typePath": "microsoft.graph.androidWorkProfileVpnConfiguration",
     "member": "microsoftTunnelSiteId",
@@ -35667,22 +35651,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "ETag for optimistic concurrency control. Read/write.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.cloudCertificationAuthority/geographicRegion",
-    "typePath": "microsoft.graph.cloudCertificationAuthority",
-    "member": "geographicRegion",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CloudCertificationAuthority"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "The geographic region where a cloud certification authority (CA) is hosted. Read-only.",
     "longDescription": ""
   },
   {
@@ -53195,22 +53163,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceComplianceScript/platform",
-    "typePath": "microsoft.graph.deviceComplianceScript",
-    "member": "platform",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceComplianceScript"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Indicates the operating system platform type that this compliance script targets.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.deviceComplianceScript/publisher",
     "typePath": "microsoft.graph.deviceComplianceScript",
     "member": "publisher",
@@ -53254,7 +53206,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Specifies whether the PowerShell script runs in 32-bit mode. When set to true, the script runs in a 32-bit PowerShell host. Default is false.",
+    "description": "Indicate whether PowerShell script(s) should run as 32-bit",
     "longDescription": ""
   },
   {
@@ -53479,86 +53431,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Error message.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceComplianceScriptPlatformType",
-    "typePath": "microsoft.graph.deviceComplianceScriptPlatformType",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceComplianceScriptPlatformType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Indicates the platform that a device compliance script targets for evaluation.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceComplianceScriptPlatformType/linux",
-    "typePath": "microsoft.graph.deviceComplianceScriptPlatformType",
-    "member": "linux",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceComplianceScriptPlatformType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Indicates that the compliance script targets devices running Linux.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceComplianceScriptPlatformType/macOS",
-    "typePath": "microsoft.graph.deviceComplianceScriptPlatformType",
-    "member": "macOS",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceComplianceScriptPlatformType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Indicates that the compliance script targets devices running macOS.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceComplianceScriptPlatformType/unknownFutureValue",
-    "typePath": "microsoft.graph.deviceComplianceScriptPlatformType",
-    "member": "unknownFutureValue",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceComplianceScriptPlatformType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceComplianceScriptPlatformType/windows10",
-    "typePath": "microsoft.graph.deviceComplianceScriptPlatformType",
-    "member": "windows10",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceComplianceScriptPlatformType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Default. Indicates that the compliance script targets devices running Windows 10 and later.",
     "longDescription": ""
   },
   {
@@ -63065,22 +62937,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Evolvable enumeration sentinel value. Do not use.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceManagement",
-    "typePath": "microsoft.graph.deviceManagement",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceManagement"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Singleton that acts as container for a collection of Resource Access entities.",
     "longDescription": ""
   },
   {
@@ -92917,22 +92773,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "The number of days after installation that forced reboot will happen.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.expeditedWindowsQualityUpdateSettings/qualityUpdateCatalogItemId",
-    "typePath": "microsoft.graph.expeditedWindowsQualityUpdateSettings",
-    "member": "qualityUpdateCatalogItemId",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ExpeditedWindowsQualityUpdateSettings"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "The unique identifier for the quality update catalog item targeted by the expedite.",
     "longDescription": ""
   },
   {
@@ -144789,22 +144629,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mobileThreatDefenseConnector/grantMobileThreatDefensePartnerRole",
-    "typePath": "microsoft.graph.mobileThreatDefenseConnector",
-    "member": "grantMobileThreatDefensePartnerRole",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MobileThreatDefenseConnector"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "When TRUE, indicates that the Mobile Threat Defense partner is granted the Mobile Threat Defense role on enrolled Android Corporate Owned Business Only and Corporate Owned Personally Enabled devices. When FALSE, indicates that the Mobile Threat Defense partner is not granted the Mobile Threat Defense role. Default value is FALSE.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.mobileThreatDefenseConnector/iosDeviceBlockedOnMissingPartnerData",
     "typePath": "microsoft.graph.mobileThreatDefenseConnector",
     "member": "iosDeviceBlockedOnMissingPartnerData",
@@ -144865,22 +144689,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "DateTime of last Heartbeat recieved from the Mobile Threat Defense partner",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mobileThreatDefenseConnector/launchMobileThreatDefensePartnerOnSetupEnabled",
-    "typePath": "microsoft.graph.mobileThreatDefenseConnector",
-    "member": "launchMobileThreatDefensePartnerOnSetupEnabled",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MobileThreatDefenseConnector"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "When TRUE, indicates that the Mobile Threat Defense partner will be automatically launched during Android Corporate Owned Business Only and Corporate Owned Personally Enabled device setup. When FALSE, indicates that the Mobile Threat Defense partner will not be automatically launched during setup. Default value is FALSE.",
     "longDescription": ""
   },
   {
