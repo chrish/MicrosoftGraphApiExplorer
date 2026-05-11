@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-05-04T10:59:17.624Z
-Total annotation targets: 4427
+Generated at: 2026-05-11T05:27:51.281Z
+Total annotation targets: 4428
 
 ## Namespace Target Tree
 
@@ -1684,6 +1684,8 @@ Total annotation targets: 4427
     - GroupAssignmentTarget
       - groupId
     - HostSecurityState
+    - IdentifierUriRestriction
+      - isStateSetByMicrosoft
     - IdentityContainer
       - conditionalAccess
     - IdentityGovernance

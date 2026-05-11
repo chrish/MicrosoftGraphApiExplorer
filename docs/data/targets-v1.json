@@ -25092,6 +25092,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identifierUriRestriction/isStateSetByMicrosoft",
+    "typePath": "microsoft.graph.identifierUriRestriction",
+    "member": "isStateSetByMicrosoft",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentifierUriRestriction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityContainer/conditionalAccess",
     "typePath": "microsoft.graph.identityContainer",
     "member": "conditionalAccess",

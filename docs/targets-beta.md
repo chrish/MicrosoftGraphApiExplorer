@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-05-04T10:59:17.331Z
-Total annotation targets: 14320
+Generated at: 2026-05-11T05:27:50.916Z
+Total annotation targets: 14335
 
 ## Namespace Target Tree
 
@@ -1367,6 +1367,7 @@ Total annotation targets: 14320
       - customKeyValueData
       - fingerprint
       - identityCertificate
+      - lockdownExclusionList
       - microsoftTunnelSiteId
       - proxyExclusionList
       - proxyServer
@@ -2313,6 +2314,7 @@ Total annotation targets: 14320
       - description
       - displayName
       - eTag
+      - geographicRegion
       - keyPlatform
       - lastModifiedDateTime
       - localityName
@@ -3455,6 +3457,7 @@ Total annotation targets: 14320
       - displayName
       - enforceSignatureCheck
       - lastModifiedDateTime
+      - platform
       - publisher
       - roleScopeTagIds
       - runAs32Bit
@@ -3473,6 +3476,11 @@ Total annotation targets: 14320
       - code
       - deviceComplianceScriptRulesValidationError
       - message
+    - DeviceComplianceScriptPlatformType
+      - linux
+      - macOS
+      - unknownFutureValue
+      - windows10
     - DeviceComplianceScriptRule
       - dataType
       - deviceComplianceScriptRuleDataType
@@ -6035,6 +6043,7 @@ Total annotation targets: 14320
     - ExclusionGroupAssignmentTarget
     - ExpeditedWindowsQualityUpdateSettings
       - daysUntilForcedReboot
+      - qualityUpdateCatalogItemId
       - qualityUpdateRelease
     - ExportItemResponse
     - ExportItems(microsoft
@@ -9459,10 +9468,12 @@ Total annotation targets: 14320
       - androidDeviceBlockedOnMissingPartnerData
       - androidEnabled
       - androidMobileApplicationManagementEnabled
+      - grantMobileThreatDefensePartnerRole
       - iosDeviceBlockedOnMissingPartnerData
       - iosEnabled
       - iosMobileApplicationManagementEnabled
       - lastHeartbeatDateTime
+      - launchMobileThreatDefensePartnerOnSetupEnabled
       - macDeviceBlockedOnMissingPartnerData
       - macEnabled
       - microsoftDefenderForEndpointAttachEnabled
@@ -9519,6 +9530,8 @@ Total annotation targets: 14320
       - DeploymentStatus
       - IntentCategory
       - NetworkAccessRoot
+      - ThreatIntelligenceFqdnDestination
+      - ThreatIntelligenceMatchingConditions
       - TlsDetails
     - NetworkConnection
     - NetworkInterface
@@ -10057,6 +10070,8 @@ Total annotation targets: 14320
     - ProcessConversationMetadata
       - accessedResources
     - ProcessIntegrityLevel
+    - ProtectionUnitBase
+      - pendingRetentionPeriodChange
     - ProviderTenantSetting
     - ProvisioningObjectSummary
       - action
