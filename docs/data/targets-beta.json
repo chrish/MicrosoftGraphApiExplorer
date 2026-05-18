@@ -33927,42 +33927,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.cancel(microsoft.graph.crossTenantMigrationJob)",
-    "typePath": "microsoft.graph.cancel(microsoft.graph.crossTenantMigrationJob)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Cancel(microsoft",
-      "Graph",
-      "CrossTenantMigrationJob)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.cancel(microsoft.graph.crossTenantMigrationTask)",
-    "typePath": "microsoft.graph.cancel(microsoft.graph.crossTenantMigrationTask)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Cancel(microsoft",
-      "Graph",
-      "CrossTenantMigrationTask)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.cancelApproval(microsoft.graph.operationApprovalRequest, Edm.String, microsoft.graph.operationApprovalSource)",
     "typePath": "microsoft.graph.cancelApproval(microsoft.graph.operationApprovalRequest, Edm.String, microsoft.graph.operationApprovalSource)",
     "member": "",

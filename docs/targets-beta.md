@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-05-11T05:27:50.916Z
-Total annotation targets: 14335
+Generated at: 2026-05-18T05:32:04.502Z
+Total annotation targets: 14333
 
 ## Namespace Target Tree
 
@@ -2192,8 +2192,6 @@ Total annotation targets: 14335
       - Graph
         - BookingAppointment, Edm
           - String)
-        - CrossTenantMigrationJob)
-        - CrossTenantMigrationTask)
     - CancelApproval(microsoft
       - Graph
         - OperationApprovalRequest, Edm
