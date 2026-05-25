@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-05-18T05:32:04.502Z
-Total annotation targets: 14333
+Generated at: 2026-05-25T05:41:22.590Z
+Total annotation targets: 14337
 
 ## Namespace Target Tree
 
@@ -2745,6 +2745,8 @@ Total annotation targets: 14333
       - nextLink
       - searchHits
       - totalCount
+    - CorrelatedIdentity
+    - CorrelationError
     - CountryRegion
     - CreateGooglePlayWebToken(microsoft
       - Graph
@@ -6651,6 +6653,8 @@ Total annotation targets: 14333
       - conditionalAccess
       - signInIdentifiers
       - userFlows
+    - IdentityCorrelation
+      - identities
     - IdentityFinding
       - identity
     - IdentityGovernance

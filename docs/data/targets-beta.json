@@ -42129,6 +42129,38 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.correlatedIdentity",
+    "typePath": "microsoft.graph.correlatedIdentity",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CorrelatedIdentity"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.correlationError",
+    "typePath": "microsoft.graph.correlationError",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CorrelationError"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.countryRegion",
     "typePath": "microsoft.graph.countryRegion",
     "member": "",
@@ -101086,6 +101118,38 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityCorrelation",
+    "typePath": "microsoft.graph.identityCorrelation",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityCorrelation"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityCorrelation/identities",
+    "typePath": "microsoft.graph.identityCorrelation",
+    "member": "identities",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityCorrelation"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.InsertRestrictions"
     ],
     "description": "",
     "longDescription": ""
