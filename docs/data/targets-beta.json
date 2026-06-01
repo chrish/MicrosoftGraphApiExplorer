@@ -1712,6 +1712,38 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentRiskDetection/agentDisplayName",
+    "typePath": "microsoft.graph.agentRiskDetection",
+    "member": "agentDisplayName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentRiskDetection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentRiskDetection/agentId",
+    "typePath": "microsoft.graph.agentRiskDetection",
+    "member": "agentId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentRiskDetection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.agreement",
     "typePath": "microsoft.graph.agreement",
     "member": "",
@@ -145698,6 +145730,23 @@
       "Graph",
       "Networkaccess",
       "BranchSite"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.networkaccess.cloudFirewallPolicy",
+    "typePath": "microsoft.graph.networkaccess.cloudFirewallPolicy",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Networkaccess",
+      "CloudFirewallPolicy"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"

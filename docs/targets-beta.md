@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-05-25T05:41:22.590Z
-Total annotation targets: 14337
+Generated at: 2026-06-01T05:47:04.157Z
+Total annotation targets: 14340
 
 ## Namespace Target Tree
 
@@ -128,6 +128,8 @@ Total annotation targets: 14337
       - agentCollections
       - agentInstances
     - AgentRiskDetection
+      - agentDisplayName
+      - agentId
     - Agreement
     - AgreementAcceptance
     - AgreementFile
@@ -9526,6 +9528,7 @@ Total annotation targets: 14337
       - Algorithm
       - BranchConnectivityConfiguration
       - BranchSite
+      - CloudFirewallPolicy
       - ConfidenceLevel
       - Deployment
       - DeploymentConfiguration
@@ -15324,6 +15327,8 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.agentRegistry/agentCollections |  |  | Org.OData.Capabilities.V1.DeleteRestrictions, Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.UpdateRestrictions |
 | microsoft.graph.agentRegistry/agentInstances |  |  | Org.OData.Capabilities.V1.DeleteRestrictions, Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.UpdateRestrictions |
 | microsoft.graph.agentRiskDetection |  |  | Org.OData.Capabilities.V1.CountRestrictions, Org.OData.Capabilities.V1.FilterRestrictions, Org.OData.Capabilities.V1.SelectSupport, Org.OData.Capabilities.V1.SkipSupported, Org.OData.Capabilities.V1.TopSupported |
+| microsoft.graph.agentRiskDetection/agentDisplayName |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.agentRiskDetection/agentId |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.agreement |  |  | Org.OData.Capabilities.V1.CountRestrictions, Org.OData.Capabilities.V1.ExpandRestrictions, Org.OData.Capabilities.V1.FilterRestrictions, Org.OData.Capabilities.V1.SelectSupport, Org.OData.Capabilities.V1.SkipSupported, Org.OData.Capabilities.V1.SortRestrictions, Org.OData.Capabilities.V1.TopSupported |
 | microsoft.graph.agreementAcceptance |  |  | Org.OData.Capabilities.V1.CountRestrictions, Org.OData.Capabilities.V1.ExpandRestrictions, Org.OData.Capabilities.V1.FilterRestrictions, Org.OData.Capabilities.V1.SelectSupport, Org.OData.Capabilities.V1.SkipSupported, Org.OData.Capabilities.V1.SortRestrictions, Org.OData.Capabilities.V1.TopSupported |
 | microsoft.graph.agreementFile |  |  | Org.OData.Capabilities.V1.CountRestrictions, Org.OData.Capabilities.V1.ExpandRestrictions, Org.OData.Capabilities.V1.FilterRestrictions, Org.OData.Capabilities.V1.SelectSupport, Org.OData.Capabilities.V1.SkipSupported, Org.OData.Capabilities.V1.SortRestrictions, Org.OData.Capabilities.V1.TopSupported |
@@ -15418,5 +15423,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.androidDeviceOwnerCertificateProfileBase/rootCertificate | Trusted Root Certificate. |  | Org.OData.Core.V1.Description |
 | microsoft.graph.androidDeviceOwnerCertificateProfileBase/subjectAlternativeNameType | Certificate Subject Alternative Name Type. |  | Org.OData.Core.V1.Description |
 | microsoft.graph.androidDeviceOwnerCertificateProfileBase/subjectNameFormat | Certificate Subject Name Format. |  | Org.OData.Core.V1.Description |
-| microsoft.graph.androidDeviceOwnerCompliancePolicy | This topic provides descriptions of the declared methods, properties and relationships exposed by the AndroidDeviceOwnerCompliancePolicy resource. |  | Org.OData.Core.V1.Description |
-| microsoft.graph.androidDeviceOwnerCompliancePolicy/advancedThreatProtectionRequiredSecurityLevel | Indicates the Microsoft Defender for Endpoint (also referred to Microsoft Defender Advanced Threat Protection (MDATP)) minimum risk level to report noncompliance. Possible values are: `unavailable`, `secured`, `low`, `medium`, `high`, `notSet`. |  | Org.OData.Core.V1.Description |
