@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-06-01T05:47:04.157Z
-Total annotation targets: 14340
+Generated at: 2026-06-08T05:44:41.344Z
+Total annotation targets: 14343
 
 ## Namespace Target Tree
 
@@ -10856,6 +10856,10 @@ Total annotation targets: 14340
       - Hostname
       - HostTracker
       - HrSignalAuditRecord
+      - HuntingSchemaBuiltInFunction
+        - huntingFunctionId
+      - HuntingSchemaSavedFunction
+        - huntingFunctionId
       - HygieneEventRecord
       - IdentityContainer
         - sensorCandidates
@@ -10882,6 +10886,7 @@ Total annotation targets: 14340
       - MailSubmissionData
       - ManagedServicesAuditRecord
       - ManagedTenantsAuditRecord
+      - ManualAlert
       - MapgAlertsAuditRecord
       - MapgOnboardAuditRecord
       - MapgPolicyAuditRecord

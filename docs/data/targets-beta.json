@@ -164906,6 +164906,40 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.huntingSchemaBuiltInFunction/huntingFunctionId",
+    "typePath": "microsoft.graph.security.huntingSchemaBuiltInFunction",
+    "member": "huntingFunctionId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "HuntingSchemaBuiltInFunction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.huntingSchemaSavedFunction/huntingFunctionId",
+    "typePath": "microsoft.graph.security.huntingSchemaSavedFunction",
+    "member": "huntingFunctionId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "HuntingSchemaSavedFunction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.hygieneEventRecord",
     "typePath": "microsoft.graph.security.hygieneEventRecord",
     "member": "",
@@ -165352,6 +165386,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Managed Tenants events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.manualAlert",
+    "typePath": "microsoft.graph.security.manualAlert",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ManualAlert"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.InsertRestrictions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
