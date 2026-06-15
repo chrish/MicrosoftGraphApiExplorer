@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-06-08T05:44:41.344Z
-Total annotation targets: 14343
+Generated at: 2026-06-15T05:57:52.025Z
+Total annotation targets: 14475
 
 ## Namespace Target Tree
 
@@ -1479,6 +1479,7 @@ Total annotation targets: 14343
       - wiFiSecurityType
     - AospDeviceOwnerWiFiSecurityType
       - open
+      - unknownFutureValue
       - wep
       - wpaEnterprise
       - wpaPersonal
@@ -1594,7 +1595,9 @@ Total annotation targets: 14343
       - enablePerApp
       - enableSplitTunneling
       - excludedDomains
+      - excludeLocalNetworks
       - identifier
+      - includeAllNetworks
       - loginGroupOrDomain
       - onDemandRules
       - optInToDeviceIdSharing
@@ -2459,6 +2462,7 @@ Total annotation targets: 14343
       - sku
       - skuDisplayName
     - CloudPcLaunchInfo
+    - CloudPcNotificationSetting
     - CloudPcOnPremisesConnection
       - healthCheckStatusDetails
       - type
@@ -2484,6 +2488,7 @@ Total annotation targets: 14343
       - updatingSingleSignOn
     - CloudPcStatusDetails
     - CloudPcUserSetting
+      - notificationSetting
       - selfServiceEnabled
     - CloudPcWindowsSettings
     - Code
@@ -2833,6 +2838,16 @@ Total annotation targets: 14343
       - version
       - versionArray
       - xml
+    - DdmAppAllowDownloadsOverCellular
+      - alwaysOff
+      - alwaysOn
+      - storeSettings
+      - unknownFutureValue
+    - DdmAppAutomaticAppUpdates
+      - alwaysOff
+      - alwaysOn
+      - storeSettings
+      - unknownFutureValue
     - DecryptBuffer(microsoft
       - Graph
         - InformationProtection, Edm
@@ -2968,6 +2983,7 @@ Total annotation targets: 14343
       - quarantine
       - remove
       - userDefined
+    - DelegatedAdminServiceProviderConstraints
     - DeletedItemContainer
       - workflows
     - DeleteTiIndicators(Collection(microsoft
@@ -3414,6 +3430,7 @@ Total annotation targets: 14343
     - DeviceCompliancePolicyScript
       - deviceComplianceScriptId
       - rulesContent
+      - runIntervalInMinutes
     - DeviceCompliancePolicySettingState
       - currentValue
       - errorCode
@@ -4204,6 +4221,7 @@ Total annotation targets: 14343
       - remoteActionAudits
       - remoteAssistancePartners
       - remoteAssistanceSettings
+      - reports
       - resourceAccessProfiles
       - resourceOperations
       - reusablePolicySettings
@@ -6686,8 +6704,11 @@ Total annotation targets: 14343
               - Graph
                 - DirectoryObject))
       - Run
+        - subjectProcessingResults
         - taskProcessingResults
         - userProcessingResults
+      - SubjectProcessingResult
+        - taskProcessingResults
       - Task
         - taskProcessingResults
       - TaskDefinition
@@ -6700,6 +6721,7 @@ Total annotation targets: 14343
       - Workflow
         - previewScope
         - runs
+        - subjectProcessingResults
         - taskReports
         - userProcessingResults
         - versions
@@ -7074,6 +7096,33 @@ Total annotation targets: 14343
       - associatedDomainsDirectDownloadAllowed
       - preventManagedAppBackup
       - tapToPayScreenLockEnabled
+      - vpnConfigurationId
+    - IosDdmStoreAppAssignmentSettings
+      - allowDownloadsOverCellular
+      - associatedDomains
+      - associatedDomainsDirectDownloadAllowed
+      - automaticAppUpdates
+      - cellularSliceConfigurationId
+      - contentFilterConfigurationId
+      - dnsProxyConfigurationId
+      - preventManagedAppBackup
+      - relayConfigurationId
+      - tapToPayScreenLockEnabled
+      - version
+      - vpnConfigurationId
+    - IosDdmVppAppAssignmentSettings
+      - allowDownloadsOverCellular
+      - associatedDomains
+      - associatedDomainsDirectDownloadAllowed
+      - automaticAppUpdates
+      - cellularSliceConfigurationId
+      - contentFilterConfigurationId
+      - dnsProxyConfigurationId
+      - preventManagedAppBackup
+      - relayConfigurationId
+      - tapToPayScreenLockEnabled
+      - useDeviceLicensing
+      - version
       - vpnConfigurationId
     - IosDerivedCredentialAuthenticationConfiguration
       - derivedCredentialSettings
@@ -7948,6 +7997,11 @@ Total annotation targets: 14343
       - payload
       - payloadFileName
       - payloadName
+    - MacOsDdmVppAppAssignmentSettings
+      - automaticAppUpdates
+      - isIosApp
+      - useDeviceLicensing
+      - version
     - MacOSDeviceFeaturesConfiguration
       - adminShowHostInfo
       - appAssociatedDomains
@@ -8365,6 +8419,7 @@ Total annotation targets: 14343
       - deploymentChannel
       - identityCertificate
     - MacOsVppApp
+      - appleDeviceAppDeliveryProtocolType
       - appStoreUrl
       - assignedLicenses
       - bundleId
@@ -8413,6 +8468,7 @@ Total annotation targets: 14343
       - proxyManualPort
       - proxySettings
       - ssid
+      - wifiRequirePhysicalMacAddressEnabled
       - wiFiSecurityType
     - MacOSWiredNetworkConfiguration
       - authenticationMethod
@@ -8634,10 +8690,16 @@ Total annotation targets: 14343
       - previousPinBlockCount
       - printBlocked
       - protectedMessagingRedirectAppType
+      - purviewContentEvaluationRequired
       - saveAsBlocked
       - simplePinBlocked
     - ManagedAppProtectionPolicySetItem
       - targetedAppManagementLevels
+    - ManagedAppPurviewEvaluationRequirement
+      - notRequired
+      - required
+      - requiredWhenOnline
+      - unknownFutureValue
     - ManagedAppRegistration
       - appIdentifier
       - applicationVersion
@@ -10377,6 +10439,7 @@ Total annotation targets: 14343
         - MobileAppContentFile)
     - Report
     - ReportRoot
+      - correlations
       - dailyPrintUsageSummariesByPrinter
       - dailyPrintUsageSummariesByUser
       - monthlyPrintUsageSummariesByPrinter
@@ -10740,6 +10803,11 @@ Total annotation targets: 14343
       - AirManualInvestigationData
       - Alert
         - category
+      - AlertTemplate
+        - category
+        - impactedAssets
+        - mitreTechniques
+      - AllowFileResponseAction
       - Article
       - ArticleIndicator
       - AttackSimAdminAuditRecord
@@ -10761,6 +10829,7 @@ Total annotation targets: 14343
       - AzureActiveDirectoryAccountLogonAuditRecord
       - AzureActiveDirectoryAuditRecord
       - AzureActiveDirectoryStsLogonAuditRecord
+      - BlockFileResponseAction
       - CampaignAuditRecord
       - CcraiPolicyViolationRecord
       - CdpClassifierHealthRecord
@@ -10775,6 +10844,7 @@ Total annotation targets: 14343
       - CloudUpdateDeviceConfigAuditRecord
       - CloudUpdateProfileConfigAuditRecord
       - CloudUpdateTenantConfigAuditRecord
+      - CollectInvestigationPackageResponseAction
       - ComplianceConnectorAuditRecord
       - ComplianceDLMExchangeAuditRecord
       - ComplianceDLMSharePointAuditRecord
@@ -10822,10 +10892,17 @@ Total annotation targets: 14343
       - DefenderCaseManagementAuditRecord
       - DefenderPreviewFeaturesRecord
       - DeployFeatureActivityRecord
+      - DetectionAction
+        - responseActions
+      - DetectionRule
+        - detectorId
+        - isEnabled
+        - lastRunDetails
       - DetonationBehaviourDetails
       - DeviceDiscoverySettingsAuthenticatedScansRecord
       - DeviceDiscoverySettingsExclusionRecord
       - DeviceDiscoverySettingsRecord
+      - DisableUserResponseAction
       - DiscoveryAuditRecord
       - DlpEndpointAuditRecord
       - DlpImportResultAuditRecord
@@ -10836,6 +10913,24 @@ Total annotation targets: 14343
         - azureBlobToken
         - outputFolderId
       - EhrConnectorAuditBaseRecord
+      - EntityMappingConfiguration
+        - accounts
+        - amazonResources
+        - azureResources
+        - cloudApplications
+        - dns
+        - files
+        - googleCloudResources
+        - hosts
+        - ips
+        - mailboxes
+        - mailClusters
+        - mailMessages
+        - oAuthApplications
+        - processes
+        - registryValues
+        - securityGroups
+        - urls
       - ExchangeAdminAuditRecord
       - ExchangeAggregatedMailboxAuditRecord
       - ExchangeAggregatedOperationRecord
@@ -10844,10 +10939,12 @@ Total annotation targets: 14343
       - ExportOptions
         - fileInfo
       - FabricAuditRecord
+      - ForceUserPasswordResetResponseAction
       - GetDownloadUrl(microsoft
         - Graph
           - Security
             - EdiscoveryExportOperation)
+      - HardDeleteResponseAction
       - HealthcareSignalRecord
       - Host
       - HostComponent
@@ -10863,9 +10960,14 @@ Total annotation targets: 14343
       - HygieneEventRecord
       - IdentityContainer
         - sensorCandidates
+      - ImpactedAsset
+      - ImpactedDeviceAsset
+      - ImpactedMailboxAsset
+      - ImpactedUserAsset
       - Incident
       - InformationBarrierPolicyApplicationAuditRecord
       - InformationWorkerProtectionAuditRecord
+      - InitiateInvestigationResponseAction
       - InsiderRiskScopedUserInsightsRecord
       - InsiderRiskScopedUsersRecord
       - IntegratedAppsAppAdminActivityAuditRecord
@@ -10875,6 +10977,7 @@ Total annotation targets: 14343
       - IpAddress
       - IrmActivityAuditTrailRecord
       - IrmUserDefinedDetectionRecord
+      - IsolateDeviceResponseAction
       - KaizalaAuditRecord
       - LabelAnalyticsAggregateAuditRecord
       - LabelContentExplorerAuditRecord
@@ -10891,6 +10994,7 @@ Total annotation targets: 14343
       - MapgOnboardAuditRecord
       - MapgPolicyAuditRecord
       - MapgRemediationAuditRecord
+      - MarkUserAsCompromisedResponseAction
       - McasAlertsAuditRecord
       - MdaAuditRecord
       - MdaDataSecuritySignalRecord
@@ -10934,6 +11038,9 @@ Total annotation targets: 14343
       - MipLabelAnalyticsAuditRecord
       - MipLabelAuditRecord
       - MosAgentInfoRecord
+      - MoveToDeletedItemsResponseAction
+      - MoveToInboxResponseAction
+      - MoveToJunkResponseAction
       - Ms365dCustomDetectionAuditRecord
       - Ms365dIncidentAuditRecord
       - Ms365dSuppressionRuleAuditRecord
@@ -10953,6 +11060,9 @@ Total annotation targets: 14343
       - OnPremisesFileShareScannerDLPAuditRecord
       - OnPremisesSharePointScannerDLPAuditRecord
       - OrganizationalDataInM365AuditRecord
+      - OrganizationalScope
+        - scopeNames
+        - scopeType
       - OutlookCopilotAutomationAuditRecord
       - OwaGetAccessTokenForResourceAuditRecord
       - P4aiAssessmentCategoryRecord
@@ -11013,12 +11123,21 @@ Total annotation targets: 14343
       - PurviewMCRecommendationRecord
       - PurviewPostureAgentAuditRecord
       - QuarantineAuditRecord
+      - QueryCondition
+        - lastModifiedDateTime
       - RecordsManagementAuditRecord
       - ReportSubmission
       - ReportSubmissionResultDetail
+      - ResponseAction
+      - RestrictAppExecutionResponseAction
       - RestrictedModeAuditRecord
       - RetentionPolicyAuditRecord
       - RtiOperationsAgentAuditRecord
+      - RuleSchedule
+        - nextRunDateTime
+        - period
+      - RunAntivirusScanResponseAction
+      - RunDetails
       - SbpConfigurationEventRecord
       - SbpUsageEventRecord
       - ScoreEvidence
@@ -11067,7 +11186,9 @@ Total annotation targets: 14343
       - SkypeForBusinessCmdletsAuditRecord
       - SkypeForBusinessPSTNUsageAuditRecord
       - SkypeForBusinessUsersBlockedAuditRecord
+      - SoftDeleteResponseAction
       - SonarDetonationContentMetadata
+      - StopAndQuarantineFileResponseAction
       - Subdomain
       - SupervisoryReviewDayXInsightsAuditRecord
       - SyntheticProbeAuditRecord
@@ -11224,6 +11345,7 @@ Total annotation targets: 14343
       - claimsPolicy
       - createdByAppId
     - ServicePrincipalRiskDetection
+    - ServiceProviderConstraints
     - ServiceStartType
       - automatic
       - disabled
@@ -12664,9 +12786,16 @@ Total annotation targets: 14343
       - path
     - Win32LobAppInstallExperience
       - deviceRestartBehavior
+      - inUseBehavior
       - maxRunTimeInMinutes
       - runAsAccount
     - Win32LobAppInstallPowerShellScript
+    - Win32LobAppInUseActionType
+      - fail
+      - notEnabled
+      - terminateWithoutUserInteraction
+      - terminateWithUserInteraction
+      - unknownFutureValue
     - Win32LobAppMsiInformation
       - packageType
       - productCode
@@ -12719,6 +12848,14 @@ Total annotation targets: 14343
       - notConfigured
       - string
       - version
+    - Win32LobAppProcessOperationType
+      - exists
+      - notConfigured
+      - unknownFutureValue
+    - Win32LobAppProcessRule
+      - operationType
+      - processDisplayName
+      - processName
     - Win32LobAppProductCodeDetection
       - productCode
       - productVersion

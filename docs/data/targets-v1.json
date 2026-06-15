@@ -10159,6 +10159,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.controlConfiguration",
+    "typePath": "microsoft.graph.controlConfiguration",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ControlConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.conversation/threads",
     "typePath": "microsoft.graph.conversation",
     "member": "threads",
@@ -10189,6 +10205,27 @@
       "Org.OData.Capabilities.V1.DeleteRestrictions",
       "Org.OData.Capabilities.V1.InsertRestrictions",
       "Org.OData.Capabilities.V1.SearchRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotAdminCatalog/packages",
+    "typePath": "microsoft.graph.copilotAdminCatalog",
+    "member": "packages",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotAdminCatalog"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.SkipTokenSupported",
       "Org.OData.Capabilities.V1.UpdateRestrictions"
     ],
     "description": "",
@@ -31263,6 +31300,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.Json",
+    "typePath": "microsoft.graph.Json",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Json"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Standard way to represent a Json blob on Graph.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.levelMap/fixtures",
     "typePath": "microsoft.graph.levelMap",
     "member": "fixtures",
@@ -46460,6 +46513,40 @@
       "Org.OData.Capabilities.V1.SelectSupport",
       "Org.OData.Capabilities.V1.SkipSupported",
       "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.collaborationRoot",
+    "typePath": "microsoft.graph.security.collaborationRoot",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CollaborationRoot"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.detonationBehaviourDetails",
+    "typePath": "microsoft.graph.security.detonationBehaviourDetails",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DetonationBehaviourDetails"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
     "longDescription": ""

@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-06-08T05:44:41.719Z
-Total annotation targets: 4428
+Generated at: 2026-06-15T05:57:52.400Z
+Total annotation targets: 4433
 
 ## Namespace Target Tree
 
@@ -690,10 +690,13 @@ Total annotation targets: 4428
     - ContactFolder
       - childFolders
       - contacts
+    - ControlConfiguration
     - Conversation
       - threads
     - ConversationThread
       - posts
+    - CopilotAdminCatalog
+      - packages
     - CreateSnapshot(Collection(microsoft
       - Graph
         - ConfigurationBaseline), Edm
@@ -2072,6 +2075,7 @@ Total annotation targets: 4428
       - upperAddress
     - ItemAttachment
       - item
+    - Json
     - LevelMap
       - fixtures
       - sections
@@ -3076,6 +3080,8 @@ Total annotation targets: 4428
         - category
       - Article
       - ArticleIndicator
+      - CollaborationRoot
+      - DetonationBehaviourDetails
       - Host
       - HostComponent
       - HostCookie

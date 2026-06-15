@@ -23363,6 +23363,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.aospDeviceOwnerWiFiSecurityType/unknownFutureValue",
+    "typePath": "microsoft.graph.aospDeviceOwnerWiFiSecurityType",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AospDeviceOwnerWiFiSecurityType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.aospDeviceOwnerWiFiSecurityType/wep",
     "typePath": "microsoft.graph.aospDeviceOwnerWiFiSecurityType",
     "member": "wep",
@@ -25173,6 +25189,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.appleVpnConfiguration/excludeLocalNetworks",
+    "typePath": "microsoft.graph.appleVpnConfiguration",
+    "member": "excludeLocalNetworks",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AppleVpnConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether local network traffic is excluded from the VPN tunnel. When TRUE, local network traffic bypasses the VPN tunnel. Default value is null. Only takes effect when includeAllNetworks is TRUE or enforceVpnRouting is TRUE. Not applicable when enablePerApp is TRUE.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.appleVpnConfiguration/identifier",
     "typePath": "microsoft.graph.appleVpnConfiguration",
     "member": "identifier",
@@ -25185,6 +25217,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Identifier provided by VPN vendor when connection type is set to Custom VPN. For example: Cisco AnyConnect uses an identifier of the form com.cisco.anyconnect.applevpn.plugin",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.appleVpnConfiguration/includeAllNetworks",
+    "typePath": "microsoft.graph.appleVpnConfiguration",
+    "member": "includeAllNetworks",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AppleVpnConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether most network traffic is routed through the VPN tunnel. When TRUE, most network traffic is sent through the VPN tunnel. Default value is null. Not applicable when enablePerApp is TRUE.",
     "longDescription": ""
   },
   {
@@ -35317,7 +35365,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "UnknownFutureValue",
     "longDescription": ""
   },
   {
@@ -37892,6 +37940,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudPcNotificationSetting",
+    "typePath": "microsoft.graph.cloudPcNotificationSetting",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudPcNotificationSetting"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.cloudPcOnPremisesConnection/healthCheckStatusDetails",
     "typePath": "microsoft.graph.cloudPcOnPremisesConnection",
     "member": "healthCheckStatusDetails",
@@ -38107,6 +38171,22 @@
       "Microsoft",
       "Graph",
       "CloudPcStatusDetails"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudPcUserSetting/notificationSetting",
+    "typePath": "microsoft.graph.cloudPcUserSetting",
+    "member": "notificationSetting",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudPcUserSetting"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -43488,6 +43568,166 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAllowDownloadsOverCellular",
+    "typePath": "microsoft.graph.ddmAppAllowDownloadsOverCellular",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAllowDownloadsOverCellular"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Describes how and when to install an app, specifically whether the app may be downloaded over cellular connections. Maps to Apple's AppManagedInstallBehaviorObject declaration.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAllowDownloadsOverCellular/alwaysOff",
+    "typePath": "microsoft.graph.ddmAppAllowDownloadsOverCellular",
+    "member": "alwaysOff",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAllowDownloadsOverCellular"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The device doesn't download apps using a cellular network. The device pauses the automatic install or update operation until a different network is active.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAllowDownloadsOverCellular/alwaysOn",
+    "typePath": "microsoft.graph.ddmAppAllowDownloadsOverCellular",
+    "member": "alwaysOn",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAllowDownloadsOverCellular"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The device downloads apps of any size using a cellular network.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAllowDownloadsOverCellular/storeSettings",
+    "typePath": "microsoft.graph.ddmAppAllowDownloadsOverCellular",
+    "member": "storeSettings",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAllowDownloadsOverCellular"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The device uses the settings for the corresponding store when downloading apps.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAllowDownloadsOverCellular/unknownFutureValue",
+    "typePath": "microsoft.graph.ddmAppAllowDownloadsOverCellular",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAllowDownloadsOverCellular"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAutomaticAppUpdates",
+    "typePath": "microsoft.graph.ddmAppAutomaticAppUpdates",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAutomaticAppUpdates"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies the update behavior of the apps installed via VPP. Apps in packages are not automatically updated. Maps to Apple's AppManagedUpdateBehaviorObject declaration.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAutomaticAppUpdates/alwaysOff",
+    "typePath": "microsoft.graph.ddmAppAutomaticAppUpdates",
+    "member": "alwaysOff",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAutomaticAppUpdates"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The device never automatically updates the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAutomaticAppUpdates/alwaysOn",
+    "typePath": "microsoft.graph.ddmAppAutomaticAppUpdates",
+    "member": "alwaysOn",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAutomaticAppUpdates"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The device automatically updates the app to the latest version.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAutomaticAppUpdates/storeSettings",
+    "typePath": "microsoft.graph.ddmAppAutomaticAppUpdates",
+    "member": "storeSettings",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAutomaticAppUpdates"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The device uses the settings for the corresponding store to determine when to automatically update the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ddmAppAutomaticAppUpdates/unknownFutureValue",
+    "typePath": "microsoft.graph.ddmAppAutomaticAppUpdates",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DdmAppAutomaticAppUpdates"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.decryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Binary)",
     "typePath": "microsoft.graph.decryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Binary)",
     "member": "",
@@ -45584,6 +45824,25 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Allow the user to determine the action to take with the detected threat.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.delegatedAdminServiceProviderConstraints",
+    "typePath": "microsoft.graph.delegatedAdminServiceProviderConstraints",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DelegatedAdminServiceProviderConstraints"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.NavigationRestrictions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -52495,6 +52754,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "base64-encoded JSON rules content that defines compliance rules to evaluate on the device. When deviceCompliancePolicyScript is set, the rule conditions defined in the JSON are evaluated to determine compliance and the device is marked noncompliant when any rule evaluates to noncompliant. Default is null, when set to default it is not evaluated.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceCompliancePolicyScript/runIntervalInMinutes",
+    "typePath": "microsoft.graph.deviceCompliancePolicyScript",
+    "member": "runIntervalInMinutes",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceCompliancePolicyScript"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the interval, in minutes, at which the custom compliance script is evaluated on the device. Allowed range from 1 to 480. Nullable.",
     "longDescription": ""
   },
   {
@@ -64865,6 +65140,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceManagement/reports",
+    "typePath": "microsoft.graph.deviceManagement",
+    "member": "reports",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceManagement"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Reports singleton",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.deviceManagement/resourceAccessProfiles",
     "typePath": "microsoft.graph.deviceManagement",
     "member": "resourceAccessProfiles",
@@ -77177,6 +77468,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceManagementReports",
+    "typePath": "microsoft.graph.deviceManagementReports",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceManagementReports"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Singleton entity that acts as a container for all reports functionality.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.deviceManagementReports/cachedReportConfigurations",
     "typePath": "microsoft.graph.deviceManagementReports",
     "member": "cachedReportConfigurations",
@@ -81522,7 +81829,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Evolvable enumeration sentinel value. Do not use",
     "longDescription": ""
   },
   {
@@ -95514,7 +95821,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Unknown future enum value",
     "longDescription": ""
   },
   {
@@ -101406,6 +101713,25 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.run/subjectProcessingResults",
+    "typePath": "microsoft.graph.identityGovernance.run",
+    "member": "subjectProcessingResults",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "Run"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityGovernance.run/taskProcessingResults",
     "typePath": "microsoft.graph.identityGovernance.run",
     "member": "taskProcessingResults",
@@ -101433,6 +101759,49 @@
       "Graph",
       "IdentityGovernance",
       "Run"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.subjectProcessingResult",
+    "typePath": "microsoft.graph.identityGovernance.subjectProcessingResult",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "SubjectProcessingResult"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SearchRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.subjectProcessingResult/taskProcessingResults",
+    "typePath": "microsoft.graph.identityGovernance.subjectProcessingResult",
+    "member": "taskProcessingResults",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "SubjectProcessingResult"
     ],
     "terms": [
       "Org.OData.Capabilities.V1.DeleteRestrictions",
@@ -101683,6 +102052,25 @@
     "target": "microsoft.graph.identityGovernance.workflow/runs",
     "typePath": "microsoft.graph.identityGovernance.workflow",
     "member": "runs",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "Workflow"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.workflow/subjectProcessingResults",
+    "typePath": "microsoft.graph.identityGovernance.workflow",
+    "member": "subjectProcessingResults",
     "segments": [
       "Microsoft",
       "Graph",
@@ -104352,7 +104740,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Unknown future enum value",
     "longDescription": ""
   },
   {
@@ -106968,6 +107356,438 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "The unique identifier of the relay to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Contains properties used to assign an iOS Declarative Device Management (DDM) Store App to a group.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/allowDownloadsOverCellular",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "allowDownloadsOverCellular",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies whether the app may be downloaded over cellular connections. Possible values are: 'alwaysOn', 'alwaysOff', 'storeSettings'. By default, this value is set to 'storeSettings'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/associatedDomains",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "associatedDomains",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Domain names to associate with the app",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/associatedDomainsDirectDownloadAllowed",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "associatedDomainsDirectDownloadAllowed",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When true, the system allows direct downloads for the AssociatedDomains. When false, the system will not allow direct downloads for the AssociatedDomains. Default is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/automaticAppUpdates",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "automaticAppUpdates",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies whether the device automatically updates the app. Possible values are: 'alwaysOn', 'alwaysOff', 'storeSettings'. By default, this value is set to 'storeSettings'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/cellularSliceConfigurationId",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "cellularSliceConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The cellular slice identifier, which can be the data network name (DNN) or app category. For DNN, encode the value as 'DNN:name', where 'name' is the carrier-provided DNN name. For app category, encode the value as 'AppCategory:category', where 'category' is a carrier-provided string such as 'Enterprise1'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/contentFilterConfigurationId",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "contentFilterConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the content filter to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/dnsProxyConfigurationId",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "dnsProxyConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the DNS proxy to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/preventManagedAppBackup",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "preventManagedAppBackup",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When true, indicates that the app should not be backed up to iCloud. When false, indicates that the app may be backed up to iCloud. Default is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/relayConfigurationId",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "relayConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the relay to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/tapToPayScreenLockEnabled",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "tapToPayScreenLockEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When true, the device locks its screen after every transaction that requires a customer's card PIN. When false, the user can choose the behavior. Default value is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/version",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "version",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies the version of the Store app to install. When not set, the device installs the latest version. When set, the device installs the specified version. The device never installs an older version of the app over a newer version.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmStoreAppAssignmentSettings/vpnConfigurationId",
+    "typePath": "microsoft.graph.iosDdmStoreAppAssignmentSettings",
+    "member": "vpnConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmStoreAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the VPN Configuration to apply to the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Contains properties used to assign an iOS Declarative Device Management (DDM) VPP mobile app to a group.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/allowDownloadsOverCellular",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "allowDownloadsOverCellular",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies whether the app may be downloaded over cellular connections. Possible values are: 'alwaysOn', 'alwaysOff', 'storeSettings'. By default, this value is set to 'storeSettings'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/associatedDomains",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "associatedDomains",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Domain names to associate with the app",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/associatedDomainsDirectDownloadAllowed",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "associatedDomainsDirectDownloadAllowed",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When true, the system allows direct downloads for the AssociatedDomains. When false, the system will not allow direct downloads for the AssociatedDomains. Default is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/automaticAppUpdates",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "automaticAppUpdates",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies whether the device automatically updates the app. Possible values are: 'alwaysOn', 'alwaysOff', 'storeSettings'. By default, this value is set to 'storeSettings'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/cellularSliceConfigurationId",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "cellularSliceConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The cellular slice identifier, which can be the data network name (DNN) or app category. For DNN, encode the value as 'DNN:name', where 'name' is the carrier-provided DNN name. For app category, encode the value as 'AppCategory:category', where 'category' is a carrier-provided string such as 'Enterprise1'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/contentFilterConfigurationId",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "contentFilterConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the content filter to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/dnsProxyConfigurationId",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "dnsProxyConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the DNS proxy to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/preventManagedAppBackup",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "preventManagedAppBackup",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When true, indicates that the app should not be backed up to iCloud. When false, indicates that the app may be backed up to iCloud. Default is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/relayConfigurationId",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "relayConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the relay to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/tapToPayScreenLockEnabled",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "tapToPayScreenLockEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When true, the device locks its screen after every transaction that requires a customer's card PIN. When false, the user can choose the behavior. Default value is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/useDeviceLicensing",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "useDeviceLicensing",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Whether or not to use device licensing.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/version",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "version",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies the version of the VPP app to install. When not set, the device installs the latest version. When set, the device installs the specified version. The device never installs an older version of the app over a newer version. This property maps to the Version key in Apple's AppManagedInstallBehaviorObject declaration.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/vpnConfigurationId",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "vpnConfigurationId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the VPN Configuration to apply to the app.",
     "longDescription": ""
   },
   {
@@ -112887,7 +113707,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "A class containing the properties used for iOS LOB app provisioning configuration PolicySetItem.",
+    "description": "A class containing the properties used for iOS lob app provisioning configuration PolicySetItem.",
     "longDescription": ""
   },
   {
@@ -120789,6 +121609,86 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Contains properties used to assign a macOS Declarative Device Management (DDM) VPP mobile app to a group.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings/automaticAppUpdates",
+    "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "member": "automaticAppUpdates",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies whether the device automatically updates the app. Possible values are: 'alwaysOn', 'alwaysOff', 'storeSettings'. By default, this value is set to 'storeSettings'.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings/isIosApp",
+    "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "member": "isIosApp",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "If true, the device installs an iOS or iPadOS app that runs on a Mac with Apple Silicon. This is only used when the app is a VPP app. Default is false.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings/useDeviceLicensing",
+    "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "member": "useDeviceLicensing",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When TRUE, indicates that the app should be assigned using device licensing. When FALSE, indicates that the app should be assigned using user licensing. By default, this property is set to FALSE.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings/version",
+    "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "member": "version",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies the version of the VPP app to install. When not set, the device installs the latest version. When set, the device installs the specified version. The device never installs an older version of the app over a newer version. This property maps to the Version key in Apple's AppManagedInstallBehaviorObject declaration.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.macOSDeviceFeaturesConfiguration",
     "typePath": "microsoft.graph.macOSDeviceFeaturesConfiguration",
     "member": "",
@@ -127461,6 +128361,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsVppApp/appleDeviceAppDeliveryProtocolType",
+    "typePath": "microsoft.graph.macOsVppApp",
+    "member": "appleDeviceAppDeliveryProtocolType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsVppApp"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.DefaultValue",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The protocol used to deliver the app to the apple device(s). When the property is set to Declarative Device Management (DDM) protocol ('declarativeDeviceManagement') then it can no longer be modified or updated to 'mobileDeviceManagement' or 'default'. Default value is: 'default' which indicates Apple MDM protocol.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.macOsVppApp/appStoreUrl",
     "typePath": "microsoft.graph.macOsVppApp",
     "member": "appStoreUrl",
@@ -128225,6 +129142,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "This is the name of the Wi-Fi network that is broadcast to all devices.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOSWiFiConfiguration/wifiRequirePhysicalMacAddressEnabled",
+    "typePath": "microsoft.graph.macOSWiFiConfiguration",
+    "member": "wifiRequirePhysicalMacAddressEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOSWiFiConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether devices connecting with this Wi-Fi profile must use their physical MAC address instead of a randomized MAC address. When TRUE, it uses the actual Wi-Fi MAC address. When FALSE, it enables the MAC address randomization. Applies to macOS 15 and later. Default is null.",
     "longDescription": ""
   },
   {
@@ -131713,6 +132646,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.managedAppProtection/purviewContentEvaluationRequired",
+    "typePath": "microsoft.graph.managedAppProtection",
+    "member": "purviewContentEvaluationRequired",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ManagedAppProtection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether Microsoft Purview content evaluation is required before a managed app performs an outgoing data sharing action. Default value is notRequired. Possible values are: notRequired, requiredWhenOnline, required, unknownFutureValue.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.managedAppProtection/saveAsBlocked",
     "typePath": "microsoft.graph.managedAppProtection",
     "member": "saveAsBlocked",
@@ -131773,6 +132722,86 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "TargetedAppManagementLevels of the ManagedAppPolicySetItem.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.managedAppPurviewEvaluationRequirement",
+    "typePath": "microsoft.graph.managedAppPurviewEvaluationRequirement",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ManagedAppPurviewEvaluationRequirement"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Specifies whether Microsoft Purview Data Loss Prevention (DLP) content evaluation is required before data sharing.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.managedAppPurviewEvaluationRequirement/notRequired",
+    "typePath": "microsoft.graph.managedAppPurviewEvaluationRequirement",
+    "member": "notRequired",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ManagedAppPurviewEvaluationRequirement"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Microsoft Purview Data Loss Prevention (DLP) content evaluation is not required.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.managedAppPurviewEvaluationRequirement/required",
+    "typePath": "microsoft.graph.managedAppPurviewEvaluationRequirement",
+    "member": "required",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ManagedAppPurviewEvaluationRequirement"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Microsoft Purview Data Loss Prevention (DLP) content evaluation is always required; sharing is blocked if the service is unreachable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.managedAppPurviewEvaluationRequirement/requiredWhenOnline",
+    "typePath": "microsoft.graph.managedAppPurviewEvaluationRequirement",
+    "member": "requiredWhenOnline",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ManagedAppPurviewEvaluationRequirement"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Microsoft Purview Data Loss Prevention (DLP) content evaluation is required when online; sharing is allowed if the service is unreachable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.managedAppPurviewEvaluationRequirement/unknownFutureValue",
+    "typePath": "microsoft.graph.managedAppPurviewEvaluationRequirement",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ManagedAppPurviewEvaluationRequirement"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
     "longDescription": ""
   },
   {
@@ -140494,7 +141523,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Placeholder value for future expansion enums",
     "longDescription": ""
   },
   {
@@ -140702,7 +141731,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Evolvable enumeration sentinel value. Do not use enums.",
     "longDescription": ""
   },
   {
@@ -147519,7 +148548,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "UnknownFutureValue",
     "longDescription": ""
   },
   {
@@ -158245,6 +159274,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.reportRoot/correlations",
+    "typePath": "microsoft.graph.reportRoot",
+    "member": "correlations",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ReportRoot"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.reportRoot/dailyPrintUsageSummariesByPrinter",
     "typePath": "microsoft.graph.reportRoot",
     "member": "dailyPrintUsageSummariesByPrinter",
@@ -162965,6 +164011,74 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.alertTemplate/category",
+    "typePath": "microsoft.graph.security.alertTemplate",
+    "member": "category",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AlertTemplate"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.alertTemplate/impactedAssets",
+    "typePath": "microsoft.graph.security.alertTemplate",
+    "member": "impactedAssets",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AlertTemplate"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.alertTemplate/mitreTechniques",
+    "typePath": "microsoft.graph.security.alertTemplate",
+    "member": "mitreTechniques",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AlertTemplate"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.allowFileResponseAction",
+    "typePath": "microsoft.graph.security.allowFileResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AllowFileResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.article",
     "typePath": "microsoft.graph.security.article",
     "member": "",
@@ -163341,6 +164455,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.blockFileResponseAction",
+    "typePath": "microsoft.graph.security.blockFileResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "BlockFileResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.campaignAuditRecord",
     "typePath": "microsoft.graph.security.campaignAuditRecord",
     "member": "",
@@ -163575,6 +164706,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Cloud Update Tenant Config events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.collectInvestigationPackageResponseAction",
+    "typePath": "microsoft.graph.security.collectInvestigationPackageResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CollectInvestigationPackageResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -164378,6 +165526,93 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.detectionAction/responseActions",
+    "typePath": "microsoft.graph.security.detectionAction",
+    "member": "responseActions",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DetectionAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.detectionRule",
+    "typePath": "microsoft.graph.security.detectionRule",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DetectionRule"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.detectionRule/detectorId",
+    "typePath": "microsoft.graph.security.detectionRule",
+    "member": "detectorId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DetectionRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.detectionRule/isEnabled",
+    "typePath": "microsoft.graph.security.detectionRule",
+    "member": "isEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DetectionRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.detectionRule/lastRunDetails",
+    "typePath": "microsoft.graph.security.detectionRule",
+    "member": "lastRunDetails",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DetectionRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.detonationBehaviourDetails",
     "typePath": "microsoft.graph.security.detonationBehaviourDetails",
     "member": "",
@@ -164442,6 +165677,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Device Discovery Settings events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.disableUserResponseAction",
+    "typePath": "microsoft.graph.security.disableUserResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DisableUserResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -164599,6 +165851,295 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/accounts",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "accounts",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/amazonResources",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "amazonResources",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/azureResources",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "azureResources",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/cloudApplications",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "cloudApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/dns",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "dns",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/files",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "files",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/googleCloudResources",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "googleCloudResources",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/hosts",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "hosts",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/ips",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "ips",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/mailboxes",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "mailboxes",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/mailClusters",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "mailClusters",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/mailMessages",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "mailMessages",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/oAuthApplications",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "oAuthApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/processes",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "processes",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/registryValues",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "registryValues",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/securityGroups",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "securityGroups",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.entityMappingConfiguration/urls",
+    "typePath": "microsoft.graph.security.entityMappingConfiguration",
+    "member": "urls",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EntityMappingConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.exchangeAdminAuditRecord",
     "typePath": "microsoft.graph.security.exchangeAdminAuditRecord",
     "member": "",
@@ -164718,6 +166259,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.forceUserPasswordResetResponseAction",
+    "typePath": "microsoft.graph.security.forceUserPasswordResetResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ForceUserPasswordResetResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.getDownloadUrl(microsoft.graph.security.ediscoveryExportOperation)",
     "typePath": "microsoft.graph.security.getDownloadUrl(microsoft.graph.security.ediscoveryExportOperation)",
     "member": "",
@@ -164729,6 +166287,23 @@
       "Graph",
       "Security",
       "EdiscoveryExportOperation)"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.hardDeleteResponseAction",
+    "typePath": "microsoft.graph.security.hardDeleteResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "HardDeleteResponseAction"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -164974,6 +166549,74 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.impactedAsset",
+    "typePath": "microsoft.graph.security.impactedAsset",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ImpactedAsset"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.impactedDeviceAsset",
+    "typePath": "microsoft.graph.security.impactedDeviceAsset",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ImpactedDeviceAsset"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.impactedMailboxAsset",
+    "typePath": "microsoft.graph.security.impactedMailboxAsset",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ImpactedMailboxAsset"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.impactedUserAsset",
+    "typePath": "microsoft.graph.security.impactedUserAsset",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ImpactedUserAsset"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.incident",
     "typePath": "microsoft.graph.security.incident",
     "member": "",
@@ -165026,6 +166669,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Information Worker Protection events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.initiateInvestigationResponseAction",
+    "typePath": "microsoft.graph.security.initiateInvestigationResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "InitiateInvestigationResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -165199,6 +166859,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for IRM User Defined Detection events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.isolateDeviceResponseAction",
+    "typePath": "microsoft.graph.security.isolateDeviceResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "IsolateDeviceResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -165471,6 +167148,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for MAPG Remediation events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.markUserAsCompromisedResponseAction",
+    "typePath": "microsoft.graph.security.markUserAsCompromisedResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MarkUserAsCompromisedResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -166206,6 +167900,57 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.moveToDeletedItemsResponseAction",
+    "typePath": "microsoft.graph.security.moveToDeletedItemsResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MoveToDeletedItemsResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.moveToInboxResponseAction",
+    "typePath": "microsoft.graph.security.moveToInboxResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MoveToInboxResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.moveToJunkResponseAction",
+    "typePath": "microsoft.graph.security.moveToJunkResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MoveToJunkResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.ms365dCustomDetectionAuditRecord",
     "typePath": "microsoft.graph.security.ms365dCustomDetectionAuditRecord",
     "member": "",
@@ -166525,6 +168270,40 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Organizational Data In M365 events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.organizationalScope/scopeNames",
+    "typePath": "microsoft.graph.security.organizationalScope",
+    "member": "scopeNames",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "OrganizationalScope"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.organizationalScope/scopeType",
+    "typePath": "microsoft.graph.security.organizationalScope",
+    "member": "scopeType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "OrganizationalScope"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -167556,6 +169335,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.queryCondition/lastModifiedDateTime",
+    "typePath": "microsoft.graph.security.queryCondition",
+    "member": "lastModifiedDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "QueryCondition"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.recordsManagementAuditRecord",
     "typePath": "microsoft.graph.security.recordsManagementAuditRecord",
     "member": "",
@@ -167607,6 +169403,40 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.responseAction",
+    "typePath": "microsoft.graph.security.responseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.restrictAppExecutionResponseAction",
+    "typePath": "microsoft.graph.security.restrictAppExecutionResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "RestrictAppExecutionResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.restrictedModeAuditRecord",
     "typePath": "microsoft.graph.security.restrictedModeAuditRecord",
     "member": "",
@@ -167654,6 +169484,74 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for RTI Operations Agent events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.ruleSchedule/nextRunDateTime",
+    "typePath": "microsoft.graph.security.ruleSchedule",
+    "member": "nextRunDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "RuleSchedule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.ruleSchedule/period",
+    "typePath": "microsoft.graph.security.ruleSchedule",
+    "member": "period",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "RuleSchedule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.runAntivirusScanResponseAction",
+    "typePath": "microsoft.graph.security.runAntivirusScanResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "RunAntivirusScanResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.runDetails",
+    "typePath": "microsoft.graph.security.runDetails",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "RunDetails"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -168393,6 +170291,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.softDeleteResponseAction",
+    "typePath": "microsoft.graph.security.softDeleteResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SoftDeleteResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.sonarDetonationContentMetadata",
     "typePath": "microsoft.graph.security.sonarDetonationContentMetadata",
     "member": "",
@@ -168406,6 +170321,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Sonar Detonation Content Meta events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.stopAndQuarantineFileResponseAction",
+    "typePath": "microsoft.graph.security.stopAndQuarantineFileResponseAction",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "StopAndQuarantineFileResponseAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -170824,7 +172756,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Future authentication method to be added here.",
     "longDescription": ""
   },
   {
@@ -170923,6 +172855,25 @@
       "Org.OData.Capabilities.V1.FilterRestrictions",
       "Org.OData.Capabilities.V1.SkipSupported",
       "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.serviceProviderConstraints",
+    "typePath": "microsoft.graph.serviceProviderConstraints",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ServiceProviderConstraints"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.NavigationRestrictions"
     ],
     "description": "",
     "longDescription": ""
@@ -191785,6 +193736,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInstallExperience/inUseBehavior",
+    "typePath": "microsoft.graph.win32LobAppInstallExperience",
+    "member": "inUseBehavior",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInstallExperience"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether app-in-use detection is enabled before app enforcement, and if enabled, the action to take when the app is detected to be in-use. Null indicates the feature is not enabled. Possible values are: `notEnabled`, `fail`, `terminateWithoutUserInteraction`, `terminateWithUserInteraction`.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.win32LobAppInstallExperience/maxRunTimeInMinutes",
     "typePath": "microsoft.graph.win32LobAppInstallExperience",
     "member": "maxRunTimeInMinutes",
@@ -191829,6 +193796,102 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "A representation of a PowerShell script that is used to install a Win32 app on an end-user device managed by Intune.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInUseActionType",
+    "typePath": "microsoft.graph.win32LobAppInUseActionType",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInUseActionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether app-in-use detection is enabled before app enforcement, and if enabled, the action to take when the app is detected to be in-use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInUseActionType/fail",
+    "typePath": "microsoft.graph.win32LobAppInUseActionType",
+    "member": "fail",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInUseActionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates that the in-use detection will occur immediately before app enforcement. Enforcement will not occur if the app is detected to be in-use, and an error status will be reported for the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInUseActionType/notEnabled",
+    "typePath": "microsoft.graph.win32LobAppInUseActionType",
+    "member": "notEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInUseActionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Default. Indicates that no in-use detection will be evaluated before an app enforcement.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInUseActionType/terminateWithoutUserInteraction",
+    "typePath": "microsoft.graph.win32LobAppInUseActionType",
+    "member": "terminateWithoutUserInteraction",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInUseActionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates that in-use detection will occur immediately before app enforcement. If the app is detected to be in-use, the processes specified in the corresponding process detection rules will be terminated, and app enforcement will commence.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInUseActionType/terminateWithUserInteraction",
+    "typePath": "microsoft.graph.win32LobAppInUseActionType",
+    "member": "terminateWithUserInteraction",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInUseActionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates that in-use detection will occur immediately before app enforcement. If the app is detected to be in-use, the end user will be prompted according to the configured deferral and countdown settings, and the processes specified in the corresponding process detection rules will be terminated before app enforcement is commenced. If any of the processes cannot be terminated, the app will not be enforced, and an error status will be reported for the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppInUseActionType/unknownFutureValue",
+    "typePath": "microsoft.graph.win32LobAppInUseActionType",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppInUseActionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
     "longDescription": ""
   },
   {
@@ -192661,6 +194724,134 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Output data type is version.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessOperationType",
+    "typePath": "microsoft.graph.win32LobAppProcessOperationType",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessOperationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "A list of possible operations for rules used to make determinations about whether an application is in-use based on process state.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessOperationType/exists",
+    "typePath": "microsoft.graph.win32LobAppProcessOperationType",
+    "member": "exists",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessOperationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates that the rule evaluates whether the specified process exists (is running) on the device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessOperationType/notConfigured",
+    "typePath": "microsoft.graph.win32LobAppProcessOperationType",
+    "member": "notConfigured",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessOperationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Default. Not configured.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessOperationType/unknownFutureValue",
+    "typePath": "microsoft.graph.win32LobAppProcessOperationType",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessOperationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessRule",
+    "typePath": "microsoft.graph.win32LobAppProcessRule",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "A complex type to store process rule data for a Win32 LOB app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessRule/operationType",
+    "typePath": "microsoft.graph.win32LobAppProcessRule",
+    "member": "operationType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the process operation type. Default value is `notConfigured`. Possible values are: `notConfigured`, `exists`.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessRule/processDisplayName",
+    "typePath": "microsoft.graph.win32LobAppProcessRule",
+    "member": "processDisplayName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the display name for the process in the Intune admin console. Example: `Microsoft Word`.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.win32LobAppProcessRule/processName",
+    "typePath": "microsoft.graph.win32LobAppProcessRule",
+    "member": "processName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Win32LobAppProcessRule"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the process name to be searched for on a managed device when enforcing a managed app. Example: `TestApp.exe`.",
     "longDescription": ""
   },
   {
@@ -224189,7 +226380,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Evolvable enumeration sentinel value. Do not use",
     "longDescription": ""
   },
   {
@@ -226127,7 +228318,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "description": "Reserved value of UnknownFutureValue",
     "longDescription": ""
   },
   {
