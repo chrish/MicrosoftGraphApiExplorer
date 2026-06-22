@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-06-15T05:57:52.025Z
-Total annotation targets: 14475
+Generated at: 2026-06-22T06:00:18.698Z
+Total annotation targets: 14459
 
 ## Namespace Target Tree
 
@@ -1746,6 +1746,8 @@ Total annotation targets: 14475
       - uninstall
       - unknown
       - update
+    - ArtifactQuery
+      - queryExpression
     - AssignmentFilterEvaluateRequest
       - orderBy
       - platform
@@ -10913,24 +10915,6 @@ Total annotation targets: 14475
         - azureBlobToken
         - outputFolderId
       - EhrConnectorAuditBaseRecord
-      - EntityMappingConfiguration
-        - accounts
-        - amazonResources
-        - azureResources
-        - cloudApplications
-        - dns
-        - files
-        - googleCloudResources
-        - hosts
-        - ips
-        - mailboxes
-        - mailClusters
-        - mailMessages
-        - oAuthApplications
-        - processes
-        - registryValues
-        - securityGroups
-        - urls
       - ExchangeAdminAuditRecord
       - ExchangeAggregatedMailboxAuditRecord
       - ExchangeAggregatedOperationRecord
