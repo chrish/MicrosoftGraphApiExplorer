@@ -84539,6 +84539,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.distributionList/distributionListMembers",
+    "typePath": "microsoft.graph.distributionList",
+    "member": "distributionListMembers",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DistributionList"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.ChangeTracking"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.dmaGuardDeviceEnumerationPolicyType",
     "typePath": "microsoft.graph.dmaGuardDeviceEnumerationPolicyType",
     "member": "",
@@ -163988,6 +164004,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.aISpanOutputsAuditRecord",
+    "typePath": "microsoft.graph.security.aISpanOutputsAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AISpanOutputsAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for AI Span Outputs events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.alert",
     "typePath": "microsoft.graph.security.alert",
     "member": "",
@@ -164023,6 +164056,40 @@
       "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.alertSubmissionAuditRecord",
+    "typePath": "microsoft.graph.security.alertSubmissionAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AlertSubmissionAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Alert Submission events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.alertSubmissionResultDetailAuditRecord",
+    "typePath": "microsoft.graph.security.alertSubmissionResultDetailAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AlertSubmissionResultDetailAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Alert Submission Result Detail events.",
     "longDescription": ""
   },
   {
@@ -164352,6 +164419,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.auditRecordTypeDictionary",
+    "typePath": "microsoft.graph.security.auditRecordTypeDictionary",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AuditRecordTypeDictionary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "A dictionary of name-value pairs for dynamic audit event properties.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.auditSearchAuditRecord",
     "typePath": "microsoft.graph.security.auditSearchAuditRecord",
     "member": "",
@@ -164467,6 +164551,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Azure Active Directory STS Logon events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.azureAISearchAuditRecord",
+    "typePath": "microsoft.graph.security.azureAISearchAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AzureAISearchAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Azure AI Search Audit events.",
     "longDescription": ""
   },
   {
@@ -165049,6 +165150,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.compliancePolicyGradingSharePointAuditRecord",
+    "typePath": "microsoft.graph.security.compliancePolicyGradingSharePointAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CompliancePolicyGradingSharePointAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Compliance Policy Grading SharePoint events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.complianceSettingsChangeAuditRecord",
     "typePath": "microsoft.graph.security.complianceSettingsChangeAuditRecord",
     "member": "",
@@ -165062,6 +165180,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Compliance Settings Change events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.complianceSitGradingSharePointAuditRecord",
+    "typePath": "microsoft.graph.security.complianceSitGradingSharePointAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ComplianceSitGradingSharePointAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Compliance SIT Grading SharePoint events.",
     "longDescription": ""
   },
   {
@@ -165232,6 +165367,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Copilot Prompt Book Setting events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.copilotSessionSharingAuditRecord",
+    "typePath": "microsoft.graph.security.copilotSessionSharingAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CopilotSessionSharingAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Copilot Session Sharing events.",
     "longDescription": ""
   },
   {
@@ -165525,6 +165677,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.defenderSecurityForAIConfigurationAuditRecord",
+    "typePath": "microsoft.graph.security.defenderSecurityForAIConfigurationAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DefenderSecurityForAIConfigurationAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Defender Security for AI Configuration events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.deployFeatureActivityRecord",
     "typePath": "microsoft.graph.security.deployFeatureActivityRecord",
     "member": "",
@@ -165782,6 +165951,74 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.dragonCopilotAccessRecord",
+    "typePath": "microsoft.graph.security.dragonCopilotAccessRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DragonCopilotAccessRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Dragon Copilot Access events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.dragonCopilotAdminRecord",
+    "typePath": "microsoft.graph.security.dragonCopilotAdminRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DragonCopilotAdminRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Dragon Copilot Admin events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.dragonCopilotClinicalDataRecord",
+    "typePath": "microsoft.graph.security.dragonCopilotClinicalDataRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DragonCopilotClinicalDataRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Dragon Copilot Clinical Data events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.dragonCopilotSessionRecord",
+    "typePath": "microsoft.graph.security.dragonCopilotSessionRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "DragonCopilotSessionRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Dragon Copilot Session events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.dynamics365BusinessCentralAuditRecord",
     "typePath": "microsoft.graph.security.dynamics365BusinessCentralAuditRecord",
     "member": "",
@@ -165863,6 +166100,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for EHR Connector events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.eopSubmissionFeedEntityAuditRecord",
+    "typePath": "microsoft.graph.security.eopSubmissionFeedEntityAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "EopSubmissionFeedEntityAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for EOP Submission Feed Entity events.",
     "longDescription": ""
   },
   {
@@ -165982,6 +166236,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Microsoft Fabric events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.fabricPolicyRecord",
+    "typePath": "microsoft.graph.security.fabricPolicyRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "FabricPolicyRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Fabric Policy events.",
     "longDescription": ""
   },
   {
@@ -166947,6 +167218,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.mDASHAuditRecord",
+    "typePath": "microsoft.graph.security.mDASHAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MDASHAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for MDASH events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.mdatpAuditRecord",
     "typePath": "microsoft.graph.security.mdatpAuditRecord",
     "member": "",
@@ -167440,6 +167728,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.microsoftTeamsUserConcernAuditRecord",
+    "typePath": "microsoft.graph.security.microsoftTeamsUserConcernAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MicrosoftTeamsUserConcernAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Microsoft Teams User Concern events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.mipAutoLabelExchangeItemAuditRecord",
     "typePath": "microsoft.graph.security.mipAutoLabelExchangeItemAuditRecord",
     "member": "",
@@ -167627,6 +167932,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.mosAgentInfoRecordV2",
+    "typePath": "microsoft.graph.security.mosAgentInfoRecordV2",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MosAgentInfoRecordV2"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for MOS Agent Info V2 events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.moveToDeletedItemsResponseAction",
     "typePath": "microsoft.graph.security.moveToDeletedItemsResponseAction",
     "member": "",
@@ -167810,6 +168132,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for MSDE Roles Settings events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.mspVectorSearchContentMetadataAuditRecord",
+    "typePath": "microsoft.graph.security.mspVectorSearchContentMetadataAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "MspVectorSearchContentMetadataAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for MSP Vector Search Content Metadata events.",
     "longDescription": ""
   },
   {
@@ -168133,6 +168472,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for P4AI Assessment events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.p4AIRiskScoreRecord",
+    "typePath": "microsoft.graph.security.p4AIRiskScoreRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "P4AIRiskScoreRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for P4 AI Risk Score events.",
     "longDescription": ""
   },
   {
@@ -169542,6 +169898,40 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.securityCopilotIdentityManagementAuditRecord",
+    "typePath": "microsoft.graph.security.securityCopilotIdentityManagementAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SecurityCopilotIdentityManagementAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Security Copilot Identity Management events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.securityDevelopmentLifecycleAILogAuditRecord",
+    "typePath": "microsoft.graph.security.securityDevelopmentLifecycleAILogAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SecurityDevelopmentLifecycleAILogAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Security Development Lifecycle AI Log events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.sensitiveInfoRemediationAgentDataRecord",
     "typePath": "microsoft.graph.security.sensitiveInfoRemediationAgentDataRecord",
     "member": "",
@@ -170052,6 +170442,91 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.sonarDetonationEntityAuditRecord",
+    "typePath": "microsoft.graph.security.sonarDetonationEntityAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SonarDetonationEntityAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Sonar Detonation Entity events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.sonarFileDetonationEntityAuditRecord",
+    "typePath": "microsoft.graph.security.sonarFileDetonationEntityAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SonarFileDetonationEntityAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Sonar File Detonation Entity events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.sonarSubmissionEntityAuditRecord",
+    "typePath": "microsoft.graph.security.sonarSubmissionEntityAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SonarSubmissionEntityAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Sonar Submission Entity events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.sonarUrlDetonationEntityAuditRecord",
+    "typePath": "microsoft.graph.security.sonarUrlDetonationEntityAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SonarUrlDetonationEntityAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Sonar URL Detonation Entity events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.sparkCoreCustomLivePoolRecord",
+    "typePath": "microsoft.graph.security.sparkCoreCustomLivePoolRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SparkCoreCustomLivePoolRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Spark Core Custom Live Pool events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.stopAndQuarantineFileResponseAction",
     "typePath": "microsoft.graph.security.stopAndQuarantineFileResponseAction",
     "member": "",
@@ -170088,6 +170563,23 @@
       "Org.OData.Capabilities.V1.TopSupported"
     ],
     "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.submissionEntityAuditRecord",
+    "typePath": "microsoft.graph.security.submissionEntityAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "SubmissionEntityAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Submission Entity events.",
     "longDescription": ""
   },
   {
@@ -170717,6 +171209,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Viva Glint Advanced Configuration events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.vivaGlintAgenticCampaignAuditRecord",
+    "typePath": "microsoft.graph.security.vivaGlintAgenticCampaignAuditRecord",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "VivaGlintAgenticCampaignAuditRecord"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Audit data for Viva Glint Agentic Campaign events.",
     "longDescription": ""
   },
   {
@@ -175022,6 +175531,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.subscription/webPushEncryptionSecret",
+    "typePath": "microsoft.graph.subscription",
+    "member": "webPushEncryptionSecret",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Subscription"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Permissions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.suggestedEnrollmentLimit",
     "typePath": "microsoft.graph.suggestedEnrollmentLimit",
     "member": "",
@@ -176018,6 +176543,24 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "This will help in making this enum evolable and adding more values in the future-",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.tenantGovernanceServices.relatedTenant/isMicrosoftInfrastructure",
+    "typePath": "microsoft.graph.tenantGovernanceServices.relatedTenant",
+    "member": "isMicrosoftInfrastructure",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "TenantGovernanceServices",
+      "RelatedTenant"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether this tenant is a Microsoft infrastructure tenant.",
     "longDescription": ""
   },
   {
@@ -178136,6 +178679,24 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "The list of troubleshooting events for this user.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.user/distributionLists",
+    "typePath": "microsoft.graph.user",
+    "member": "distributionLists",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "User"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.ChangeTracking",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.SearchRestrictions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -188112,32 +188673,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "User's teamwork sections for organizing chats and channels. The collection response may include @microsoft.graph.sectionsOrder and @microsoft.graph.sectionsVersion instance annotations for ordering and optimistic concurrency control.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.validate(Collection(microsoft.graph.crossTenantMigrationJob), Edm.String, Edm.String, Edm.String, microsoft.graph.exchangeOnlineCrossTenantMigrationSettings, Collection(Edm.String), Edm.String, Collection(Edm.String))",
-    "typePath": "microsoft.graph.validate(Collection(microsoft.graph.crossTenantMigrationJob), Edm.String, Edm.String, Edm.String, microsoft.graph.exchangeOnlineCrossTenantMigrationSettings, Collection(Edm.String), Edm.String, Collection(Edm.String))",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Validate(Collection(microsoft",
-      "Graph",
-      "CrossTenantMigrationJob), Edm",
-      "String, Edm",
-      "String, Edm",
-      "String, microsoft",
-      "Graph",
-      "ExchangeOnlineCrossTenantMigrationSettings, Collection(Edm",
-      "String), Edm",
-      "String, Collection(Edm",
-      "String))"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
     "longDescription": ""
   },
   {

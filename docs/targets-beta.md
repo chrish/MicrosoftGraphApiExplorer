@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-06-22T06:00:18.698Z
-Total annotation targets: 14459
+Generated at: 2026-06-29T05:44:36.768Z
+Total annotation targets: 14491
 
 ## Namespace Target Tree
 
@@ -5460,6 +5460,8 @@ Total annotation targets: 14459
       - ssd
       - unknown
       - unknownFutureValue
+    - DistributionList
+      - distributionListMembers
     - DmaGuardDeviceEnumerationPolicyType
       - allowAll
       - blockAll
@@ -10803,8 +10805,11 @@ Total annotation targets: 14459
       - AirAdminActionInvestigationData
       - AirInvestigationData
       - AirManualInvestigationData
+      - AISpanOutputsAuditRecord
       - Alert
         - category
+      - AlertSubmissionAuditRecord
+      - AlertSubmissionResultDetailAuditRecord
       - AlertTemplate
         - category
         - impactedAssets
@@ -10824,6 +10829,7 @@ Total annotation targets: 14459
       - AuditLogRecord
       - AuditLogRecordType
       - AuditLogUserType
+      - AuditRecordTypeDictionary
       - AuditSearchAuditRecord
       - AzfwApplicationRuleAggregationEventRecord
       - AzfwDnsQueryEventRecord
@@ -10831,6 +10837,7 @@ Total annotation targets: 14459
       - AzureActiveDirectoryAccountLogonAuditRecord
       - AzureActiveDirectoryAuditRecord
       - AzureActiveDirectoryStsLogonAuditRecord
+      - AzureAISearchAuditRecord
       - BlockFileResponseAction
       - CampaignAuditRecord
       - CcraiPolicyViolationRecord
@@ -10865,7 +10872,9 @@ Total annotation targets: 14459
       - ComplianceDLPSharePointClassificationExtendedAuditRecord
       - ComplianceExchangeOcrAuditRecord
       - ComplianceManagerActionRecord
+      - CompliancePolicyGradingSharePointAuditRecord
       - ComplianceSettingsChangeAuditRecord
+      - ComplianceSitGradingSharePointAuditRecord
       - ComplianceSupervisionExchangeAuditRecord
       - ConnectedAIAppInteractionAuditRecord
       - ConsumptionResourceAuditRecord
@@ -10876,6 +10885,7 @@ Total annotation targets: 14459
       - CopilotInteractionAuditRecord
       - CopilotPluginSettingAuditRecord
       - CopilotPromptBookSettingAuditRecord
+      - CopilotSessionSharingAuditRecord
       - CopilotSettingAuditRecord
       - CopilotWorkspaceSettingAuditRecord
       - CoreReportingSettingsAuditRecord
@@ -10893,6 +10903,7 @@ Total annotation targets: 14459
       - DefaultAuditData
       - DefenderCaseManagementAuditRecord
       - DefenderPreviewFeaturesRecord
+      - DefenderSecurityForAIConfigurationAuditRecord
       - DeployFeatureActivityRecord
       - DetectionAction
         - responseActions
@@ -10909,12 +10920,17 @@ Total annotation targets: 14459
       - DlpEndpointAuditRecord
       - DlpImportResultAuditRecord
       - DlpSensitiveInformationTypeRulePackageCmdletRecord
+      - DragonCopilotAccessRecord
+      - DragonCopilotAdminRecord
+      - DragonCopilotClinicalDataRecord
+      - DragonCopilotSessionRecord
       - Dynamics365BusinessCentralAuditRecord
       - EdiscoveryExportOperation
         - azureBlobContainer
         - azureBlobToken
         - outputFolderId
       - EhrConnectorAuditBaseRecord
+      - EopSubmissionFeedEntityAuditRecord
       - ExchangeAdminAuditRecord
       - ExchangeAggregatedMailboxAuditRecord
       - ExchangeAggregatedOperationRecord
@@ -10923,6 +10939,7 @@ Total annotation targets: 14459
       - ExportOptions
         - fileInfo
       - FabricAuditRecord
+      - FabricPolicyRecord
       - ForceUserPasswordResetResponseAction
       - GetDownloadUrl(microsoft
         - Graph
@@ -10982,6 +10999,7 @@ Total annotation targets: 14459
       - McasAlertsAuditRecord
       - MdaAuditRecord
       - MdaDataSecuritySignalRecord
+      - MDASHAuditRecord
       - MdatpAuditRecord
       - MdcEventsRecord
       - MdiAuditRecord
@@ -11011,6 +11029,7 @@ Total annotation targets: 14459
       - MicrosoftTeamsRetentionLabelActionAuditRecord
       - MicrosoftTeamsSensitivityLabelActionAuditRecord
       - MicrosoftTeamsShiftsAuditRecord
+      - MicrosoftTeamsUserConcernAuditRecord
       - MipAutoLabelExchangeItemAuditRecord
       - MipAutoLabelProgressFeedbackAuditRecord
       - MipAutoLabelSharePointItemAuditRecord
@@ -11022,6 +11041,7 @@ Total annotation targets: 14459
       - MipLabelAnalyticsAuditRecord
       - MipLabelAuditRecord
       - MosAgentInfoRecord
+      - MosAgentInfoRecordV2
       - MoveToDeletedItemsResponseAction
       - MoveToInboxResponseAction
       - MoveToJunkResponseAction
@@ -11033,6 +11053,7 @@ Total annotation targets: 14459
       - MsdeIndicatorsSettingsAuditRecord
       - MsdeResponseActionsAuditRecord
       - MsdeRolesSettingsAuditRecord
+      - MspVectorSearchContentMetadataAuditRecord
       - MsticNationStateNotificationRecord
       - MultiStageDispositionAuditRecord
       - MyAnalyticsSettingsAuditRecord
@@ -11053,6 +11074,7 @@ Total annotation targets: 14459
       - P4aiAssessmentFabricScannerRecord
       - P4aiAssessmentLocationResultRecord
       - P4aiAssessmentRecord
+      - P4AIRiskScoreRecord
       - PassiveDnsRecord
       - PeopleAdminSettingsAuditRecord
       - PhysicalBadgingSignalAuditRecord
@@ -11141,6 +11163,8 @@ Total annotation targets: 14459
         - Workspace
           - plugins
           - sessions
+      - SecurityCopilotIdentityManagementAuditRecord
+      - SecurityDevelopmentLifecycleAILogAuditRecord
       - SensitiveInfoRemediationAgentDataRecord
       - SensitivityLabelActionAuditRecord
       - SensitivityLabeledFileActionAuditRecord
@@ -11172,8 +11196,14 @@ Total annotation targets: 14459
       - SkypeForBusinessUsersBlockedAuditRecord
       - SoftDeleteResponseAction
       - SonarDetonationContentMetadata
+      - SonarDetonationEntityAuditRecord
+      - SonarFileDetonationEntityAuditRecord
+      - SonarSubmissionEntityAuditRecord
+      - SonarUrlDetonationEntityAuditRecord
+      - SparkCoreCustomLivePoolRecord
       - StopAndQuarantineFileResponseAction
       - Subdomain
+      - SubmissionEntityAuditRecord
       - SupervisoryReviewDayXInsightsAuditRecord
       - SyntheticProbeAuditRecord
       - TeamCopilotInteractionAuditRecord
@@ -11211,6 +11241,7 @@ Total annotation targets: 14459
       - VivaEngageNetworkAssociationAuditRecord
       - VivaEngageSegmentAuditRecord
       - VivaGlintAdvancedConfigurationAuditRecord
+      - VivaGlintAgenticCampaignAuditRecord
       - VivaGlintFeedbackProgramAuditRecord
       - VivaGlintOrganizationalDataAuditRecord
       - VivaGlintPulseProgramAuditRecord
@@ -11515,6 +11546,7 @@ Total annotation targets: 14459
             - TiIndicator))
     - SubscribedSku
     - Subscription
+      - webPushEncryptionSecret
     - SuggestedEnrollmentLimit
       - suggestedDailyLimit
     - SummarizedSignIn
@@ -11594,6 +11626,8 @@ Total annotation targets: 14459
         - role
         - scope
         - unknownFutureValue
+      - RelatedTenant
+        - isMicrosoftInfrastructure
       - RelationshipCreationType
         - addOnTenant
         - approvedByAdmin
@@ -11785,6 +11819,7 @@ Total annotation targets: 14459
       - deviceEnrollmentConfigurations
       - deviceEnrollmentLimit
       - deviceManagementTroubleshootingEvents
+      - distributionLists
       - events
       - inferenceClassification
       - joinedGroups
@@ -12408,17 +12443,6 @@ Total annotation targets: 14459
       - exchange
     - UserTeamwork
       - sections
-    - Validate(Collection(microsoft
-      - Graph
-        - CrossTenantMigrationJob), Edm
-          - String, Edm
-            - String, Edm
-              - String, microsoft
-                - Graph
-                  - ExchangeOnlineCrossTenantMigrationSettings, Collection(Edm
-                    - String), Edm
-                      - String, Collection(Edm
-                        - String))
     - ValidateCredentials(Collection(microsoft
       - Graph
         - SynchronizationJob), Edm
