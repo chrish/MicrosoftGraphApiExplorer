@@ -63388,22 +63388,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceManagement",
-    "typePath": "microsoft.graph.deviceManagement",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceManagement"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Singleton that acts as container for a collection of Resource Access entities.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.deviceManagement.alertRule/threshold",
     "typePath": "microsoft.graph.deviceManagement.alertRule",
     "member": "threshold",
@@ -88330,22 +88314,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.employeeExperience",
-    "typePath": "microsoft.graph.employeeExperience",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EmployeeExperience"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a container that exposes navigation properties for employee experience resources.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.employeeExperience/communities",
     "typePath": "microsoft.graph.employeeExperience",
     "member": "communities",
@@ -88390,22 +88358,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Viva Engage roles and their membership.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.employeeExperienceUser",
-    "typePath": "microsoft.graph.employeeExperienceUser",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EmployeeExperienceUser"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a container that exposes navigation properties for employee experience user resources.",
     "longDescription": ""
   },
   {
@@ -94019,24 +93971,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.financials",
-    "typePath": "microsoft.graph.financials",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Financials"
-    ],
-    "terms": [
-      "Org.OData.Capabilities.V1.AsynchronousRequestsSupported",
-      "Org.OData.Capabilities.V1.BatchContinueOnErrorSupported",
-      "Org.OData.Capabilities.V1.BatchSupported"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.findByMethodMode(Collection(microsoft.graph.authenticationStrengthPolicy), Collection(microsoft.graph.authenticationMethodModes))",
     "typePath": "microsoft.graph.findByMethodMode(Collection(microsoft.graph.authenticationStrengthPolicy), Collection(microsoft.graph.authenticationMethodModes))",
     "member": "",
@@ -95210,10 +95144,9 @@
       "Group"
     ],
     "terms": [
-      "Org.OData.Capabilities.V1.ChangeTracking",
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Capabilities.V1.ChangeTracking"
     ],
-    "description": "Represents a Microsoft Entra group.",
+    "description": "",
     "longDescription": ""
   },
   {
@@ -148634,22 +148567,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.onlineMeeting",
-    "typePath": "microsoft.graph.onlineMeeting",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "OnlineMeeting"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a Microsoft online meeting.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.onlineMeetingEngagementConversation",
     "typePath": "microsoft.graph.onlineMeetingEngagementConversation",
     "member": "",
@@ -161962,22 +161879,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.roleManagement",
-    "typePath": "microsoft.graph.roleManagement",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "RoleManagement"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.roleManagement/deviceManagement",
     "typePath": "microsoft.graph.roleManagement",
     "member": "deviceManagement",
@@ -173078,6 +172979,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.servicePrincipalLockConfiguration/enforcementScope",
+    "typePath": "microsoft.graph.servicePrincipalLockConfiguration",
+    "member": "enforcementScope",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ServicePrincipalLockConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.servicePrincipalRiskDetection",
     "typePath": "microsoft.graph.servicePrincipalRiskDetection",
     "member": "",
@@ -174882,23 +174799,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Number of unknown users.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.solutionsRoot",
-    "typePath": "microsoft.graph.solutionsRoot",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "SolutionsRoot"
-    ],
-    "terms": [
-      "Org.OData.Capabilities.V1.BatchContinueOnErrorSupported",
-      "Org.OData.Capabilities.V1.BatchSupported"
-    ],
-    "description": "",
     "longDescription": ""
   },
   {
@@ -177284,22 +177184,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Navigation link to the terms and conditions that are assigned.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.thumbnailSet",
-    "typePath": "microsoft.graph.thumbnailSet",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ThumbnailSet"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "The ThumbnailSet resource is a keyed collection of thumbnail resources.",
     "longDescription": ""
   },
   {

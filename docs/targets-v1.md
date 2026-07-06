@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-06-29T05:44:37.159Z
-Total annotation targets: 4433
+Generated at: 2026-07-06T05:33:36.543Z
+Total annotation targets: 4857
 
 ## Namespace Target Tree
 
@@ -1613,6 +1613,35 @@ Total annotation targets: 4433
       - subject
       - subjectName
       - uploadDateTime
+    - EntraRecoveryServices
+      - RecoveryAction
+        - restore
+        - softDelete
+        - unknownFutureValue
+        - update
+      - RecoveryStatus
+        - abandoned
+        - calculating
+        - failed
+        - initialized
+        - loadingData
+        - running
+        - successful
+        - unknownFutureValue
+      - ResourceTypeName
+        - application
+        - appRoleAssignment
+        - authenticationMethodPolicy
+        - authenticationStrengthPolicy
+        - authorizationPolicy
+        - conditionalAccessPolicy
+        - group
+        - namedLocationPolicy
+        - oAuth2PermissionGrant
+        - organization
+        - servicePrincipal
+        - unknownFutureValue
+        - user
     - ErrorDetail
       - errorMessage
       - resourceInstanceName
@@ -2725,7 +2754,6 @@ Total annotation targets: 4433
     - OmaSettingStringXml
       - fileName
       - value
-    - OnlineMeeting
     - OnlineMeetingEngagementConversation
       - moderationState
       - onlineMeeting
@@ -3076,29 +3104,431 @@ Total annotation targets: 4433
     - SecureScore
     - SecureScoreControlProfile
     - Security
+      - A365AiExecuteTool
+      - A365AiInferenceCall
+      - A365AiInvokeAgent
+      - A365AiRunSummary
+      - A365SpanOutputs
+      - AadRiskDetectionAuditRecord
+      - AedAuditRecord
+      - AgentAdminActivityRecord
+      - AgentSettingAdminActivity
+      - AiAppInteractionAuditRecord
+      - AiExecuteToolAuditRecord
+      - AiInteractionsChangeNotificationAuditRecord
+      - AiInteractionsExportAuditRecord
+      - AiInteractionsSubscriptionAuditRecord
+      - AiInvokeAgentAuditRecord
+      - AipDiscover
+      - AipFileDeleted
+      - AipHeartBeat
+      - AipProtectionActionLogRequest
+      - AipScannerDiscoverEvent
+      - AipSensitivityLabelActionLogRequest
+      - AirAdminActionInvestigationData
+      - AirInvestigationData
+      - AirManualInvestigationData
+      - AISpanOutputsAuditRecord
       - Alert
         - category
+      - AlertSubmissionAuditRecord
+      - AlertSubmissionResultDetailAuditRecord
       - Article
       - ArticleIndicator
+      - AttackSimAdminAuditRecord
+      - AttackSimAuditRecord
+      - AuditConfigAuditRecord
+      - AuditCoreRoot
+        - queries
+      - AuditData
+      - AuditLogQuery
+        - records
+      - AuditLogQueryStatus
+      - AuditLogRecord
+      - AuditLogRecordType
+      - AuditLogUserType
+      - AuditRecordTypeDictionary
+      - AuditSearchAuditRecord
+      - AzfwApplicationRuleAggregationEventRecord
+      - AzfwDnsQueryEventRecord
+      - AzfwNetworkRuleEventRecord
+      - AzureActiveDirectoryAccountLogonAuditRecord
+      - AzureActiveDirectoryAuditRecord
+      - AzureActiveDirectoryStsLogonAuditRecord
+      - AzureAISearchAuditRecord
+      - CampaignAuditRecord
+      - CcraiPolicyViolationRecord
+      - CdpClassifierHealthRecord
+      - CdpColdCrawlStatusRecord
+      - CdpConsumptionResourceRecord
+      - CdpContentExplorerAggregateRecord
+      - CdpdlmaiInteractionInsightsRecord
+      - CdpDlpSensitiveEndpointAuditRecord
+      - CdpLogRecord
+      - CdpOcrBillingRecord
+      - CdpResourceScopeChangeEventRecord
+      - CloudUpdateDeviceConfigAuditRecord
+      - CloudUpdateProfileConfigAuditRecord
+      - CloudUpdateTenantConfigAuditRecord
       - CollaborationRoot
+      - ComplianceConnectorAuditRecord
+      - ComplianceDLMExchangeAuditRecord
+      - ComplianceDLMSharePointAuditRecord
+      - ComplianceDLPApplicationsAuditRecord
+      - ComplianceDLPApplicationsClassificationAuditRecord
+      - ComplianceDLPEndpointAuditRecord
+      - ComplianceDLPEndpointDiscoveryAuditRecord
+      - ComplianceDLPEnforcementAuditRecord
+      - ComplianceDLPExchangeAuditRecord
+      - ComplianceDLPExchangeClassificationAuditRecord
+      - ComplianceDLPExchangeClassificationCdpRecord
+      - ComplianceDLPExchangeDiscoveryAuditRecord
+      - ComplianceDLPSharePointAuditRecord
+      - ComplianceDLPSharePointClassificationAuditRecord
+      - ComplianceDLPSharePointClassificationCdpRecord
+      - ComplianceDLPSharePointClassificationExtendedAuditRecord
+      - ComplianceExchangeOcrAuditRecord
+      - ComplianceManagerActionRecord
+      - CompliancePolicyGradingSharePointAuditRecord
+      - ComplianceSettingsChangeAuditRecord
+      - ComplianceSitGradingSharePointAuditRecord
+      - ComplianceSupervisionExchangeAuditRecord
+      - ConnectedAIAppInteractionAuditRecord
+      - ConsumptionResourceAuditRecord
+      - ContentStoreMetadataRecord
+      - CopilotAgentManagementAuditRecord
+      - CopilotForSecurityLoggingAuditRecord
+      - CopilotForSecurityTriggerAuditRecord
+      - CopilotInteractionAuditRecord
+      - CopilotPluginSettingAuditRecord
+      - CopilotPromptBookSettingAuditRecord
+      - CopilotSessionSharingAuditRecord
+      - CopilotSettingAuditRecord
+      - CopilotWorkspaceSettingAuditRecord
+      - CoreReportingSettingsAuditRecord
+      - CortanaBriefingAuditRecord
+      - CriticalAssetManagementClassificationRecord
+      - CrmEntityOperationAuditRecord
+      - CrossTenantAccessPolicyAuditRecord
+      - CustomerKeyServiceEncryptionAuditRecord
+      - DataCenterSecurityCmdletAuditRecord
+      - DataGovernanceAuditRecord
+      - DataInsightsRestApiAuditRecord
+      - DataLakeExportOperationAuditRecord
+      - DataSecurityInvestigationAuditRecord
+      - DataShareOperationAuditRecord
+      - DefaultAuditData
+      - DefenderCaseManagementAuditRecord
+      - DefenderPreviewFeaturesRecord
+      - DefenderSecurityForAIConfigurationAuditRecord
+      - DeployFeatureActivityRecord
       - DetonationBehaviourDetails
+      - DeviceDiscoverySettingsAuthenticatedScansRecord
+      - DeviceDiscoverySettingsExclusionRecord
+      - DeviceDiscoverySettingsRecord
+      - DiscoveryAuditRecord
+      - DlpEndpointAuditRecord
+      - DlpImportResultAuditRecord
+      - DlpSensitiveInformationTypeRulePackageCmdletRecord
+      - DragonCopilotAccessRecord
+      - DragonCopilotAdminRecord
+      - DragonCopilotClinicalDataRecord
+      - DragonCopilotSessionRecord
+      - Dynamics365BusinessCentralAuditRecord
+      - EhrConnectorAuditBaseRecord
+      - EopSubmissionFeedEntityAuditRecord
+      - ExchangeAdminAuditRecord
+      - ExchangeAggregatedMailboxAuditRecord
+      - ExchangeAggregatedOperationRecord
+      - ExchangeMailboxAuditGroupRecord
+      - ExchangeMailboxAuditRecord
+      - FabricAuditRecord
+      - FabricPolicyRecord
+      - HealthcareSignalRecord
       - Host
       - HostComponent
       - HostCookie
+      - HostedRpaAuditRecord
       - Hostname
       - HostTracker
+      - HrSignalAuditRecord
+      - HygieneEventRecord
       - IdentityContainer
         - sensorCandidates
       - Incident
+      - InformationBarrierPolicyApplicationAuditRecord
+      - InformationWorkerProtectionAuditRecord
+      - InsiderRiskScopedUserInsightsRecord
+      - InsiderRiskScopedUsersRecord
+      - IntegratedAppsAppAdminActivityAuditRecord
+      - IntegratedAppsAppSettingsAdminActivityAuditRecord
       - IntelligenceProfile
       - IntelligenceProfileIndicator
       - IpAddress
+      - IrmActivityAuditTrailRecord
+      - IrmUserDefinedDetectionRecord
+      - KaizalaAuditRecord
+      - LabelAnalyticsAggregateAuditRecord
+      - LabelContentExplorerAuditRecord
+      - LargeContentMetadataAuditRecord
+      - M365ComplianceConnectorAuditRecord
+      - M365daadAuditRecord
+      - M365odspAssetMetadataRecord
+      - M365SearchSectionsRecord
+      - MailSubmissionData
+      - ManagedServicesAuditRecord
+      - ManagedTenantsAuditRecord
+      - MapgAlertsAuditRecord
+      - MapgOnboardAuditRecord
+      - MapgPolicyAuditRecord
+      - MapgRemediationAuditRecord
+      - McasAlertsAuditRecord
+      - MdaAuditRecord
+      - MdaDataSecuritySignalRecord
+      - MDASHAuditRecord
+      - MdatpAuditRecord
+      - MdcEventsRecord
+      - MdiAuditRecord
+      - MeshWorldsAuditRecord
+      - Microsoft365BackupBackupItemAuditRecord
+      - Microsoft365BackupBackupPolicyAuditRecord
+      - Microsoft365BackupGranularBrowseTaskAuditRecord
+      - Microsoft365BackupRestoreItemAuditRecord
+      - Microsoft365BackupRestoreTaskAuditRecord
+      - Microsoft365CopilotScheduledPromptAuditRecord
+      - MicrosoftDefenderExpertsXDRAuditRecord
+      - MicrosoftFlowAuditRecord
+      - MicrosoftFormsAuditRecord
+      - MicrosoftGraphDataConnectConsent
+      - MicrosoftGraphDataConnectOperation
+      - MicrosoftPurviewDataCatalogOperationRecord
+      - MicrosoftPurviewDataMapOperationRecord
+      - MicrosoftPurviewMetadataPolicyOperationRecord
+      - MicrosoftPurviewPolicyOperationRecord
+      - MicrosoftPurviewPrivacyAuditEvent
+      - MicrosoftPurviewUnifiedCatalogOperationRecord
+      - MicrosoftStreamAuditRecord
+      - MicrosoftTeamsAdminAuditRecord
+      - MicrosoftTeamsAnalyticsAuditRecord
+      - MicrosoftTeamsAuditRecord
+      - MicrosoftTeamsDeviceAuditRecord
+      - MicrosoftTeamsRetentionLabelActionAuditRecord
+      - MicrosoftTeamsSensitivityLabelActionAuditRecord
+      - MicrosoftTeamsShiftsAuditRecord
+      - MicrosoftTeamsUserConcernAuditRecord
+      - MipAutoLabelExchangeItemAuditRecord
+      - MipAutoLabelProgressFeedbackAuditRecord
+      - MipAutoLabelSharePointItemAuditRecord
+      - MipAutoLabelSharePointPolicyLocationAuditRecord
+      - MipAutoLabelSimulationSharePointCompletionRecord
+      - MipAutoLabelSimulationSharePointProgressRecord
+      - MipAutoLabelSimulationStatisticsRecord
+      - MipExactDataMatchAuditRecord
+      - MipLabelAnalyticsAuditRecord
+      - MipLabelAuditRecord
+      - MosAgentInfoRecord
+      - MosAgentInfoRecordV2
+      - Ms365dCustomDetectionAuditRecord
+      - Ms365dIncidentAuditRecord
+      - Ms365dSuppressionRuleAuditRecord
+      - MsdeCustomCollectionAuditRecord
+      - MsdeGeneralSettingsAuditRecord
+      - MsdeIndicatorsSettingsAuditRecord
+      - MsdeResponseActionsAuditRecord
+      - MsdeRolesSettingsAuditRecord
+      - MspVectorSearchContentMetadataAuditRecord
+      - MsticNationStateNotificationRecord
+      - MultiStageDispositionAuditRecord
+      - MyAnalyticsSettingsAuditRecord
+      - NoisyAlertPolicyAuditRecord
+      - OfficeNativeAuditRecord
+      - OmePortalAuditRecord
+      - OnDemandSharePointClassificationAuditRecord
+      - OneDriveAuditRecord
+      - OnPremisesFileShareScannerDLPAuditRecord
+      - OnPremisesSharePointScannerDLPAuditRecord
+      - OrganizationalDataInM365AuditRecord
+      - OutlookCopilotAutomationAuditRecord
+      - OwaGetAccessTokenForResourceAuditRecord
+      - P4aiAssessmentCategoryRecord
+      - P4aiAssessmentFabricScannerRecord
+      - P4aiAssessmentLocationResultRecord
+      - P4aiAssessmentRecord
+      - P4AIRiskScoreRecord
       - PassiveDnsRecord
+      - PeopleAdminSettingsAuditRecord
+      - PhysicalBadgingSignalAuditRecord
+      - PlacesDirectoryAuditRecord
+      - PlannerChatMessageAuditRecord
+      - PlannerChatMessageListAuditRecord
+      - PlannerCopyPlanAuditRecord
+      - PlannerGoalAuditRecord
+      - PlannerGoalListAuditRecord
+      - PlannerPlanAuditRecord
+      - PlannerPlanListAuditRecord
+      - PlannerPlanSensitivityLabelAuditRecord
+      - PlannerRosterAuditRecord
+      - PlannerRosterSensitivityLabelAuditRecord
+      - PlannerTaskAuditRecord
+      - PlannerTaskListAuditRecord
+      - PlannerTenantSettingsAuditRecord
+      - PolicyConfigChangeAuditRecord
+      - PowerAppsAuditAppRecord
+      - PowerAppsAuditPlanRecord
+      - PowerAppsAuditResourceRecord
+      - PowerBIAuditRecord
+      - PowerBIDlpAuditRecord
+      - PowerPagesSiteAuditRecord
+      - PowerPlatformAdminDlpAuditRecord
+      - PowerPlatformAdminEnvironmentAuditRecord
+      - PowerPlatformAdministratorActivityRecord
+      - PowerPlatformLockboxResourceAccessRequestAuditRecord
+      - PowerPlatformLockboxResourceCommandAuditRecord
+      - PowerPlatformServiceActivityAuditRecord
+      - PowerPlatformTenantIsolationRecord
+      - PrivacyDataMatchAuditRecord
+      - PrivacyDataMinimizationRecord
+      - PrivacyDigestEmailRecord
+      - PrivacyOpenAccessAuditRecord
+      - PrivacyPortalAuditRecord
+      - PrivacyRemediationActionRecord
+      - PrivacyRemediationRecord
+      - PrivaPrivacyAssessmentOperationRecord
+      - PrivaPrivacyConsentOperationRecord
+      - ProjectAuditRecord
+      - ProjectForTheWebAssignedToMeSettingsAuditRecord
+      - ProjectForTheWebProjectAuditRecord
+      - ProjectForTheWebProjectSettingsAuditRecord
+      - ProjectForTheWebRoadmapAuditRecord
+      - ProjectForTheWebRoadmapItemAuditRecord
+      - ProjectForTheWebRoadmapSettingsAuditRecord
+      - ProjectForTheWebTaskAuditRecord
+      - PublicFolderAuditRecord
+      - PurviewInsiderRiskAlertsRecord
+      - PurviewInsiderRiskCasesRecord
+      - PurviewMCRecommendationRecord
+      - PurviewPostureAgentAuditRecord
+      - QuarantineAuditRecord
+      - RecordsManagementAuditRecord
+      - ReportSubmission
+      - ReportSubmissionResultDetail
+      - RestrictedModeAuditRecord
+      - RetentionPolicyAuditRecord
+      - RtiOperationsAgentAuditRecord
+      - SbpConfigurationEventRecord
+      - SbpUsageEventRecord
+      - ScoreEvidence
+      - ScorePlatformGenericAuditRecord
+      - ScriptRunAuditRecord
+      - SearchAuditRecord
+      - SecurityComplianceAlertRecord
+      - SecurityComplianceCenterEOPCmdletAuditRecord
+      - SecurityComplianceInsightsAuditRecord
+      - SecurityComplianceRBACAuditRecord
+      - SecurityComplianceUserChangeAuditRecord
+      - SecurityCopilotIdentityManagementAuditRecord
+      - SecurityDevelopmentLifecycleAILogAuditRecord
+      - SensitiveInfoRemediationAgentDataRecord
+      - SensitivityLabelActionAuditRecord
+      - SensitivityLabeledFileActionAuditRecord
+      - SensitivityLabelPolicyMatchAuditRecord
       - SensorSettings
         - networkAdapters
+      - SentinelAIToolAuditRecord
+      - SentinelGraphAuditRecord
+      - SentinelJobAuditRecord
+      - SentinelKQLOnLakeAuditRecord
+      - SentinelLakeDataOnboardingAuditRecord
+      - SentinelLakeEncryptionAuditRecord
+      - SentinelLakeOnboardingAuditRecord
+      - SentinelNotebookOnLakeAuditRecord
+      - SentinelPackageAuditRecord
+      - SharePointAppPermissionOperationAuditRecord
+      - SharePointAuditRecord
+      - SharePointCommentOperationAuditRecord
+      - SharePointContentSecurityPolicyAuditRecord
+      - SharePointContentTypeOperationAuditRecord
+      - SharePointESignatureAuditRecord
+      - SharePointFieldOperationAuditRecord
+      - SharePointFileOperationAuditRecord
+      - SharePointListItemOperationAuditRecord
+      - SharePointListOperationAuditRecord
+      - SharePointSharingOperationAuditRecord
+      - SkypeForBusinessCmdletsAuditRecord
+      - SkypeForBusinessPSTNUsageAuditRecord
+      - SkypeForBusinessUsersBlockedAuditRecord
+      - SonarDetonationContentMetadata
+      - SonarDetonationEntityAuditRecord
+      - SonarFileDetonationEntityAuditRecord
+      - SonarSubmissionEntityAuditRecord
+      - SonarUrlDetonationEntityAuditRecord
+      - SparkCoreCustomLivePoolRecord
       - Subdomain
+      - SubmissionEntityAuditRecord
+      - SupervisoryReviewDayXInsightsAuditRecord
+      - SyntheticProbeAuditRecord
+      - TeamCopilotInteractionAuditRecord
+      - TeamsEasyApprovalsAuditRecord
+      - TeamsEvalDataHubAdminOperationAuditRecord
+      - TeamsEvalDataHubDataAccessAuditRecord
+      - TeamsEvalDataHubPermissionChangeAuditRecord
+      - TeamsHealthcareAuditRecord
+      - TeamsUpdatesAuditRecord
+      - TenantAllowBlockListAuditRecord
+      - ThreatFinderAuditRecord
+      - ThreatIntelligenceAtpContentData
+      - ThreatIntelligenceExportAuditRecord
+      - ThreatIntelligenceMailData
+      - ThreatIntelligenceObjectAuditRecord
+      - ThreatIntelligenceUrlClickData
+      - TodoAuditRecord
+      - TrainableClassifierAuditRecord
+      - UamOperationAuditRecord
+      - UnifiedGroupAuditRecord
+      - UnifiedSimulationMatchedItemAuditRecord
+      - UnifiedSimulationSummaryAuditRecord
+      - UniversalPrintManagementAuditRecord
+      - UniversalPrintPrintJobAuditRecord
+      - UrbacAssignmentAuditRecord
+      - UrbacEnableStateAuditRecord
+      - UrbacRoleAuditRecord
+      - UserTrainingAuditRecord
+      - UsxWorkspaceOnboardingAuditRecord
+      - VfamCreatePolicyAuditRecord
+      - VfamDeletePolicyAuditRecord
+      - VfamUpdatePolicyAuditRecord
+      - VivaAmplifyAuditRecord
+      - VivaEngageEventsAuditRecord
+      - VivaEngageNetworkAssociationAuditRecord
+      - VivaEngageSegmentAuditRecord
+      - VivaGlintAdvancedConfigurationAuditRecord
+      - VivaGlintAgenticCampaignAuditRecord
+      - VivaGlintFeedbackProgramAuditRecord
+      - VivaGlintOrganizationalDataAuditRecord
+      - VivaGlintPulseProgramAuditRecord
+      - VivaGlintPulseProgramRespondentRateAuditRecord
+      - VivaGlintQuestionAuditRecord
+      - VivaGlintRoleAuditRecord
+      - VivaGlintRubiconAuditRecord
+      - VivaGlintSupportAccessAuditRecord
+      - VivaGlintSystemAuditRecord
+      - VivaGlintUserAuditRecord
+      - VivaGlintUserGroupAuditRecord
+      - VivaGoalsAuditRecord
+      - VivaLearningAdminAuditRecord
+      - VivaLearningAuditRecord
+      - VivaPulseAdminAuditRecord
+      - VivaPulseOrganizerAuditRecord
+      - VivaPulseReportAuditRecord
+      - VivaPulseResponseAuditRecord
       - Vulnerability
       - VulnerabilityComponent
+      - WdatpAlertsAuditRecord
+      - WebContentFilteringAuditRecord
+      - Windows365CustomerLockboxAuditRecord
+      - WorkplaceAnalyticsAuditRecord
+      - YammerAuditRecord
+      - YammerUserHidingAuditRecord
     - SecurityNetworkProtocol
     - SecurityResource
     - SecurityResourceType
@@ -3189,7 +3619,6 @@ Total annotation targets: 4433
       - remediatedUserCount
       - unknownDeviceCount
       - unknownUserCount
-    - SolutionsRoot
     - StartWorkingTime(microsoft
       - Graph
         - WorkingTimeSchedule)

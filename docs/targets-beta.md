@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-06-29T05:44:36.768Z
-Total annotation targets: 14491
+Generated at: 2026-07-06T05:33:36.150Z
+Total annotation targets: 14484
 
 ## Namespace Target Tree
 
@@ -6128,7 +6128,6 @@ Total annotation targets: 14491
       - escrowNotEnabled
       - success
       - userDeferredEncryption
-    - Financials
     - FindByMethodMode(Collection(microsoft
       - Graph
         - AuthenticationStrengthPolicy), Collection(microsoft
@@ -9709,7 +9708,6 @@ Total annotation targets: 14491
     - OneDriveDataSourceConfiguration
       - filterExpression
       - resourceMetadataNames
-    - OnlineMeeting
     - OnlineMeetingEngagementConversation
       - moderationState
       - onlineMeeting
@@ -11359,6 +11357,8 @@ Total annotation targets: 14491
     - ServicePrincipal
       - claimsPolicy
       - createdByAppId
+    - ServicePrincipalLockConfiguration
+      - enforcementScope
     - ServicePrincipalRiskDetection
     - ServiceProviderConstraints
     - ServiceStartType
@@ -11498,7 +11498,6 @@ Total annotation targets: 14491
       - remediatedUserCount
       - unknownDeviceCount
       - unknownUserCount
-    - SolutionsRoot
     - SpecifiedCaptiveNetworkPlugins
       - allowedBundleIdentifiers
     - StartPrintJob(microsoft
@@ -11680,7 +11679,6 @@ Total annotation targets: 14491
     - TermsAndConditionsGroupAssignment
       - targetGroupId
       - termsAndConditions
-    - ThumbnailSet
     - TiAction
     - TiIndicator
     - TimeCardEvent
