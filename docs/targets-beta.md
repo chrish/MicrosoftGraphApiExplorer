@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-07-06T05:33:36.150Z
-Total annotation targets: 14484
+Generated at: 2026-07-13T05:15:48.318Z
+Total annotation targets: 14512
 
 ## Namespace Target Tree
 
@@ -2755,6 +2755,9 @@ Total annotation targets: 14484
       - searchHits
       - totalCount
     - CorrelatedIdentity
+    - CorrelatedObjectLinkMapping
+    - CorrelatedObjectLinkSource
+    - CorrelatedObjectLinkTarget
     - CorrelationError
     - CountryRegion
     - CreateGooglePlayWebToken(microsoft
@@ -2766,6 +2769,10 @@ Total annotation targets: 14484
         - Mailbox)
     - CreateRemoteHelpSessionResponse
       - sessionKey
+    - CreateZeroTouchWebToken(microsoft
+      - Graph
+        - AndroidManagedStoreAccountEnterpriseSettings, Edm
+          - String)
     - CredentialSingleSignOnExtension
       - configurations
       - domains
@@ -5360,6 +5367,9 @@ Total annotation targets: 14484
       - runSummary
       - scriptContent
       - userRunStates
+    - DeviceSyncStatusResponse
+      - components
+      - deviceId
     - DeviceThreatProtectionLevel
       - high
       - low
@@ -7849,6 +7859,7 @@ Total annotation targets: 14484
       - paid
       - trial
       - unknownFutureValue
+    - LinkStatistics
     - List
       - items
     - LiveCaptionOptions
@@ -10433,6 +10444,10 @@ Total annotation targets: 14484
     - RemoveAllDevicesFromManagement(microsoft
       - Graph
         - User)
+    - RemoveDeviceEsim(microsoft
+      - Graph
+        - ManagedDevice, Edm
+          - String)
     - RemoveDeviceFirmwareConfigurationInterfaceManagement(microsoft
       - Graph
         - ManagedDevice)
@@ -10838,6 +10853,14 @@ Total annotation targets: 14484
       - AzureAISearchAuditRecord
       - BlockFileResponseAction
       - CampaignAuditRecord
+      - CaseManagement
+        - Case
+          - activities
+          - attachments
+          - relations
+          - tasks
+      - CaseManagementRoot
+        - cases
       - CcraiPolicyViolationRecord
       - CdpClassifierHealthRecord
       - CdpColdCrawlStatusRecord
@@ -11566,6 +11589,18 @@ Total annotation targets: 14484
     - Sync(microsoft
       - Graph
         - WindowsAutopilotSettings)
+    - SyncComponent
+      - moreInfo
+      - name
+      - reportedDateTime
+      - status
+    - SyncComponentStatus
+      - failure
+      - inProgress
+      - none
+      - partialSuccess
+      - success
+      - unknownFutureValue
     - Synchronization
       - secrets
     - SynchronizationSecret
@@ -11613,10 +11648,14 @@ Total annotation targets: 14484
       - targetedAppManagementLevels
     - TaxArea
     - TaxGroup
+    - Team
+      - tags
     - TeamsAdministration
       - PolicyIdentifierDetail
     - TeamsChannelPlanner
       - plans
+    - TeamworkTag
+      - members
     - TenantAttachRBAC
     - TenantAttachRBACState
       - enabled
@@ -12599,6 +12638,7 @@ Total annotation targets: 14484
       - supportsUserLicensing
       - supportUserLicensing
     - VppToken
+      - appleDeviceAppDeliveryProtocolType
       - appleId
       - automaticallyUpdateApps
       - claimTokenManagementFromExternalMdm

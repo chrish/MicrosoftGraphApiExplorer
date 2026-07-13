@@ -8843,6 +8843,25 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudPcServicePlan",
+    "typePath": "microsoft.graph.cloudPcServicePlan",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudPcServicePlan"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.ReadRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.commit(microsoft.graph.mobileAppContentFile, microsoft.graph.fileEncryptionInfo)",
     "typePath": "microsoft.graph.commit(microsoft.graph.mobileAppContentFile, microsoft.graph.fileEncryptionInfo)",
     "member": "",

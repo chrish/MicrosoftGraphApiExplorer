@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-07-06T05:33:36.543Z
-Total annotation targets: 4857
+Generated at: 2026-07-13T05:15:48.635Z
+Total annotation targets: 4858
 
 ## Namespace Target Tree
 
@@ -600,6 +600,7 @@ Total annotation targets: 4857
     - CloudAppSecurityState
     - CloudCommunications
       - onlineMeetingConversations
+    - CloudPcServicePlan
     - Commit(microsoft
       - Graph
         - MobileAppContentFile, microsoft

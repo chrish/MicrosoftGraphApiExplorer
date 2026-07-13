@@ -42273,6 +42273,54 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.correlatedObjectLinkMapping",
+    "typePath": "microsoft.graph.correlatedObjectLinkMapping",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CorrelatedObjectLinkMapping"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.correlatedObjectLinkSource",
+    "typePath": "microsoft.graph.correlatedObjectLinkSource",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CorrelatedObjectLinkSource"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.correlatedObjectLinkTarget",
+    "typePath": "microsoft.graph.correlatedObjectLinkTarget",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CorrelatedObjectLinkTarget"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.correlationError",
     "typePath": "microsoft.graph.correlationError",
     "member": "",
@@ -42372,6 +42420,25 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "The unique identifier for a session",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.createZeroTouchWebToken(microsoft.graph.androidManagedStoreAccountEnterpriseSettings, Edm.String)",
+    "typePath": "microsoft.graph.createZeroTouchWebToken(microsoft.graph.androidManagedStoreAccountEnterpriseSettings, Edm.String)",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CreateZeroTouchWebToken(microsoft",
+      "Graph",
+      "AndroidManagedStoreAccountEnterpriseSettings, Edm",
+      "String)"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Generates a web token scoped to the Zero Touch Enrollment portal. Requires the ManageZeroTouchEnrollment RBAC permission.",
     "longDescription": ""
   },
   {
@@ -82990,6 +83057,40 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceSyncStatusResponse/components",
+    "typePath": "microsoft.graph.deviceSyncStatusResponse",
+    "member": "components",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceSyncStatusResponse"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the collection of sync component statuses representing infrastructure and policy progress. Each entry represents a component that has started reporting during this sync operation. Components appear in the collection only after they begin executing. Read-only. Not nullable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceSyncStatusResponse/deviceId",
+    "typePath": "microsoft.graph.deviceSyncStatusResponse",
+    "member": "deviceId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceSyncStatusResponse"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the managed device identifier. Used to correlate this sync status snapshot with the device that was synced. This is the same id used in the managedDevice entity. Example: 'd1e2f3a4-b5c6-7890-abcd-ef1234567890'. Read-only. Not nullable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.deviceThreatProtectionLevel",
     "typePath": "microsoft.graph.deviceThreatProtectionLevel",
     "member": "",
@@ -119234,6 +119335,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.linkStatistics",
+    "typePath": "microsoft.graph.linkStatistics",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "LinkStatistics"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.list/items",
     "typePath": "microsoft.graph.list",
     "member": "items",
@@ -129361,11 +129478,8 @@
     ],
     "terms": [
       "Org.OData.Capabilities.V1.ChangeTracking",
-      "Org.OData.Capabilities.V1.DeleteRestrictions",
       "Org.OData.Capabilities.V1.ExpandRestrictions",
-      "Org.OData.Capabilities.V1.InsertRestrictions",
-      "Org.OData.Capabilities.V1.SearchRestrictions",
-      "Org.OData.Capabilities.V1.UpdateRestrictions"
+      "Org.OData.Capabilities.V1.SearchRestrictions"
     ],
     "description": "",
     "longDescription": ""
@@ -129430,10 +129544,7 @@
     ],
     "terms": [
       "Org.OData.Capabilities.V1.ChangeTracking",
-      "Org.OData.Capabilities.V1.DeleteRestrictions",
-      "Org.OData.Capabilities.V1.InsertRestrictions",
-      "Org.OData.Capabilities.V1.SearchRestrictions",
-      "Org.OData.Capabilities.V1.UpdateRestrictions"
+      "Org.OData.Capabilities.V1.SearchRestrictions"
     ],
     "description": "",
     "longDescription": ""
@@ -159171,6 +159282,25 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.removeDeviceEsim(microsoft.graph.managedDevice, Edm.String)",
+    "typePath": "microsoft.graph.removeDeviceEsim(microsoft.graph.managedDevice, Edm.String)",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoveDeviceEsim(microsoft",
+      "Graph",
+      "ManagedDevice, Edm",
+      "String)"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Remove eSIM from the device",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.removeDeviceFirmwareConfigurationInterfaceManagement(microsoft.graph.managedDevice)",
     "typePath": "microsoft.graph.removeDeviceFirmwareConfigurationInterfaceManagement(microsoft.graph.managedDevice)",
     "member": "",
@@ -164503,6 +164633,120 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for threat campaign events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.case/activities",
+    "typePath": "microsoft.graph.security.caseManagement.case",
+    "member": "activities",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "Case"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.case/attachments",
+    "typePath": "microsoft.graph.security.caseManagement.case",
+    "member": "attachments",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "Case"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.case/relations",
+    "typePath": "microsoft.graph.security.caseManagement.case",
+    "member": "relations",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "Case"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.case/tasks",
+    "typePath": "microsoft.graph.security.caseManagement.case",
+    "member": "tasks",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "Case"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagementRoot/cases",
+    "typePath": "microsoft.graph.security.caseManagementRoot",
+    "member": "cases",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagementRoot"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -175679,6 +175923,187 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponent/moreInfo",
+    "typePath": "microsoft.graph.syncComponent",
+    "member": "moreInfo",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponent"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates additional information for this sync stage. This is a flexible string that can be null (no additional info), a progress indicator such as '3/6' (completed out of total), or a list of individual item names. Read-only. Nullable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponent/name",
+    "typePath": "microsoft.graph.syncComponent",
+    "member": "name",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponent"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the sync stage name. The backend abstracts internal infrastructure into 6 user-facing stages. Fixed values are: notifyingDevice, deviceConnecting, policies, applications, scripts, compliance. Read-only. Not nullable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponent/reportedDateTime",
+    "typePath": "microsoft.graph.syncComponent",
+    "member": "reportedDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponent"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the date and time when this stage last reported status. The date and time information is shown using ISO 8601 format and is always in UTC time. For example, midnight UTC on Jan 1, 2014 would look like this: '2014-01-01T00:00:00Z'. Read-only. Not nullable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponent/status",
+    "typePath": "microsoft.graph.syncComponent",
+    "member": "status",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponent"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.DefaultValue",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the current status of this sync stage. Default value is none. Possible values are: none, inProgress, success, failure, partialSuccess, unknownFutureValue. Stages only appear in the response once they have started, so none is a schema default and will not typically appear in responses. Read-only. Not nullable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "A list of possible status states for a sync infrastructure component or policy during a device sync operation.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus/failure",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "failure",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the stage encountered an error. When this value is set, the moreInfo property on the syncComponent will contain additional diagnostic details about the failure.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus/inProgress",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "inProgress",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the component is currently executing. For infrastructure components (PNSv1, DCI, SCGW), this means the notification or check-in is in flight. For policies, this means the policy is being applied to the device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus/none",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "none",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Default. The component has not yet started reporting status. This is a schema default and will not typically appear in responses, as components only appear once they begin executing.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus/partialSuccess",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "partialSuccess",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the stage completed but not all items succeeded. For example, some policies applied successfully while others failed. The moreInfo property may contain details on the partial outcome.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus/success",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "success",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the component completed successfully. The component has finished its work and reported a successful outcome.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.syncComponentStatus/unknownFutureValue",
+    "typePath": "microsoft.graph.syncComponentStatus",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "SyncComponentStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.synchronization",
     "typePath": "microsoft.graph.synchronization",
     "member": "",
@@ -176315,6 +176740,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.team/tags",
+    "typePath": "microsoft.graph.team",
+    "member": "tags",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Team"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.ChangeTracking"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.teamsAdministration.policyIdentifierDetail",
     "typePath": "microsoft.graph.teamsAdministration.policyIdentifierDetail",
     "member": "",
@@ -176339,6 +176780,38 @@
       "Microsoft",
       "Graph",
       "TeamsChannelPlanner"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.ChangeTracking"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.teamworkTag",
+    "typePath": "microsoft.graph.teamworkTag",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "TeamworkTag"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.ChangeTracking"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.teamworkTag/members",
+    "typePath": "microsoft.graph.teamworkTag",
+    "member": "members",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "TeamworkTag"
     ],
     "terms": [
       "Org.OData.Capabilities.V1.ChangeTracking"
@@ -190786,6 +191259,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "You purchase multiple licenses for iOS apps through the Apple Volume Purchase Program for Business or Education. This involves setting up an Apple VPP account from the Apple website and uploading the Apple VPP Business or Education token to Intune. You can then synchronize your volume purchase information with Intune and track your volume-purchased app use. You can upload multiple Apple VPP Business or Education tokens.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.vppToken/appleDeviceAppDeliveryProtocolType",
+    "typePath": "microsoft.graph.vppToken",
+    "member": "appleDeviceAppDeliveryProtocolType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "VppToken"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the delivery protocol used to deliver apps associated with this VPP token. This property is set at token creation and cannot be modified afterward. Default value is default. Possible values are: default, mobileDeviceManagement, declarativeDeviceManagement. Not nullable.",
     "longDescription": ""
   },
   {
