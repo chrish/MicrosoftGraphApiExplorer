@@ -46585,42 +46585,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.delta(Collection(microsoft.graph.mailboxFolder))",
-    "typePath": "microsoft.graph.delta(Collection(microsoft.graph.mailboxFolder))",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Delta(Collection(microsoft",
-      "Graph",
-      "MailboxFolder))"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.delta(Collection(microsoft.graph.mailboxItem))",
-    "typePath": "microsoft.graph.delta(Collection(microsoft.graph.mailboxItem))",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Delta(Collection(microsoft",
-      "Graph",
-      "MailboxItem))"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.depEnrollmentBaseProfile",
     "typePath": "microsoft.graph.depEnrollmentBaseProfile",
     "member": "",
@@ -101618,6 +101582,23 @@
       "Org.OData.Capabilities.V1.SkipSupported",
       "Org.OData.Capabilities.V1.SortRestrictions",
       "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.guestSponsorTrigger",
+    "typePath": "microsoft.graph.identityGovernance.guestSponsorTrigger",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "GuestSponsorTrigger"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
     "longDescription": ""
@@ -165376,6 +165357,23 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Audit data for Connected AI App Interaction events.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.connectorValidateResult",
+    "typePath": "microsoft.graph.security.connectorValidateResult",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "ConnectorValidateResult"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {

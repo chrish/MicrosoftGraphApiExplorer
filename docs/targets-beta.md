@@ -2,7 +2,7 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-07-13T05:15:48.318Z
+Generated at: 2026-07-20T05:19:12.725Z
 Total annotation targets: 14512
 
 ## Namespace Target Tree
@@ -3043,10 +3043,6 @@ Total annotation targets: 14512
     - DeliveryOptimizationRestrictPeerSelectionByOptions
       - notConfigured
       - subnetMask
-    - Delta(Collection(microsoft
-      - Graph
-        - MailboxFolder))
-        - MailboxItem))
     - DepEnrollmentBaseProfile
       - appleIdDisabled
       - applePayDisabled
@@ -6699,6 +6695,7 @@ Total annotation targets: 14512
                 - IdentityGovernance
                   - CancelScope)
       - CustomTaskExtension
+      - GuestSponsorTrigger
       - LifecycleWorkflowProcessingStatus
         - canceling
       - LifecycleWorkflowsContainer
@@ -10898,6 +10895,7 @@ Total annotation targets: 14512
       - ComplianceSitGradingSharePointAuditRecord
       - ComplianceSupervisionExchangeAuditRecord
       - ConnectedAIAppInteractionAuditRecord
+      - ConnectorValidateResult
       - ConsumptionResourceAuditRecord
       - ContentStoreMetadataRecord
       - CopilotAgentManagementAuditRecord
