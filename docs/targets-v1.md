@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-07-20T05:19:12.968Z
-Total annotation targets: 4858
+Generated at: 2026-07-27T05:22:58.489Z
+Total annotation targets: 4860
 
 ## Namespace Target Tree
 
@@ -1381,6 +1381,7 @@ Total annotation targets: 4858
     - Directory
       - administrativeUnits
       - deviceLocalCredentials
+      - remoteTenantGroups
     - DirectoryAudit
     - DirectoryObject
     - DirectoryRole
@@ -3010,6 +3011,7 @@ Total annotation targets: 4858
         - ManagedDevice)
     - RemoteLockActionResult
       - unlockPin
+    - RemoteTenantGroup
     - RemoveAllDevicesFromManagement(microsoft
       - Graph
         - User)

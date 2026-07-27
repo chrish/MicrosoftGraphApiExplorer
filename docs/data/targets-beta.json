@@ -84357,6 +84357,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.directory/remoteTenantGroups",
+    "typePath": "microsoft.graph.directory",
+    "member": "remoteTenantGroups",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Directory"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.directoryAudit",
     "typePath": "microsoft.graph.directoryAudit",
     "member": "",
@@ -117785,9 +117801,9 @@
       "IpRange"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Revisions"
     ],
-    "description": "IP range base class for representing IPV4, IPV6 address ranges",
+    "description": "",
     "longDescription": ""
   },
   {
@@ -117823,6 +117839,22 @@
       "Org.OData.Capabilities.V1.SkipSupported",
       "Org.OData.Capabilities.V1.SortRestrictions",
       "Org.OData.Capabilities.V1.TopSupported",
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iPv4CidrRange",
+    "typePath": "microsoft.graph.iPv4CidrRange",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IPv4CidrRange"
+    ],
+    "terms": [
       "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
@@ -117874,6 +117906,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Upper address.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iPv6CidrRange",
+    "typePath": "microsoft.graph.iPv6CidrRange",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IPv6CidrRange"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -129542,7 +129590,6 @@
     ],
     "terms": [
       "Org.OData.Capabilities.V1.ChangeTracking",
-      "Org.OData.Capabilities.V1.DeleteRestrictions",
       "Org.OData.Capabilities.V1.ExpandRestrictions",
       "Org.OData.Capabilities.V1.InsertRestrictions",
       "Org.OData.Capabilities.V1.SearchRestrictions",
@@ -140541,6 +140588,150 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Value of the metric time series data point",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage/activeContainerCount",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage",
+    "member": "activeContainerCount",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerAppUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage/activeStorageUsedInBytes",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage",
+    "member": "activeStorageUsedInBytes",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerAppUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage/appId",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage",
+    "member": "appId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerAppUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage/displayName",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerAppUsage",
+    "member": "displayName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerAppUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerGeoUsage/activeContainerCount",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerGeoUsage",
+    "member": "activeContainerCount",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerGeoUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerGeoUsage/activeStorageUsedInBytes",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerGeoUsage",
+    "member": "activeStorageUsedInBytes",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerGeoUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerGeoUsage/dataLocationCode",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerGeoUsage",
+    "member": "dataLocationCode",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerGeoUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerUsage/totalActiveContainerCount",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerUsage",
+    "member": "totalActiveContainerCount",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.microsoftAppsFileStorageContainerUsage/totalActiveStorageUsedInBytes",
+    "typePath": "microsoft.graph.microsoftAppsFileStorageContainerUsage",
+    "member": "totalActiveStorageUsedInBytes",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MicrosoftAppsFileStorageContainerUsage"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -159241,6 +159432,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Pin to unlock the client",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteTenantGroup",
+    "typePath": "microsoft.graph.remoteTenantGroup",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteTenantGroup"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {

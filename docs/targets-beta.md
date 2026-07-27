@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-07-20T05:19:12.725Z
-Total annotation targets: 14512
+Generated at: 2026-07-27T05:22:58.050Z
+Total annotation targets: 14525
 
 ## Namespace Target Tree
 
@@ -5447,6 +5447,7 @@ Total annotation targets: 14512
       - deviceLocalCredentials
       - featureRolloutPolicies
       - recovery
+      - remoteTenantGroups
     - DirectoryAudit
     - DirectoryObject
     - DirectoryRole
@@ -7759,9 +7760,11 @@ Total annotation targets: 14512
     - IpRange
     - IpReferenceData
     - IpSecurityProfile
+    - IPv4CidrRange
     - IPv4Range
       - lowerAddress
       - upperAddress
+    - IPv6CidrRange
     - IPv6Range
       - lowerAddress
       - upperAddress
@@ -9213,6 +9216,18 @@ Total annotation targets: 14512
     - MetricTimeSeriesDataPoint
       - dateTime
       - value
+    - MicrosoftAppsFileStorageContainerAppUsage
+      - activeContainerCount
+      - activeStorageUsedInBytes
+      - appId
+      - displayName
+    - MicrosoftAppsFileStorageContainerGeoUsage
+      - activeContainerCount
+      - activeStorageUsedInBytes
+      - dataLocationCode
+    - MicrosoftAppsFileStorageContainerUsage
+      - totalActiveContainerCount
+      - totalActiveStorageUsedInBytes
     - MicrosoftEdgeChannel
       - beta
       - dev
@@ -10438,6 +10453,7 @@ Total annotation targets: 14512
         - ManagedDevice)
     - RemoteLockActionResult
       - unlockPin
+    - RemoteTenantGroup
     - RemoveAllDevicesFromManagement(microsoft
       - Graph
         - User)

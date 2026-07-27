@@ -20786,6 +20786,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.directory/remoteTenantGroups",
+    "typePath": "microsoft.graph.directory",
+    "member": "remoteTenantGroups",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Directory"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.directoryAudit",
     "typePath": "microsoft.graph.directoryAudit",
     "member": "",
@@ -45667,6 +45683,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Pin to unlock the client",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteTenantGroup",
+    "typePath": "microsoft.graph.remoteTenantGroup",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteTenantGroup"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
