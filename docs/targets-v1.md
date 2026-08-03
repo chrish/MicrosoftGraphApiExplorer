@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-07-27T05:22:58.489Z
-Total annotation targets: 4860
+Generated at: 2026-08-03T05:19:00.171Z
+Total annotation targets: 4862
 
 ## Namespace Target Tree
 
@@ -756,6 +756,7 @@ Total annotation targets: 4860
       - quarantine
       - remove
       - userDefined
+    - DelegatedAdminServiceProviderConstraints
     - DeletedItemContainer
       - workflows
     - DeleteUserFromSharedAppleDevice(microsoft
@@ -3541,6 +3542,7 @@ Total annotation targets: 4860
     - ServicePrincipal
       - createdByAppId
     - ServicePrincipalRiskDetection
+    - ServiceProviderConstraints
     - SetMobileDeviceManagementAuthority(microsoft
       - Graph
         - Organization)

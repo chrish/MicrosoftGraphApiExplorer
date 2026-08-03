@@ -11128,6 +11128,25 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.delegatedAdminServiceProviderConstraints",
+    "typePath": "microsoft.graph.delegatedAdminServiceProviderConstraints",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DelegatedAdminServiceProviderConstraints"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.NavigationRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.deletedItemContainer/workflows",
     "typePath": "microsoft.graph.deletedItemContainer",
     "member": "workflows",
@@ -54287,6 +54306,25 @@
       "Org.OData.Capabilities.V1.SelectSupport",
       "Org.OData.Capabilities.V1.SkipSupported",
       "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.serviceProviderConstraints",
+    "typePath": "microsoft.graph.serviceProviderConstraints",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ServiceProviderConstraints"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.NavigationRestrictions"
     ],
     "description": "",
     "longDescription": ""

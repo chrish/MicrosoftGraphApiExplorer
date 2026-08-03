@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-07-27T05:22:58.050Z
-Total annotation targets: 14525
+Generated at: 2026-08-03T05:18:59.863Z
+Total annotation targets: 14533
 
 ## Namespace Target Tree
 
@@ -1890,6 +1890,7 @@ Total annotation targets: 14525
       - passwordMethods
       - platformCredentialMethods
       - qrCodePinMethod
+      - resourceAccountKeyAuthenticationMethods
       - softwareOathMethods
       - temporaryAccessPassMethods
       - windowsHelloForBusinessMethods
@@ -5467,8 +5468,6 @@ Total annotation targets: 14525
       - ssd
       - unknown
       - unknownFutureValue
-    - DistributionList
-      - distributionListMembers
     - DmaGuardDeviceEnumerationPolicyType
       - allowAll
       - blockAll
@@ -9930,17 +9929,22 @@ Total annotation targets: 14525
       - checkIns
     - Planner
       - buckets
+      - goals
       - plans
       - tasks
+    - PlannerGoal
+    - PlannerGoalStatus
     - PlannerGroup
       - plans
     - PlannerPlan
       - buckets
+      - goals
       - owner
       - tasks
     - PlannerRoster
       - plans
     - PlannerTask
+      - goalIds
       - messages
     - PlannerUser
       - all
@@ -10872,8 +10876,12 @@ Total annotation targets: 14525
           - attachments
           - relations
           - tasks
+        - CaseTypeConfiguration
+          - customFields
+          - statuses
       - CaseManagementRoot
         - cases
+        - caseTypeConfigurations
       - CcraiPolicyViolationRecord
       - CdpClassifierHealthRecord
       - CdpColdCrawlStatusRecord

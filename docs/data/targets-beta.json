@@ -29586,6 +29586,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.authentication/resourceAccountKeyAuthenticationMethods",
+    "typePath": "microsoft.graph.authentication",
+    "member": "resourceAccountKeyAuthenticationMethods",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Authentication"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.authentication/softwareOathMethods",
     "typePath": "microsoft.graph.authentication",
     "member": "softwareOathMethods",
@@ -84600,22 +84617,6 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Evolvable enumeration sentinel value. Do not use.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.distributionList/distributionListMembers",
-    "typePath": "microsoft.graph.distributionList",
-    "member": "distributionListMembers",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DistributionList"
-    ],
-    "terms": [
-      "Org.OData.Capabilities.V1.ChangeTracking"
-    ],
-    "description": "",
     "longDescription": ""
   },
   {
@@ -151799,6 +151800,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.planner/goals",
+    "typePath": "microsoft.graph.planner",
+    "member": "goals",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Planner"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.planner/plans",
     "typePath": "microsoft.graph.planner",
     "member": "plans",
@@ -151831,6 +151848,38 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.plannerGoal",
+    "typePath": "microsoft.graph.plannerGoal",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "PlannerGoal"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.plannerGoalStatus",
+    "typePath": "microsoft.graph.plannerGoalStatus",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "PlannerGoalStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.plannerGroup/plans",
     "typePath": "microsoft.graph.plannerGroup",
     "member": "plans",
@@ -151857,6 +151906,22 @@
     ],
     "terms": [
       "Org.OData.Capabilities.V1.ChangeTracking"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.plannerPlan/goals",
+    "typePath": "microsoft.graph.plannerPlan",
+    "member": "goals",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "PlannerPlan"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
     "longDescription": ""
@@ -151905,6 +151970,22 @@
     ],
     "terms": [
       "Org.OData.Capabilities.V1.ChangeTracking"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.plannerTask/goalIds",
+    "typePath": "microsoft.graph.plannerTask",
+    "member": "goalIds",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "PlannerTask"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
     "longDescription": ""
@@ -164917,6 +164998,58 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.caseTypeConfiguration/customFields",
+    "typePath": "microsoft.graph.security.caseManagement.caseTypeConfiguration",
+    "member": "customFields",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "CaseTypeConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.caseTypeConfiguration/statuses",
+    "typePath": "microsoft.graph.security.caseManagement.caseTypeConfiguration",
+    "member": "statuses",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "CaseTypeConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.caseManagementRoot/cases",
     "typePath": "microsoft.graph.security.caseManagementRoot",
     "member": "cases",
@@ -164933,6 +165066,27 @@
       "Org.OData.Capabilities.V1.SkipSupported",
       "Org.OData.Capabilities.V1.SortRestrictions",
       "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagementRoot/caseTypeConfigurations",
+    "typePath": "microsoft.graph.security.caseManagementRoot",
+    "member": "caseTypeConfigurations",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagementRoot"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
     ],
     "description": "",
     "longDescription": ""
