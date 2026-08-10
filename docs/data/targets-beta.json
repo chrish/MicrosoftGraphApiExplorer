@@ -15196,6 +15196,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.androidManagedAppProtection/appActionIfDeveloperOptionsEnabled",
+    "typePath": "microsoft.graph.androidManagedAppProtection",
+    "member": "appActionIfDeveloperOptionsEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AndroidManagedAppProtection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Defines a managed app behavior, either warn, block, or wipe, if Developer Options are enabled on the Android device. If the admin does not set this action, the default is null, which indicates this setting is not configured.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.androidManagedAppProtection/appActionIfDeviceLockNotSet",
     "typePath": "microsoft.graph.androidManagedAppProtection",
     "member": "appActionIfDeviceLockNotSet",
@@ -26070,6 +26086,54 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.applicationPermissionType/role",
+    "typePath": "microsoft.graph.applicationPermissionType",
+    "member": "role",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ApplicationPermissionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a type of permission that is for an app only scenario. No user is involved.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.applicationPermissionType/scope",
+    "typePath": "microsoft.graph.applicationPermissionType",
+    "member": "scope",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ApplicationPermissionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a type of permission that is for an app and user scenario.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.applicationPermissionType/unknownFutureValue",
+    "typePath": "microsoft.graph.applicationPermissionType",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ApplicationPermissionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "This will help in making this enum evolable and adding more values in the future-",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.applicationSignInDetailedSummary",
     "typePath": "microsoft.graph.applicationSignInDetailedSummary",
     "member": "",
@@ -30219,15 +30283,16 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.beginOnboarding(microsoft.graph.remoteAssistancePartner)",
-    "typePath": "microsoft.graph.beginOnboarding(microsoft.graph.remoteAssistancePartner)",
+    "target": "microsoft.graph.beginOnboarding(microsoft.graph.remoteAssistancePartner, Edm.String)",
+    "typePath": "microsoft.graph.beginOnboarding(microsoft.graph.remoteAssistancePartner, Edm.String)",
     "member": "",
     "segments": [
       "Microsoft",
       "Graph",
       "BeginOnboarding(microsoft",
       "Graph",
-      "RemoteAssistancePartner)"
+      "RemoteAssistancePartner, Edm",
+      "String)"
     ],
     "terms": [
       "Org.OData.Core.V1.Description"
@@ -34057,6 +34122,24 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Cancels an already approved instance of an operationApprovalRequest.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cancelEnhancedLogCollection(microsoft.graph.managedDevice)",
+    "typePath": "microsoft.graph.cancelEnhancedLogCollection(microsoft.graph.managedDevice)",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CancelEnhancedLogCollection(microsoft",
+      "Graph",
+      "ManagedDevice)"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Cancels an in-progress enhanced log collection session on a supervised Apple device.",
     "longDescription": ""
   },
   {
@@ -41422,6 +41505,150 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheck",
+    "typePath": "microsoft.graph.connectorHealthCheck",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheck"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents an individual health check result for an NDES connector, containing the metric name and its current status.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheck/metricName",
+    "typePath": "microsoft.graph.connectorHealthCheck",
+    "member": "metricName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheck"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The name of the health check metric being evaluated.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheck/status",
+    "typePath": "microsoft.graph.connectorHealthCheck",
+    "member": "status",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheck"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The current health status for this specific metric, based on error rate thresholds computed from recent connector uploads.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheckMetricName",
+    "typePath": "microsoft.graph.connectorHealthCheckMetricName",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheckMetricName"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The name of the health check metric being evaluated for an NDES connector.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheckMetricName/caConnectivity",
+    "typePath": "microsoft.graph.connectorHealthCheckMetricName",
+    "member": "caConnectivity",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheckMetricName"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Measures connectivity between the connector and the Certificate Authority.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheckMetricName/caIssuancePermissions",
+    "typePath": "microsoft.graph.connectorHealthCheckMetricName",
+    "member": "caIssuancePermissions",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheckMetricName"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Measures whether the connector has the required Enroll permission on the certificate template for issuance.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheckMetricName/caRevocationPermissions",
+    "typePath": "microsoft.graph.connectorHealthCheckMetricName",
+    "member": "caRevocationPermissions",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheckMetricName"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Measures whether the connector has the required permissions to revoke certificates on the CA.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheckMetricName/certificateTemplate",
+    "typePath": "microsoft.graph.connectorHealthCheckMetricName",
+    "member": "certificateTemplate",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheckMetricName"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Measures whether the configured certificate template is valid and accessible.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.connectorHealthCheckMetricName/unknownFutureValue",
+    "typePath": "microsoft.graph.connectorHealthCheckMetricName",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ConnectorHealthCheckMetricName"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.connectorHealthState",
     "typePath": "microsoft.graph.connectorHealthState",
     "member": "",
@@ -42016,6 +42243,86 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/activeUsers",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "activeUsers",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The number of distinct users who actively used the package during the reporting period.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/exceptionRate",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "exceptionRate",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The fraction of sessions that resulted in an exception, expressed as a value between 0 and 1.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/lastUsedDateTime",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "lastUsedDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The date and time when the package was last used, in ISO 8601 format and UTC.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/totalRunTimeInHours",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "totalRunTimeInHours",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Total hours worked by the agent.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/totalSessions",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "totalSessions",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The total number of sessions served by the package during the reporting period.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.copilotRoot/agentRegistrations",
     "typePath": "microsoft.graph.copilotRoot",
     "member": "agentRegistrations",
@@ -42421,6 +42728,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Remote help - response we provide back to the helper after successfully creating an ACS session",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.createRemoteHelpSessionResponse/remoteHelpRecordingState",
+    "typePath": "microsoft.graph.createRemoteHelpSessionResponse",
+    "member": "remoteHelpRecordingState",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CreateRemoteHelpSessionResponse"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The current state of session recording. Null when the tenant is not flighted for session recording.",
     "longDescription": ""
   },
   {
@@ -53573,7 +53896,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Indicates the operating system platform type that this compliance script targets.",
+    "description": "Indicates the device platform on which the device compliance script will be executed. Possible values are: windows10AndLater (default), linux. The default value is windows10AndLater.",
     "longDescription": ""
   },
   {
@@ -53621,7 +53944,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Specifies whether the PowerShell script runs in 32-bit mode. When set to true, the script runs in a 32-bit PowerShell host. Default is false.",
+    "description": "Indicate whether PowerShell script(s) should run as 32-bit",
     "longDescription": ""
   },
   {
@@ -57392,6 +57715,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Number of succeeded Users",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceConfigurationUserStateSummary",
+    "typePath": "microsoft.graph.deviceConfigurationUserStateSummary",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceConfigurationUserStateSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {
@@ -64297,7 +64636,8 @@
       "DeviceManagement"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The device configuration user state summary for this account.",
     "longDescription": ""
@@ -73464,6 +73804,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Setting can be deployed through the IntuneManagementExtension channel.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceManagementConfigurationTechnologies/intuneOpenExtensibility",
+    "typePath": "microsoft.graph.deviceManagementConfigurationTechnologies",
+    "member": "intuneOpenExtensibility",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceManagementConfigurationTechnologies"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Setting can be deployed through the Intune Open Extensibility channel for scenarios such as Windows Recovery Environment (WinRE) configuration policies.",
     "longDescription": ""
   },
   {
@@ -92800,6 +93156,694 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the detailed error condition for an eSIM profile operation.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/cardGeneralFailure",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "cardGeneralFailure",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM card encountered a general failure.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/confirmationCodeIncorrect",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "confirmationCodeIncorrect",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The confirmation code provided was incorrect.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/confirmationCodeMaxRetriesExceeded",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "confirmationCodeMaxRetriesExceeded",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The maximum number of retries for the confirmation code was exceeded.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/confirmationCodeMissing",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "confirmationCodeMissing",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The confirmation code was missing.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/errorIccIdNotFound",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "errorIccIdNotFound",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The ICCID was not found.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/errorMultipleActiveEsimsNoAvailableSlot",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "errorMultipleActiveEsimsNoAvailableSlot",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Multiple active eSIMs are present but no slot is available.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/errorSetupInProgress",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "errorSetupInProgress",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "An error occurred while setup was in progress.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/errorUserDenied",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "errorUserDenied",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The user denied the operation.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/forbiddenByPolicy",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "forbiddenByPolicy",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The operation is forbidden by policy.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/iccidAlreadyExists",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "iccidAlreadyExists",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The ICCID already exists on the device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/inProgress",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "inProgress",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The operation is in progress.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/internalError",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "internalError",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "An internal error occurred.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/invalidMatchingId",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "invalidMatchingId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The matching ID provided was invalid.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/noCorrespondingRequest",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "noCorrespondingRequest",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "There is no corresponding request for this operation.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/noEligibleProfileForThisDevice",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "noEligibleProfileForThisDevice",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "No eligible eSIM profile was found for this device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/none",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "none",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "No error.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/notEnoughSpaceOnCard",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "notEnoughSpaceOnCard",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "There was not enough space on the eSIM card.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/operationAborted",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "operationAborted",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The operation was aborted.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/operationProhibitedByProfileClass",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "operationProhibitedByProfileClass",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The operation is prohibited by the eSIM profile class.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/pendingUserAction",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "pendingUserAction",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The operation is pending user action.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/profileDownloadMaxRetriesExceeded",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "profileDownloadMaxRetriesExceeded",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The maximum number of retries for profile download was exceeded.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/profileEidMismatch",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "profileEidMismatch",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM profile EID did not match the device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/profileNotAvailableForNewBinding",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "profileNotAvailableForNewBinding",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM profile is not available for a new binding.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/profileNotReleasedByOperator",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "profileNotReleasedByOperator",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM profile has not been released by the operator.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/profileProcessingError",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "profileProcessingError",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "An error occurred while processing the eSIM profile.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/provisioningProfileNotPresent",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "provisioningProfileNotPresent",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The provisioning profile is not present.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/remoteServerGeneralFailure",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "remoteServerGeneralFailure",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The remote server encountered a general failure.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/remoteServerNotTrusted",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "remoteServerNotTrusted",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The remote server is not trusted.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/remoteServerUnreachable",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "remoteServerUnreachable",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The remote server was unreachable.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/statusUnspecified",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "statusUnspecified",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The status is unspecified.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/timeoutWaitingForResponse",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "timeoutWaitingForResponse",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "A timeout occurred while waiting for a response.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/timeoutWaitingForUserConsent",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "timeoutWaitingForUserConsent",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "A timeout occurred while waiting for user consent.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/unknownFutureValue",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/winhttpNameNotResolved",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "winhttpNameNotResolved",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The WinHTTP name could not be resolved.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileErrorDetail/winhttpOperationCancelled",
+    "typePath": "microsoft.graph.eSimProfileErrorDetail",
+    "member": "winhttpOperationCancelled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileErrorDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The WinHTTP operation was cancelled.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates the state of an eSIM profile on a managed device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState/deleting",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "deleting",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM profile is being deleted.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState/error",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "error",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "An error occurred while processing the eSIM profile.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState/installed",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "installed",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM profile has been successfully installed.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState/installing",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "installing",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The eSIM profile is being installed.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState/unknown",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "unknown",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Unknown state.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.eSimProfileState/unknownFutureValue",
+    "typePath": "microsoft.graph.eSimProfileState",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ESimProfileState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.evaluateApplication(Collection(microsoft.graph.informationProtectionLabel), microsoft.graph.contentInfo, microsoft.graph.labelingOptions)",
     "typePath": "microsoft.graph.evaluateApplication(Collection(microsoft.graph.informationProtectionLabel), microsoft.graph.contentInfo, microsoft.graph.labelingOptions)",
     "member": "",
@@ -107376,6 +108420,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmLobAppAssignmentSettings/ddmAppConfigId",
+    "typePath": "microsoft.graph.iosDdmLobAppAssignmentSettings",
+    "member": "ddmAppConfigId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmLobAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the DDM app configuration to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.iosDdmLobAppAssignmentSettings/preventManagedAppBackup",
     "typePath": "microsoft.graph.iosDdmLobAppAssignmentSettings",
     "member": "preventManagedAppBackup",
@@ -107740,6 +108800,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "The unique identifier of the content filter to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.iosDdmVppAppAssignmentSettings/ddmAppConfigId",
+    "typePath": "microsoft.graph.iosDdmVppAppAssignmentSettings",
+    "member": "ddmAppConfigId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IosDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the DDM app configuration to associate with the app.",
     "longDescription": ""
   },
   {
@@ -121753,6 +122829,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings/ddmAppConfigId",
+    "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
+    "member": "ddmAppConfigId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MacOsDdmVppAppAssignmentSettings"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The unique identifier of the DDM app configuration to associate with the app.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.macOsDdmVppAppAssignmentSettings/isIosApp",
     "typePath": "microsoft.graph.macOsDdmVppAppAssignmentSettings",
     "member": "isIosApp",
@@ -134795,7 +135887,8 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "Security baseline states for this device.",
     "longDescription": ""
@@ -143785,6 +144878,24 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.mobileAppContentFile/uploadErrorCode",
+    "typePath": "microsoft.graph.mobileAppContentFile",
+    "member": "uploadErrorCode",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MobileAppContentFile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Permissions"
+    ],
+    "description": "Indicates optional error details when uploadState is indicating an error. For example, when uploadState has commitFileFailed value, this field may have the error code of apkIsInvalid. Read-only.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.mobileAppContentFile/uploadState",
     "typePath": "microsoft.graph.mobileAppContentFile",
     "member": "uploadState",
@@ -143799,6 +144910,22 @@
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "Indicates the state of the current upload request. Possible values are: success, transientError, error, unknown, azureStorageUriRequestSuccess, azureStorageUriRequestPending, azureStorageUriRequestFailed, azureStorageUriRequestTimedOut, azureStorageUriRenewalSuccess, azureStorageUriRenewalPending, azureStorageUriRenewalFailed, azureStorageUriRenewalTimedOut, commitFileSuccess, commitFilePending, commitFileFailed, commitFileTimedOut. Default value is success. This property is read-only.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.mobileAppContentFileUploadErrorCode",
+    "typePath": "microsoft.graph.mobileAppContentFileUploadErrorCode",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MobileAppContentFileUploadErrorCode"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Optional error codes that can be provided when uploadState of mobileAppContentFile is indicating an error.",
     "longDescription": ""
   },
   {
@@ -146770,6 +147897,40 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnector/healthChecks",
+    "typePath": "microsoft.graph.ndesConnector",
+    "member": "healthChecks",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnector"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The collection of individual health check results for this connector. Each entry represents an independent health metric with its current status. Empty when the connector is disconnected or when health has not been evaluated yet. Read-only.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnector/healthStatus",
+    "typePath": "microsoft.graph.ndesConnector",
+    "member": "healthStatus",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnector"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The overall health status of the connector, representing the worst status across all individual health checks. This value is pre-computed on each connector upload and may be overridden to disconnected at read time if the connector has not connected recently. Read-only.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.ndesConnector/lastConnectionDateTime",
     "typePath": "microsoft.graph.ndesConnector",
     "member": "lastConnectionDateTime",
@@ -146830,6 +147991,118 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Ndes Connector Status",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The health status of an NDES connector or individual health check metric.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus/actionRequired",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "actionRequired",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "One or more health checks have error rates above the action threshold. Investigation is required.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus/attentionRequired",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "attentionRequired",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "One or more health checks have error rates between the attention and action thresholds.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus/disconnected",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "disconnected",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The connector has not connected within the staleness threshold. Applied at read time based on lastConnectionDateTime.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus/noActionRequired",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "noActionRequired",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "All health checks are passing. Error rates are below the attention threshold for all metrics.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus/unknown",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "unknown",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Health has not been evaluated yet for this connector.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.ndesConnectorHealthStatus/unknownFutureValue",
+    "typePath": "microsoft.graph.ndesConnectorHealthStatus",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "NdesConnectorHealthStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
     "longDescription": ""
   },
   {
@@ -158116,6 +159389,24 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.refreshDeviceComplianceReportSummarization(Collection(microsoft.graph.deviceCompliancePolicy))",
+    "typePath": "microsoft.graph.refreshDeviceComplianceReportSummarization(Collection(microsoft.graph.deviceCompliancePolicy))",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RefreshDeviceComplianceReportSummarization(Collection(microsoft",
+      "Graph",
+      "DeviceCompliancePolicy))"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.registryHive",
     "typePath": "microsoft.graph.registryHive",
     "member": "",
@@ -158197,6 +159488,151 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Rejects the requested instance of an operationApprovalRequest.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relatedTenant/isMicrosoftInfrastructure",
+    "typePath": "microsoft.graph.relatedTenant",
+    "member": "isMicrosoftInfrastructure",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelatedTenant"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates whether this tenant is a Microsoft infrastructure tenant.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipCreationType/addOnTenant",
+    "typePath": "microsoft.graph.relationshipCreationType",
+    "member": "addOnTenant",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipCreationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a relationship between the add-on tenant and the tenant from which it was created.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipCreationType/approvedByAdmin",
+    "typePath": "microsoft.graph.relationshipCreationType",
+    "member": "approvedByAdmin",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipCreationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a relationship between two tenants that was created by an explicit approval from the governed tenant admin.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipCreationType/unknownFutureValue",
+    "typePath": "microsoft.graph.relationshipCreationType",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipCreationType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "This will help in making this enum evolvable and adding more values in the future-",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipPolicy/version",
+    "typePath": "microsoft.graph.relationshipPolicy",
+    "member": "version",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipPolicy"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipStatus/active",
+    "typePath": "microsoft.graph.relationshipStatus",
+    "member": "active",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a relationship that is currently active.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipStatus/terminated",
+    "typePath": "microsoft.graph.relationshipStatus",
+    "member": "terminated",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a relationship that has been terminated.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipStatus/terminationRequestedByGoverningTenant",
+    "typePath": "microsoft.graph.relationshipStatus",
+    "member": "terminationRequestedByGoverningTenant",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a relationship that has been requested to be terminated by governing tenant.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipStatus/unknownFutureValue",
+    "typePath": "microsoft.graph.relationshipStatus",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "This will help in making this enum evolable and adding more values in the future-",
     "longDescription": ""
   },
   {
@@ -158375,6 +159811,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Indicate user initiates an action to automatic redeploy the device",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteAction/cancelEnhancedLogCollection",
+    "typePath": "microsoft.graph.remoteAction",
+    "member": "cancelEnhancedLogCollection",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates remote device action to cancel an in-progress enhanced log collection session on a supervised Apple device.",
     "longDescription": ""
   },
   {
@@ -158939,6 +160391,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteAction/triggerEnhancedLogCollection",
+    "typePath": "microsoft.graph.remoteAction",
+    "member": "triggerEnhancedLogCollection",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteAction"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Indicates remote device action to trigger an AppleCare-authorized enhanced log collection session on a supervised Apple device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.remoteAction/unknown",
     "typePath": "microsoft.graph.remoteAction",
     "member": "unknown",
@@ -159467,6 +160935,86 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteHelpRecordingState",
+    "typePath": "microsoft.graph.remoteHelpRecordingState",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteHelpRecordingState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Enumeration indicating the state of session recording",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteHelpRecordingState/failed",
+    "typePath": "microsoft.graph.remoteHelpRecordingState",
+    "member": "failed",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteHelpRecordingState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Recording failed.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteHelpRecordingState/notEnabled",
+    "typePath": "microsoft.graph.remoteHelpRecordingState",
+    "member": "notEnabled",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteHelpRecordingState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Recording is not enabled for this session.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteHelpRecordingState/recording",
+    "typePath": "microsoft.graph.remoteHelpRecordingState",
+    "member": "recording",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteHelpRecordingState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Recording is in progress.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.remoteHelpRecordingState/unknownFutureValue",
+    "typePath": "microsoft.graph.remoteHelpRecordingState",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RemoteHelpRecordingState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.remoteLock(microsoft.graph.managedDevice)",
     "typePath": "microsoft.graph.remoteLock(microsoft.graph.managedDevice)",
     "member": "",
@@ -159797,6 +161345,70 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "The unique identifier for a session",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.requestStatus/accepted",
+    "typePath": "microsoft.graph.requestStatus",
+    "member": "accepted",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RequestStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a governance request that was accepted",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.requestStatus/pending",
+    "typePath": "microsoft.graph.requestStatus",
+    "member": "pending",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RequestStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a governance request that is pending",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.requestStatus/rejected",
+    "typePath": "microsoft.graph.requestStatus",
+    "member": "rejected",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RequestStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Represents a governance request that was rejected",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.requestStatus/unknownFutureValue",
+    "typePath": "microsoft.graph.requestStatus",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RequestStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "This will help in making this enum evolable and adding more values in the future-",
     "longDescription": ""
   },
   {
@@ -160521,6 +162133,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.resultantAppStateDetail/autoDeferred",
+    "typePath": "microsoft.graph.resultantAppStateDetail",
+    "member": "autoDeferred",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ResultantAppStateDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "App enforcement was automatically deferred because the app is currently in use and a user response was not available.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.resultantAppStateDetail/autoInstallDisabled",
     "typePath": "microsoft.graph.resultantAppStateDetail",
     "member": "autoInstallDisabled",
@@ -160549,6 +162177,38 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Application content was downloaded to the device.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.resultantAppStateDetail/deferred",
+    "typePath": "microsoft.graph.resultantAppStateDetail",
+    "member": "deferred",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ResultantAppStateDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "App enforcement was deferred by the user because the app is currently in use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.resultantAppStateDetail/dependencyAppInUse",
+    "typePath": "microsoft.graph.resultantAppStateDetail",
+    "member": "dependencyAppInUse",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ResultantAppStateDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "App cannot be installed. One or more of the application's dependencies are in use.",
     "longDescription": ""
   },
   {
@@ -160645,6 +162305,22 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "One or more of the application's dependencies are installing.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.resultantAppStateDetail/inUse",
+    "typePath": "microsoft.graph.resultantAppStateDetail",
+    "member": "inUse",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ResultantAppStateDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "App enforcement is pending because the app is currently in use.",
     "longDescription": ""
   },
   {
@@ -172289,7 +173965,8 @@
       "SecurityBaselineCategoryStateSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline per category compliance state summary for the security baseline of the account.",
     "longDescription": ""
@@ -172497,7 +174174,8 @@
       "SecurityBaselineDeviceState"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline compliance state summary of the security baseline for a device.",
     "longDescription": ""
@@ -172609,7 +174287,8 @@
       "SecurityBaselineSettingState"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline compliance state of a setting for a device",
     "longDescription": ""
@@ -172753,7 +174432,8 @@
       "SecurityBaselineState"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "Security baseline state for a device.",
     "longDescription": ""
@@ -172801,7 +174481,8 @@
       "SecurityBaselineState"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline state for different settings for a device",
     "longDescription": ""
@@ -172849,7 +174530,8 @@
       "SecurityBaselineStateSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline compliance state summary for the security baseline of the account.",
     "longDescription": ""
@@ -172977,7 +174659,8 @@
       "SecurityBaselineTemplate"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline per category device state summary",
     "longDescription": ""
@@ -172993,7 +174676,8 @@
       "SecurityBaselineTemplate"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline device states",
     "longDescription": ""
@@ -173009,7 +174693,8 @@
       "SecurityBaselineTemplate"
     ],
     "terms": [
-      "Org.OData.Core.V1.Description"
+      "Org.OData.Core.V1.Description",
+      "Org.OData.Core.V1.Revisions"
     ],
     "description": "The security baseline device state summary",
     "longDescription": ""
@@ -177228,286 +178913,12 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.permissionType/role",
-    "typePath": "microsoft.graph.tenantGovernanceServices.permissionType",
-    "member": "role",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "PermissionType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a type of permission that is for an app only scenario. No user is involved.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.permissionType/scope",
-    "typePath": "microsoft.graph.tenantGovernanceServices.permissionType",
-    "member": "scope",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "PermissionType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a type of permission that is for an app and user scenario.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.permissionType/unknownFutureValue",
-    "typePath": "microsoft.graph.tenantGovernanceServices.permissionType",
-    "member": "unknownFutureValue",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "PermissionType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "This will help in making this enum evolable and adding more values in the future-",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relatedTenant/isMicrosoftInfrastructure",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relatedTenant",
-    "member": "isMicrosoftInfrastructure",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelatedTenant"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Indicates whether this tenant is a Microsoft infrastructure tenant.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipCreationType/addOnTenant",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipCreationType",
-    "member": "addOnTenant",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipCreationType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a relationship between the add-on tenant and the tenant from which it was created.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipCreationType/approvedByAdmin",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipCreationType",
-    "member": "approvedByAdmin",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipCreationType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a relationship between two tenants that was created by an explicit approval from the governed tenant admin.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipCreationType/unknownFutureValue",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipCreationType",
-    "member": "unknownFutureValue",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipCreationType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "This will help in making this enum evolvable and adding more values in the future-",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipPolicy/version",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipPolicy",
-    "member": "version",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipPolicy"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipStatus/active",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipStatus",
-    "member": "active",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a relationship that is currently active.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipStatus/terminated",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipStatus",
-    "member": "terminated",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a relationship that has been terminated.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipStatus/terminationRequestedByGoverningTenant",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipStatus",
-    "member": "terminationRequestedByGoverningTenant",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a relationship that has been requested to be terminated by governing tenant.",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.relationshipStatus/unknownFutureValue",
-    "typePath": "microsoft.graph.tenantGovernanceServices.relationshipStatus",
-    "member": "unknownFutureValue",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RelationshipStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "This will help in making this enum evolable and adding more values in the future-",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.requestStatus/accepted",
-    "typePath": "microsoft.graph.tenantGovernanceServices.requestStatus",
-    "member": "accepted",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RequestStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a governance request that was accepted",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.requestStatus/pending",
-    "typePath": "microsoft.graph.tenantGovernanceServices.requestStatus",
-    "member": "pending",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RequestStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a governance request that is pending",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.requestStatus/rejected",
-    "typePath": "microsoft.graph.tenantGovernanceServices.requestStatus",
-    "member": "rejected",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RequestStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "Represents a governance request that was rejected",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.requestStatus/unknownFutureValue",
-    "typePath": "microsoft.graph.tenantGovernanceServices.requestStatus",
-    "member": "unknownFutureValue",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "TenantGovernanceServices",
-      "RequestStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Description"
-    ],
-    "description": "This will help in making this enum evolable and adding more values in the future-",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.tenantGovernance/governanceInvitations",
-    "typePath": "microsoft.graph.tenantGovernanceServices.tenantGovernance",
+    "target": "microsoft.graph.tenantGovernance/governanceInvitations",
+    "typePath": "microsoft.graph.tenantGovernance",
     "member": "governanceInvitations",
     "segments": [
       "Microsoft",
       "Graph",
-      "TenantGovernanceServices",
       "TenantGovernance"
     ],
     "terms": [
@@ -177518,13 +178929,12 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.tenantGovernance/governancePolicyTemplates",
-    "typePath": "microsoft.graph.tenantGovernanceServices.tenantGovernance",
+    "target": "microsoft.graph.tenantGovernance/governancePolicyTemplates",
+    "typePath": "microsoft.graph.tenantGovernance",
     "member": "governancePolicyTemplates",
     "segments": [
       "Microsoft",
       "Graph",
-      "TenantGovernanceServices",
       "TenantGovernance"
     ],
     "terms": [
@@ -177535,13 +178945,12 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.tenantGovernance/governanceRelationships",
-    "typePath": "microsoft.graph.tenantGovernanceServices.tenantGovernance",
+    "target": "microsoft.graph.tenantGovernance/governanceRelationships",
+    "typePath": "microsoft.graph.tenantGovernance",
     "member": "governanceRelationships",
     "segments": [
       "Microsoft",
       "Graph",
-      "TenantGovernanceServices",
       "TenantGovernance"
     ],
     "terms": [
@@ -177552,13 +178961,12 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.tenantGovernance/governanceRequests",
-    "typePath": "microsoft.graph.tenantGovernanceServices.tenantGovernance",
+    "target": "microsoft.graph.tenantGovernance/governanceRequests",
+    "typePath": "microsoft.graph.tenantGovernance",
     "member": "governanceRequests",
     "segments": [
       "Microsoft",
       "Graph",
-      "TenantGovernanceServices",
       "TenantGovernance"
     ],
     "terms": [
@@ -177569,13 +178977,12 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.tenantGovernanceServices.tenantGovernance/relatedTenants",
-    "typePath": "microsoft.graph.tenantGovernanceServices.tenantGovernance",
+    "target": "microsoft.graph.tenantGovernance/relatedTenants",
+    "typePath": "microsoft.graph.tenantGovernance",
     "member": "relatedTenants",
     "segments": [
       "Microsoft",
       "Graph",
-      "TenantGovernanceServices",
       "TenantGovernance"
     ],
     "terms": [
@@ -178304,6 +179711,25 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Trigger action on ConfigurationManager client",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.triggerEnhancedLogCollection(microsoft.graph.managedDevice, Edm.String)",
+    "typePath": "microsoft.graph.triggerEnhancedLogCollection(microsoft.graph.managedDevice, Edm.String)",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "TriggerEnhancedLogCollection(microsoft",
+      "Graph",
+      "ManagedDevice, Edm",
+      "String)"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Triggers an AppleCare-authorized enhanced log collection session on a supervised Apple device.",
     "longDescription": ""
   },
   {
@@ -223390,6 +224816,102 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppDataTransferLevel/selectedApps",
+    "typePath": "microsoft.graph.windowsManagedAppDataTransferLevel",
+    "member": "selectedApps",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppDataTransferLevel"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Selected apps only. Allowed locations are specified by the child property.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppDataTransferLevel/unknownFutureValue",
+    "typePath": "microsoft.graph.windowsManagedAppDataTransferLevel",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppDataTransferLevel"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppDataTransferLocations",
+    "typePath": "microsoft.graph.windowsManagedAppDataTransferLocations",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppDataTransferLocations"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Windows MAM data transfer locations",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppDataTransferLocations/none",
+    "typePath": "microsoft.graph.windowsManagedAppDataTransferLocations",
+    "member": "none",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppDataTransferLocations"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "No locations selected.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppDataTransferLocations/oneDriveForBusiness",
+    "typePath": "microsoft.graph.windowsManagedAppDataTransferLocations",
+    "member": "oneDriveForBusiness",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppDataTransferLocations"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "OneDrive for Business. Data transferred to or from this location is subject to app protection policy.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppDataTransferLocations/unknownFutureValue",
+    "typePath": "microsoft.graph.windowsManagedAppDataTransferLocations",
+    "member": "unknownFutureValue",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppDataTransferLocations"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.windowsManagedAppProtection",
     "typePath": "microsoft.graph.windowsManagedAppProtection",
     "member": "",
@@ -223406,6 +224928,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppProtection/allowedInboundDataTransferSourceApps",
+    "typePath": "microsoft.graph.windowsManagedAppProtection",
+    "member": "allowedInboundDataTransferSourceApps",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppProtection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When allowedInboundDataTransferSources is set to selectedApps, this property indicates the location from which data is allowed to be received into the org context. Data from the selected source will be treated as org data and subject to Intune app protection policy.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.windowsManagedAppProtection/allowedInboundDataTransferSources",
     "typePath": "microsoft.graph.windowsManagedAppProtection",
     "member": "allowedInboundDataTransferSources",
@@ -223417,7 +224955,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Indicates the sources from which data is allowed to be transferred. Some possible values are allApps or none.",
+    "description": "Indicates the sources from which data is allowed to be transferred. Some possible values are allApps, none, or selectedApps.",
     "longDescription": ""
   },
   {
@@ -223438,6 +224976,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsManagedAppProtection/allowedOutboundDataTransferDestinationApps",
+    "typePath": "microsoft.graph.windowsManagedAppProtection",
+    "member": "allowedOutboundDataTransferDestinationApps",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsManagedAppProtection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "When allowedOutboundDataTransferDestinations is set to selectedApps, this property indicates the location to which org data is allowed to be transferred. Data shared with the selected destination is not protected by Intune app protection policy.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.windowsManagedAppProtection/allowedOutboundDataTransferDestinations",
     "typePath": "microsoft.graph.windowsManagedAppProtection",
     "member": "allowedOutboundDataTransferDestinations",
@@ -223449,7 +225003,7 @@
     "terms": [
       "Org.OData.Core.V1.Description"
     ],
-    "description": "Indicates the destinations to which data is allowed to be transferred. Some possible values are allApps or none.",
+    "description": "Indicates the destinations to which data is allowed to be transferred. Some possible values are allApps, none, or selectedApps.",
     "longDescription": ""
   },
   {

@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-08-03T05:19:00.171Z
-Total annotation targets: 4862
+Generated at: 2026-08-10T05:37:46.057Z
+Total annotation targets: 4867
 
 ## Namespace Target Tree
 
@@ -698,6 +698,12 @@ Total annotation targets: 4862
       - posts
     - CopilotAdminCatalog
       - packages
+    - CopilotPackageDetail
+      - activeUsers
+      - exceptionRate
+      - lastUsedDateTime
+      - totalRunTimeInHours
+      - totalSessions
     - CreateSnapshot(Collection(microsoft
       - Graph
         - ConfigurationBaseline), Edm

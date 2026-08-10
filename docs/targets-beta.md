@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-08-03T05:18:59.863Z
-Total annotation targets: 14533
+Generated at: 2026-08-10T05:37:45.547Z
+Total annotation targets: 14630
 
 ## Namespace Target Tree
 
@@ -970,6 +970,7 @@ Total annotation targets: 14533
       - appActionIfAndroidDeviceModelNotAllowed
       - appActionIfAndroidSafetyNetAppsVerificationFailed
       - appActionIfAndroidSafetyNetDeviceAttestationFailed
+      - appActionIfDeveloperOptionsEnabled
       - appActionIfDeviceLockNotSet
       - appActionIfDevicePasscodeComplexityLessThanHigh
       - appActionIfDevicePasscodeComplexityLessThanLow
@@ -1650,6 +1651,10 @@ Total annotation targets: 14533
       - enabledForOffice
       - notConfigured
     - ApplicationPermissionsRequired
+    - ApplicationPermissionType
+      - role
+      - scope
+      - unknownFutureValue
     - ApplicationSignInDetailedSummary
     - ApplicationSignInSummary
     - ApplicationType
@@ -1940,7 +1945,8 @@ Total annotation targets: 14533
       - protectionUnits
     - BeginOnboarding(microsoft
       - Graph
-        - RemoteAssistancePartner)
+        - RemoteAssistancePartner, Edm
+          - String)
     - Bitlocker
     - BitLockerEncryptionMethod
       - aesCbc128
@@ -2206,6 +2212,9 @@ Total annotation targets: 14533
           - String, microsoft
             - Graph
               - OperationApprovalSource)
+    - CancelEnhancedLogCollection(microsoft
+      - Graph
+        - ManagedDevice)
     - CancelPrintJob(microsoft
       - Graph
         - PrintJob)
@@ -2697,6 +2706,15 @@ Total annotation targets: 14533
     - ConnectionStatus
     - Connector
     - ConnectorGroup
+    - ConnectorHealthCheck
+      - metricName
+      - status
+    - ConnectorHealthCheckMetricName
+      - caConnectivity
+      - caIssuancePermissions
+      - caRevocationPermissions
+      - certificateTemplate
+      - unknownFutureValue
     - ConnectorHealthState
       - healthy
       - unhealthy
@@ -2738,6 +2756,12 @@ Total annotation targets: 14533
       - posts
     - CopilotAdminCatalog
       - packages
+    - CopilotPackageDetail
+      - activeUsers
+      - exceptionRate
+      - lastUsedDateTime
+      - totalRunTimeInHours
+      - totalSessions
     - CopilotRoot
       - agentRegistrations
       - communications
@@ -2769,6 +2793,7 @@ Total annotation targets: 14533
       - Graph
         - Mailbox)
     - CreateRemoteHelpSessionResponse
+      - remoteHelpRecordingState
       - sessionKey
     - CreateZeroTouchWebToken(microsoft
       - Graph
@@ -4763,6 +4788,7 @@ Total annotation targets: 14533
       - enrollment
       - exchangeOnline
       - intuneManagementExtension
+      - intuneOpenExtensibility
       - linuxMdm
       - mdm
       - microsoftSense
@@ -6023,6 +6049,49 @@ Total annotation targets: 14533
       - noError
       - notFound
       - unauthorized
+    - ESimProfileErrorDetail
+      - cardGeneralFailure
+      - confirmationCodeIncorrect
+      - confirmationCodeMaxRetriesExceeded
+      - confirmationCodeMissing
+      - errorIccIdNotFound
+      - errorMultipleActiveEsimsNoAvailableSlot
+      - errorSetupInProgress
+      - errorUserDenied
+      - forbiddenByPolicy
+      - iccidAlreadyExists
+      - inProgress
+      - internalError
+      - invalidMatchingId
+      - noCorrespondingRequest
+      - noEligibleProfileForThisDevice
+      - none
+      - notEnoughSpaceOnCard
+      - operationAborted
+      - operationProhibitedByProfileClass
+      - pendingUserAction
+      - profileDownloadMaxRetriesExceeded
+      - profileEidMismatch
+      - profileNotAvailableForNewBinding
+      - profileNotReleasedByOperator
+      - profileProcessingError
+      - provisioningProfileNotPresent
+      - remoteServerGeneralFailure
+      - remoteServerNotTrusted
+      - remoteServerUnreachable
+      - statusUnspecified
+      - timeoutWaitingForResponse
+      - timeoutWaitingForUserConsent
+      - unknownFutureValue
+      - winhttpNameNotResolved
+      - winhttpOperationCancelled
+    - ESimProfileState
+      - deleting
+      - error
+      - installed
+      - installing
+      - unknown
+      - unknownFutureValue
     - EvaluateApplication(Collection(microsoft
       - Graph
         - InformationProtectionLabel), microsoft
@@ -7104,6 +7173,7 @@ Total annotation targets: 14533
     - IosDdmLobAppAssignmentSettings
       - associatedDomains
       - associatedDomainsDirectDownloadAllowed
+      - ddmAppConfigId
       - preventManagedAppBackup
       - tapToPayScreenLockEnabled
       - vpnConfigurationId
@@ -7127,6 +7197,7 @@ Total annotation targets: 14533
       - automaticAppUpdates
       - cellularSliceConfigurationId
       - contentFilterConfigurationId
+      - ddmAppConfigId
       - dnsProxyConfigurationId
       - preventManagedAppBackup
       - relayConfigurationId
@@ -8012,6 +8083,7 @@ Total annotation targets: 14533
       - payloadName
     - MacOsDdmVppAppAssignmentSettings
       - automaticAppUpdates
+      - ddmAppConfigId
       - isIosApp
       - useDeviceLicensing
       - version
@@ -9416,7 +9488,9 @@ Total annotation targets: 14533
       - name
       - size
       - sizeEncrypted
+      - uploadErrorCode
       - uploadState
+    - MobileAppContentFileUploadErrorCode
     - MobileAppContentFileUploadState
     - MobileAppContentScript
       - content
@@ -9599,10 +9673,19 @@ Total annotation targets: 14533
       - connectorVersion
       - displayName
       - enrolledDateTime
+      - healthChecks
+      - healthStatus
       - lastConnectionDateTime
       - machineName
       - roleScopeTagIds
       - state
+    - NdesConnectorHealthStatus
+      - actionRequired
+      - attentionRequired
+      - disconnected
+      - noActionRequired
+      - unknown
+      - unknownFutureValue
     - NdesConnectorState
       - active
       - inactive
@@ -10363,6 +10446,9 @@ Total annotation targets: 14533
       - previewUrl
       - sourceUrl
       - thumbnailUrl
+    - RefreshDeviceComplianceReportSummarization(Collection(microsoft
+      - Graph
+        - DeviceCompliancePolicy))
     - RegistryHive
     - RegistryKeyState
     - RegistryOperation
@@ -10373,6 +10459,19 @@ Total annotation targets: 14533
           - String, microsoft
             - Graph
               - OperationApprovalSource)
+    - RelatedTenant
+      - isMicrosoftInfrastructure
+    - RelationshipCreationType
+      - addOnTenant
+      - approvedByAdmin
+      - unknownFutureValue
+    - RelationshipPolicy
+      - version
+    - RelationshipStatus
+      - active
+      - terminated
+      - terminationRequestedByGoverningTenant
+      - unknownFutureValue
     - RelyingPartyDetailedSummary
     - RemediationState
       - remediationFailed
@@ -10384,6 +10483,7 @@ Total annotation targets: 14533
     - RemoteAction
       - activateDeviceEsim
       - automaticRedeployment
+      - cancelEnhancedLogCollection
       - changeAssignments
       - cleanWindowsDevice
       - delete
@@ -10419,6 +10519,7 @@ Total annotation targets: 14533
       - setDeviceName
       - shutDown
       - suspendManagedHomeScreen
+      - triggerEnhancedLogCollection
       - unknown
       - unknownFutureValue
       - updateDeviceAccount
@@ -10452,6 +10553,11 @@ Total annotation targets: 14533
     - RemoteAssistanceState
       - disabled
       - enabled
+    - RemoteHelpRecordingState
+      - failed
+      - notEnabled
+      - recording
+      - unknownFutureValue
     - RemoteLock(microsoft
       - Graph
         - ManagedDevice)
@@ -10486,6 +10592,11 @@ Total annotation targets: 14533
       - pubSubEncryption
       - pubSubEncryptionKey
       - sessionKey
+    - RequestStatus
+      - accepted
+      - pending
+      - rejected
+      - unknownFutureValue
     - RequiredPasswordType
       - alphanumeric
       - deviceDefault
@@ -10537,14 +10648,18 @@ Total annotation targets: 14533
       - unknown
     - ResultantAppStateDetail
       - appRemovedBySupersedence
+      - autoDeferred
       - autoInstallDisabled
       - contentDownloaded
+      - deferred
+      - dependencyAppInUse
       - dependencyFailedToInstall
       - dependencyPendingReboot
       - dependencyWithAutoInstallDisabled
       - dependencyWithRequirementsNotMet
       - fileSystemRequirementNotMet
       - installingDependencies
+      - inUse
       - iosAppStoreUpdateFailedToInstall
       - managedAppNoLongerPresent
       - minimumCpuSpeedNotMet
@@ -11681,35 +11796,12 @@ Total annotation targets: 14533
     - TenantAttachRBAC
     - TenantAttachRBACState
       - enabled
-    - TenantGovernanceServices
-      - PermissionType
-        - role
-        - scope
-        - unknownFutureValue
-      - RelatedTenant
-        - isMicrosoftInfrastructure
-      - RelationshipCreationType
-        - addOnTenant
-        - approvedByAdmin
-        - unknownFutureValue
-      - RelationshipPolicy
-        - version
-      - RelationshipStatus
-        - active
-        - terminated
-        - terminationRequestedByGoverningTenant
-        - unknownFutureValue
-      - RequestStatus
-        - accepted
-        - pending
-        - rejected
-        - unknownFutureValue
-      - TenantGovernance
-        - governanceInvitations
-        - governancePolicyTemplates
-        - governanceRelationships
-        - governanceRequests
-        - relatedTenants
+    - TenantGovernance
+      - governanceInvitations
+      - governancePolicyTemplates
+      - governanceRelationships
+      - governanceRequests
+      - relatedTenants
     - TenantRelationship
       - multiTenantOrganization
     - TenantSecureScores(Collection(microsoft
@@ -11767,6 +11859,10 @@ Total annotation targets: 14533
         - ManagedDevice, microsoft
           - Graph
             - ConfigurationManagerAction)
+    - TriggerEnhancedLogCollection(microsoft
+      - Graph
+        - ManagedDevice, Edm
+          - String)
     - TrustChainCertificate
       - certificate
       - displayName
@@ -14651,9 +14747,17 @@ Total annotation targets: 14533
     - WindowsManagedAppDataTransferLevel
       - allApps
       - none
+      - selectedApps
+      - unknownFutureValue
+    - WindowsManagedAppDataTransferLocations
+      - none
+      - oneDriveForBusiness
+      - unknownFutureValue
     - WindowsManagedAppProtection
+      - allowedInboundDataTransferSourceApps
       - allowedInboundDataTransferSources
       - allowedOutboundClipboardSharingLevel
+      - allowedOutboundDataTransferDestinationApps
       - allowedOutboundDataTransferDestinations
       - appActionIfUnableToAuthenticateUser
       - apps

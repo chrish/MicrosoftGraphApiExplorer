@@ -10252,6 +10252,86 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/activeUsers",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "activeUsers",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The number of distinct users who actively used the package during the reporting period.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/exceptionRate",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "exceptionRate",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The fraction of sessions that resulted in an exception, expressed as a value between 0 and 1.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/lastUsedDateTime",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "lastUsedDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The date and time when the package was last used, in ISO 8601 format and UTC.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/totalRunTimeInHours",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "totalRunTimeInHours",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "Total hours worked by the agent.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/totalSessions",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "totalSessions",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Description"
+    ],
+    "description": "The total number of sessions served by the package during the reporting period.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.createSnapshot(Collection(microsoft.graph.configurationBaseline), Edm.String, Edm.String, Collection(Edm.String))",
     "typePath": "microsoft.graph.createSnapshot(Collection(microsoft.graph.configurationBaseline), Edm.String, Edm.String, Collection(Edm.String))",
     "member": "",
