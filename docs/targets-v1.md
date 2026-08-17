@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-08-10T05:37:46.057Z
-Total annotation targets: 4867
+Generated at: 2026-08-17T04:49:20.948Z
+Total annotation targets: 4871
 
 ## Namespace Target Tree
 
@@ -1737,8 +1737,11 @@ Total annotation targets: 4867
         - taskDefinitions
         - workflowTemplates
       - Run
+        - subjectProcessingResults
         - taskProcessingResults
         - userProcessingResults
+      - SubjectProcessingResult
+        - taskProcessingResults
       - Task
         - taskProcessingResults
       - TaskDefinition
@@ -1750,6 +1753,7 @@ Total annotation targets: 4867
         - taskProcessingResults
       - Workflow
         - runs
+        - subjectProcessingResults
         - taskReports
         - userProcessingResults
         - versions

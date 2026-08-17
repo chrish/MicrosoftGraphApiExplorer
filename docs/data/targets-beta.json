@@ -1348,6 +1348,42 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentIdentity/managerApplications",
+    "typePath": "microsoft.graph.agentIdentity",
+    "member": "managerApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentIdentity"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions",
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications",
+    "typePath": "microsoft.graph.agentIdentityBlueprintPrincipal",
+    "member": "managerApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentIdentityBlueprintPrincipal"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions",
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.agentInstance/agentCardManifest",
     "typePath": "microsoft.graph.agentInstance",
     "member": "agentCardManifest",
@@ -84973,6 +85009,44 @@
       "Org.OData.Core.V1.Description"
     ],
     "description": "Evolvable enumeration sentinel value. Do not use.",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.distributionList/members",
+    "typePath": "microsoft.graph.distributionList",
+    "member": "members",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DistributionList"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.ChangeTracking",
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.distributionListMember/contact",
+    "typePath": "microsoft.graph.distributionListMember",
+    "member": "contact",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DistributionListMember"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions",
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
     "longDescription": ""
   },
   {

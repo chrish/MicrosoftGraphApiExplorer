@@ -25826,6 +25826,25 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.run/subjectProcessingResults",
+    "typePath": "microsoft.graph.identityGovernance.run",
+    "member": "subjectProcessingResults",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "Run"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityGovernance.run/taskProcessingResults",
     "typePath": "microsoft.graph.identityGovernance.run",
     "member": "taskProcessingResults",
@@ -25853,6 +25872,49 @@
       "Graph",
       "IdentityGovernance",
       "Run"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.subjectProcessingResult",
+    "typePath": "microsoft.graph.identityGovernance.subjectProcessingResult",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "SubjectProcessingResult"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.CountRestrictions",
+      "Org.OData.Capabilities.V1.ExpandRestrictions",
+      "Org.OData.Capabilities.V1.FilterRestrictions",
+      "Org.OData.Capabilities.V1.SearchRestrictions",
+      "Org.OData.Capabilities.V1.SelectSupport",
+      "Org.OData.Capabilities.V1.SkipSupported",
+      "Org.OData.Capabilities.V1.SortRestrictions",
+      "Org.OData.Capabilities.V1.TopSupported"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.subjectProcessingResult/taskProcessingResults",
+    "typePath": "microsoft.graph.identityGovernance.subjectProcessingResult",
+    "member": "taskProcessingResults",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "SubjectProcessingResult"
     ],
     "terms": [
       "Org.OData.Capabilities.V1.DeleteRestrictions",
@@ -26086,6 +26148,25 @@
     "target": "microsoft.graph.identityGovernance.workflow/runs",
     "typePath": "microsoft.graph.identityGovernance.workflow",
     "member": "runs",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "Workflow"
+    ],
+    "terms": [
+      "Org.OData.Capabilities.V1.DeleteRestrictions",
+      "Org.OData.Capabilities.V1.InsertRestrictions",
+      "Org.OData.Capabilities.V1.UpdateRestrictions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.workflow/subjectProcessingResults",
+    "typePath": "microsoft.graph.identityGovernance.workflow",
+    "member": "subjectProcessingResults",
     "segments": [
       "Microsoft",
       "Graph",

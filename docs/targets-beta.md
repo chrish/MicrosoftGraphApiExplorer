@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-08-10T05:37:45.547Z
-Total annotation targets: 14630
+Generated at: 2026-08-17T04:49:20.561Z
+Total annotation targets: 14634
 
 ## Namespace Target Tree
 
@@ -104,6 +104,9 @@ Total annotation targets: 14630
       - agentIdentityBlueprintId
       - inheritedAppRoleAssignments
       - inheritedOauth2PermissionGrants
+      - managerApplications
+    - AgentIdentityBlueprintPrincipal
+      - managerApplications
     - AgentInstance
       - agentCardManifest
       - collections
@@ -5494,6 +5497,10 @@ Total annotation targets: 14630
       - ssd
       - unknown
       - unknownFutureValue
+    - DistributionList
+      - members
+    - DistributionListMember
+      - contact
     - DmaGuardDeviceEnumerationPolicyType
       - allowAll
       - blockAll
@@ -15619,6 +15626,8 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.agentIdentity/agentIdentityBlueprintId |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentIdentity/inheritedAppRoleAssignments |  |  | Org.OData.Capabilities.V1.CountRestrictions, Org.OData.Capabilities.V1.DeleteRestrictions, Org.OData.Capabilities.V1.ExpandRestrictions, Org.OData.Capabilities.V1.FilterRestrictions, Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.SkipSupported, Org.OData.Capabilities.V1.SortRestrictions, Org.OData.Capabilities.V1.TopSupported, Org.OData.Capabilities.V1.UpdateRestrictions, Org.OData.Core.V1.Computed |
 | microsoft.graph.agentIdentity/inheritedOauth2PermissionGrants |  |  | Org.OData.Capabilities.V1.CountRestrictions, Org.OData.Capabilities.V1.DeleteRestrictions, Org.OData.Capabilities.V1.ExpandRestrictions, Org.OData.Capabilities.V1.FilterRestrictions, Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.SkipSupported, Org.OData.Capabilities.V1.SortRestrictions, Org.OData.Capabilities.V1.TopSupported, Org.OData.Capabilities.V1.UpdateRestrictions, Org.OData.Core.V1.Computed |
+| microsoft.graph.agentIdentity/managerApplications |  |  | Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.UpdateRestrictions, Org.OData.Core.V1.Computed |
+| microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications |  |  | Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.UpdateRestrictions, Org.OData.Core.V1.Computed |
 | microsoft.graph.agentInstance/agentCardManifest |  |  | Org.OData.Capabilities.V1.DeleteRestrictions, Org.OData.Capabilities.V1.InsertRestrictions, Org.OData.Capabilities.V1.UpdateRestrictions |
 | microsoft.graph.agentInstance/collections |  |  | Org.OData.Capabilities.V1.NavigationRestrictions |
 | microsoft.graph.agentInstance/createdBy |  |  | Org.OData.Core.V1.Immutable |
@@ -15735,5 +15744,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.androidDeviceOwnerCertificateProfileBase/extendedKeyUsages | Extended Key Usage (EKU) settings. This collection can contain a maximum of 500 elements. |  | Org.OData.Core.V1.Description |
 | microsoft.graph.androidDeviceOwnerCertificateProfileBase/renewalThresholdPercentage | Certificate renewal threshold percentage. Valid values 1 to 99 |  | Org.OData.Core.V1.Description |
 | microsoft.graph.androidDeviceOwnerCertificateProfileBase/rootCertificate | Trusted Root Certificate. |  | Org.OData.Core.V1.Description |
-| microsoft.graph.androidDeviceOwnerCertificateProfileBase/subjectAlternativeNameType | Certificate Subject Alternative Name Type. |  | Org.OData.Core.V1.Description |
-| microsoft.graph.androidDeviceOwnerCertificateProfileBase/subjectNameFormat | Certificate Subject Name Format. |  | Org.OData.Core.V1.Description |
