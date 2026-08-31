@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-08-24T04:19:35.583Z
-Total annotation targets: 298
+Generated at: 2026-08-31T04:22:30.103Z
+Total annotation targets: 301
 
 ## Namespace Target Tree
 
@@ -311,6 +311,10 @@ Total annotation targets: 298
       - contentVersions
       - size
     - NetworkConnection
+    - Note
+      - bodyPreview
+      - hasAttachments
+      - isDeleted
     - OfferShiftRequest
       - recipientActionDateTime
     - OnlineMeetingEngagementConversation

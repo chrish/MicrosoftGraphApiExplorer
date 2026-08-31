@@ -3959,6 +3959,54 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.note/bodyPreview",
+    "typePath": "microsoft.graph.note",
+    "member": "bodyPreview",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Note"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.note/hasAttachments",
+    "typePath": "microsoft.graph.note",
+    "member": "hasAttachments",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Note"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.note/isDeleted",
+    "typePath": "microsoft.graph.note",
+    "member": "isDeleted",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Note"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.offerShiftRequest/recipientActionDateTime",
     "typePath": "microsoft.graph.offerShiftRequest",
     "member": "recipientActionDateTime",

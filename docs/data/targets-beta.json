@@ -6727,40 +6727,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.identityGovernance.lifecyclePolicy/policySource",
-    "typePath": "microsoft.graph.identityGovernance.lifecyclePolicy",
-    "member": "policySource",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IdentityGovernance",
-      "LifecyclePolicy"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Immutable"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.identityGovernance.lifecyclePolicyPriorityConfiguration/subjectType",
-    "typePath": "microsoft.graph.identityGovernance.lifecyclePolicyPriorityConfiguration",
-    "member": "subjectType",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IdentityGovernance",
-      "LifecyclePolicyPriorityConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Immutable"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityGovernance.lifecycleWorkflowProcessingStatus/canceling",
     "typePath": "microsoft.graph.identityGovernance.lifecycleWorkflowProcessingStatus",
     "member": "canceling",
@@ -6769,6 +6735,57 @@
       "Graph",
       "IdentityGovernance",
       "LifecycleWorkflowProcessingStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.operatorBetween",
+    "typePath": "microsoft.graph.identityGovernance.operatorBetween",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "OperatorBetween"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.operatorEqualTo",
+    "typePath": "microsoft.graph.identityGovernance.operatorEqualTo",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "OperatorEqualTo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.operatorLessThanEqualTo",
+    "typePath": "microsoft.graph.identityGovernance.operatorLessThanEqualTo",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "OperatorLessThanEqualTo"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -6820,6 +6837,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.timeBasedAttributeTriggerV2",
+    "typePath": "microsoft.graph.identityGovernance.timeBasedAttributeTriggerV2",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "TimeBasedAttributeTriggerV2"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityGovernance.workflow/previewScope",
     "typePath": "microsoft.graph.identityGovernance.workflow",
     "member": "previewScope",
@@ -6837,6 +6871,23 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.workflowExecutionTriggerOperator",
+    "typePath": "microsoft.graph.identityGovernance.workflowExecutionTriggerOperator",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "WorkflowExecutionTriggerOperator"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityGovernance.workflowExecutionType/preview",
     "typePath": "microsoft.graph.identityGovernance.workflowExecutionType",
     "member": "preview",
@@ -6845,6 +6896,40 @@
       "Graph",
       "IdentityGovernance",
       "WorkflowExecutionType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.workflowTriggerOperatorEventTiming",
+    "typePath": "microsoft.graph.identityGovernance.workflowTriggerOperatorEventTiming",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "WorkflowTriggerOperatorEventTiming"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.workflowTriggerTimeBasedOperator",
+    "typePath": "microsoft.graph.identityGovernance.workflowTriggerTimeBasedOperator",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "WorkflowTriggerTimeBasedOperator"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -8394,22 +8479,6 @@
       "Microsoft",
       "Graph",
       "IPv6CidrRange"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.linkStatistics",
-    "typePath": "microsoft.graph.linkStatistics",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "LinkStatistics"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"

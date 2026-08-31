@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-08-24T04:19:35.376Z
-Total annotation targets: 984
+Generated at: 2026-08-31T04:22:29.934Z
+Total annotation targets: 988
 
 ## Namespace Target Tree
 
@@ -668,12 +668,11 @@ Total annotation targets: 984
                 - IdentityGovernance
                   - CancelScope)
       - GuestSponsorTrigger
-      - LifecyclePolicy
-        - policySource
-      - LifecyclePolicyPriorityConfiguration
-        - subjectType
       - LifecycleWorkflowProcessingStatus
         - canceling
+      - OperatorBetween
+      - OperatorEqualTo
+      - OperatorLessThanEqualTo
       - PreviewTaskFailures(microsoft
         - Graph
           - IdentityGovernance
@@ -684,10 +683,14 @@ Total annotation targets: 984
             - Workflow, Collection(microsoft
               - Graph
                 - DirectoryObject))
+      - TimeBasedAttributeTriggerV2
       - Workflow
         - previewScope
+      - WorkflowExecutionTriggerOperator
       - WorkflowExecutionType
         - preview
+      - WorkflowTriggerOperatorEventTiming
+      - WorkflowTriggerTimeBasedOperator
     - IdentityInfo
     - IdentityProvider
     - IdentitySourceType
@@ -827,7 +830,6 @@ Total annotation targets: 984
     - IpSecurityProfile
     - IPv4CidrRange
     - IPv6CidrRange
-    - LinkStatistics
     - LiveCaptionOptions
     - LogonType
     - LogonUser
