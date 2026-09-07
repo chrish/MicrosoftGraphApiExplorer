@@ -17,6 +17,38 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentIdentity/managerApplications",
+    "typePath": "microsoft.graph.agentIdentity",
+    "member": "managerApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentIdentity"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications",
+    "typePath": "microsoft.graph.agentIdentityBlueprintPrincipal",
+    "member": "managerApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentIdentityBlueprintPrincipal"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.alert",
     "typePath": "microsoft.graph.alert",
     "member": "",
@@ -4259,6 +4291,38 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relatedTenant/isMicrosoftInfrastructure",
+    "typePath": "microsoft.graph.relatedTenant",
+    "member": "isMicrosoftInfrastructure",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelatedTenant"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.relationshipPolicy/version",
+    "typePath": "microsoft.graph.relationshipPolicy",
+    "member": "version",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "RelationshipPolicy"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""

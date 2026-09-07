@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-08-31T04:22:30.103Z
-Total annotation targets: 301
+Generated at: 2026-09-07T04:21:47.534Z
+Total annotation targets: 305
 
 ## Namespace Target Tree
 
@@ -11,6 +11,9 @@ Total annotation targets: 301
   - Graph
     - AgentIdentity
       - agentIdentityBlueprintId
+      - managerApplications
+    - AgentIdentityBlueprintPrincipal
+      - managerApplications
     - Alert
     - AlertDetection
     - AlertFeedback
@@ -340,6 +343,10 @@ Total annotation targets: 301
     - RegistryKeyState
     - RegistryOperation
     - RegistryValueType
+    - RelatedTenant
+      - isMicrosoftInfrastructure
+    - RelationshipPolicy
+      - version
     - RemoteTenantGroup
     - RestorePointSearchResult
       - restorePoint
@@ -418,6 +425,8 @@ The complete searchable catalog is available in the website table and JSON datas
 | Target | Description | Long Description | Annotation Terms |
 | --- | --- | --- | --- |
 | microsoft.graph.agentIdentity/agentIdentityBlueprintId |  |  | Org.OData.Core.V1.Immutable |
+| microsoft.graph.agentIdentity/managerApplications |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.alert |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertDetection |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertFeedback |  |  | Org.OData.Core.V1.Revisions |
@@ -615,5 +624,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.managedDevice/lastSyncDateTime |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
 | microsoft.graph.managedDevice/managementAgent |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
 | microsoft.graph.managedDevice/managementCertificateExpirationDate |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.managedDevice/managementState |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.managedDevice/manufacturer |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
