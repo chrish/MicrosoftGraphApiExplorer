@@ -2,13 +2,29 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-09-07T04:21:47.367Z
-Total annotation targets: 988
+Generated at: 2026-09-14T09:43:40.448Z
+Total annotation targets: 1003
 
 ## Namespace Target Tree
 
 - Microsoft
   - Graph
+    - AccessDriftDetail
+      - createdDateTime
+      - driftSource
+      - driftType
+      - resource
+    - AccessDriftReport
+      - downloadUri
+      - expiresAt
+      - resourceType
+    - AccessDriftReportResourceType
+    - AccessDriftSummary
+      - createdDateTime
+      - driftCounts
+      - driftSource
+      - resource
+    - AccessDriftType
     - AccessPackageAssignmentPolicy
     - AccessPackageAssignmentRequest
     - AccessPackageCatalog
@@ -33,8 +49,6 @@ Total annotation targets: 988
       - createdDateTime
     - AgentIdentity
       - agentIdentityBlueprintId
-      - inheritedAppRoleAssignments
-      - inheritedOauth2PermissionGrants
       - managerApplications
     - AgentIdentityBlueprintPrincipal
       - managerApplications
@@ -279,6 +293,8 @@ Total annotation targets: 988
     - CustomAccessPackageWorkflowExtension
     - CustomExtensionHandler
     - CustomExtensionHandlerInstance
+    - CustomObjectFieldDefinition
+    - CustomObjectProperties
     - CustomUsernameSignInIdentifier
     - DailyInactiveUsersByApplicationMetric
     - DailyUserInsightMetricsRoot
@@ -383,10 +399,13 @@ Total annotation targets: 988
       - featureRolloutPolicies
       - recovery
       - remoteTenantGroups
-    - DistributionListMember
-      - contact
     - DomainRegistrant
     - DomainSecurityProfile
+    - DownloadFile(Collection(microsoft
+      - Graph
+        - AccessDriftReport), microsoft
+          - Graph
+            - AccessDriftReportRequest)
     - DriveExclusionUnit
       - displayName
       - email
@@ -481,6 +500,10 @@ Total annotation targets: 988
     - EntitlementManagement
       - controlConfigurations
     - EntitySetNames
+    - EntraAccessDriftDetail
+      - accessPackage
+      - assignedRole
+      - expectedRole
     - EntraRecoveryServices
       - Cancel(microsoft
         - Graph
@@ -570,6 +593,11 @@ Total annotation targets: 988
             - EngagementIdentitySet)
     - FrontlineCloudPcAccessState
       - noLicensesAvailable
+    - GenerateDownloadUri(Collection(microsoft
+      - Graph
+        - AccessDriftReport), microsoft
+          - Graph
+            - AccessDriftReportRequest)
     - GetAllOnlineMeetingMessages(microsoft
       - Graph
         - CloudCommunications)
@@ -723,19 +751,6 @@ Total annotation targets: 988
         - sessionUrl
       - FileValidateOperation
         - validatedFiles
-      - GetStatistics(Collection(microsoft
-        - Graph
-          - IndustryData
-            - IndustryDataRun))
-      - GetStatistics(microsoft
-        - Graph
-          - IndustryData
-            - IndustryDataRun)
-      - GetUploadSession(microsoft
-        - Graph
-          - IndustryData
-            - AzureDataLakeConnector, Edm
-              - Boolean)
       - InboundActivityResults
         - errors
         - groups
@@ -793,25 +808,11 @@ Total annotation targets: 988
         - lastModifiedDateTime
         - referenceType
         - source
-      - ReferenceValue
-        - value
-      - Reset(microsoft
-        - Graph
-          - IndustryData
-            - ProvisioningFlow)
-      - Start(Collection(microsoft
-        - Graph
-          - IndustryData
-            - IndustryDataRun))
       - UserConfiguration
         - roleGroup
       - UserMatchingSetting
         - priorityOrder
         - roleGroup
-      - Validate(microsoft
-        - Graph
-          - IndustryData
-            - IndustryDataConnector)
       - ValidateOperation
         - errors
         - warnings
@@ -825,16 +826,11 @@ Total annotation targets: 988
     - InvestigationSecurityState
     - IosManagedAppRegistration
     - IpCategory
-    - IpRange
     - IpReferenceData
     - IpSecurityProfile
-    - IPv4CidrRange
-    - IPv6CidrRange
     - LiveCaptionOptions
     - LogonType
     - LogonUser
-    - MacOsVppApp
-      - appleDeviceAppDeliveryProtocolType
     - Mailbox
     - MailboxExclusionUnit
       - displayName
@@ -1102,6 +1098,8 @@ Total annotation targets: 988
       - grantedTo
       - grantedToIdentities
     - PhotoAllowedOperations
+    - Place
+      - lastUpdatedTime
     - Planner
       - goals
     - PlannerGoal
@@ -1288,6 +1286,14 @@ Total annotation targets: 988
         - mitreTechniques
       - AllowFileResponseAction
       - BlockFileResponseAction
+      - CaseManagement
+        - Case
+          - slaPolicies
+        - CaseSlaPolicyEntry
+          - breachTargetDateTime
+          - policyDisplayName
+          - policyId
+          - status
       - CollectInvestigationPackageResponseAction
       - ConnectorValidateResult
       - DetectionAction
@@ -1537,6 +1543,22 @@ The complete searchable catalog is available in the website table and JSON datas
 
 | Target | Description | Long Description | Annotation Terms |
 | --- | --- | --- | --- |
+| microsoft.graph.accessDriftDetail |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.accessDriftDetail/createdDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftDetail/driftSource |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftDetail/driftType |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftDetail/resource |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftReport |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.accessDriftReport/downloadUri |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftReport/expiresAt |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftReport/resourceType |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftReportResourceType |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.accessDriftSummary |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.accessDriftSummary/createdDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftSummary/driftCounts |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftSummary/driftSource |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftSummary/resource |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.accessDriftType |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.accessPackageAssignmentPolicy |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.accessPackageAssignmentRequest |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.accessPackageCatalog |  |  | Org.OData.Core.V1.Revisions |
@@ -1552,8 +1574,6 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.agentCollection/createdBy |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentCollection/createdDateTime |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentIdentity/agentIdentityBlueprintId |  |  | Org.OData.Core.V1.Immutable |
-| microsoft.graph.agentIdentity/inheritedAppRoleAssignments |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.agentIdentity/inheritedOauth2PermissionGrants |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.agentIdentity/managerApplications |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.agentInstance/createdBy |  |  | Org.OData.Core.V1.Immutable |
@@ -1723,17 +1743,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.credentialUsageSummary |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.credentialUserRegistrationDetails |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.crossTenantMigrationJob |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationJobStatus |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationJobType |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationServiceStatus |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationServiceStatusDetails |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationTask |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customAccessPackageWorkflowExtension |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customExtensionHandler |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customExtensionHandlerInstance |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customUsernameSignInIdentifier |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.dailyInactiveUsersByApplicationMetric |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.dailyUserInsightMetricsRoot/inactiveUsersByApplication |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.decryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Binary) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.deleteTiIndicators(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.deleteTiIndicatorsByExternalId(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |

@@ -3611,7 +3611,6 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -3628,7 +3627,6 @@
       "ManagedMobileLobApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -3950,7 +3948,6 @@
       "MobileLobApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -4963,7 +4960,6 @@
       "WindowsUniversalAppX"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",

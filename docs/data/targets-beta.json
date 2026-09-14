@@ -1,6 +1,262 @@
 [
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftDetail",
+    "typePath": "microsoft.graph.accessDriftDetail",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftDetail/createdDateTime",
+    "typePath": "microsoft.graph.accessDriftDetail",
+    "member": "createdDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftDetail/driftSource",
+    "typePath": "microsoft.graph.accessDriftDetail",
+    "member": "driftSource",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftDetail/driftType",
+    "typePath": "microsoft.graph.accessDriftDetail",
+    "member": "driftType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftDetail/resource",
+    "typePath": "microsoft.graph.accessDriftDetail",
+    "member": "resource",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftReport",
+    "typePath": "microsoft.graph.accessDriftReport",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftReport/downloadUri",
+    "typePath": "microsoft.graph.accessDriftReport",
+    "member": "downloadUri",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftReport/expiresAt",
+    "typePath": "microsoft.graph.accessDriftReport",
+    "member": "expiresAt",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftReport/resourceType",
+    "typePath": "microsoft.graph.accessDriftReport",
+    "member": "resourceType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftReportResourceType",
+    "typePath": "microsoft.graph.accessDriftReportResourceType",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftReportResourceType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftSummary",
+    "typePath": "microsoft.graph.accessDriftSummary",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftSummary/createdDateTime",
+    "typePath": "microsoft.graph.accessDriftSummary",
+    "member": "createdDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftSummary/driftCounts",
+    "typePath": "microsoft.graph.accessDriftSummary",
+    "member": "driftCounts",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftSummary/driftSource",
+    "typePath": "microsoft.graph.accessDriftSummary",
+    "member": "driftSource",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftSummary/resource",
+    "typePath": "microsoft.graph.accessDriftSummary",
+    "member": "resource",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.accessDriftType",
+    "typePath": "microsoft.graph.accessDriftType",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AccessDriftType"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.accessPackageAssignmentPolicy",
     "typePath": "microsoft.graph.accessPackageAssignmentPolicy",
     "member": "",
@@ -239,38 +495,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Immutable"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.agentIdentity/inheritedAppRoleAssignments",
-    "typePath": "microsoft.graph.agentIdentity",
-    "member": "inheritedAppRoleAssignments",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AgentIdentity"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.agentIdentity/inheritedOauth2PermissionGrants",
-    "typePath": "microsoft.graph.agentIdentity",
-    "member": "inheritedOauth2PermissionGrants",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AgentIdentity"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3152,6 +3376,38 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.customObjectFieldDefinition",
+    "typePath": "microsoft.graph.customObjectFieldDefinition",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CustomObjectFieldDefinition"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.customObjectProperties",
+    "typePath": "microsoft.graph.customObjectProperties",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CustomObjectProperties"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.customUsernameSignInIdentifier",
     "typePath": "microsoft.graph.customUsernameSignInIdentifier",
     "member": "",
@@ -4058,7 +4314,6 @@
       "DeviceManagementConfigurationSetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -4109,7 +4364,6 @@
       "DeviceManagementReusablePolicySetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -4331,22 +4585,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.distributionListMember/contact",
-    "typePath": "microsoft.graph.distributionListMember",
-    "member": "contact",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DistributionListMember"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.domainRegistrant",
     "typePath": "microsoft.graph.domainRegistrant",
     "member": "",
@@ -4370,6 +4608,26 @@
       "Microsoft",
       "Graph",
       "DomainSecurityProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.downloadFile(Collection(microsoft.graph.accessDriftReport), microsoft.graph.accessDriftReportRequest)",
+    "typePath": "microsoft.graph.downloadFile(Collection(microsoft.graph.accessDriftReport), microsoft.graph.accessDriftReportRequest)",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DownloadFile(Collection(microsoft",
+      "Graph",
+      "AccessDriftReport), microsoft",
+      "Graph",
+      "AccessDriftReportRequest)"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -5521,6 +5779,54 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.entraAccessDriftDetail/accessPackage",
+    "typePath": "microsoft.graph.entraAccessDriftDetail",
+    "member": "accessPackage",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "EntraAccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.entraAccessDriftDetail/assignedRole",
+    "typePath": "microsoft.graph.entraAccessDriftDetail",
+    "member": "assignedRole",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "EntraAccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.entraAccessDriftDetail/expectedRole",
+    "typePath": "microsoft.graph.entraAccessDriftDetail",
+    "member": "expectedRole",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "EntraAccessDriftDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.entraRecoveryServices.cancel(microsoft.graph.entraRecoveryServices.recoveryJobBase)",
     "typePath": "microsoft.graph.entraRecoveryServices.cancel(microsoft.graph.entraRecoveryServices.recoveryJobBase)",
     "member": "",
@@ -6229,6 +6535,26 @@
       "Microsoft",
       "Graph",
       "FrontlineCloudPcAccessState"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.generateDownloadUri(Collection(microsoft.graph.accessDriftReport), microsoft.graph.accessDriftReportRequest)",
+    "typePath": "microsoft.graph.generateDownloadUri(Collection(microsoft.graph.accessDriftReport), microsoft.graph.accessDriftReportRequest)",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "GenerateDownloadUri(Collection(microsoft",
+      "Graph",
+      "AccessDriftReport), microsoft",
+      "Graph",
+      "AccessDriftReportRequest)"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -7326,67 +7652,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.getStatistics(Collection(microsoft.graph.industryData.industryDataRun))",
-    "typePath": "microsoft.graph.industryData.getStatistics(Collection(microsoft.graph.industryData.industryDataRun))",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "GetStatistics(Collection(microsoft",
-      "Graph",
-      "IndustryData",
-      "IndustryDataRun))"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultNamespace"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.getStatistics(microsoft.graph.industryData.industryDataRun)",
-    "typePath": "microsoft.graph.industryData.getStatistics(microsoft.graph.industryData.industryDataRun)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "GetStatistics(microsoft",
-      "Graph",
-      "IndustryData",
-      "IndustryDataRun)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultNamespace"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.getUploadSession(microsoft.graph.industryData.azureDataLakeConnector, Edm.Boolean)",
-    "typePath": "microsoft.graph.industryData.getUploadSession(microsoft.graph.industryData.azureDataLakeConnector, Edm.Boolean)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "GetUploadSession(microsoft",
-      "Graph",
-      "IndustryData",
-      "AzureDataLakeConnector, Edm",
-      "Boolean)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultNamespace"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.industryData.inboundActivityResults/errors",
     "typePath": "microsoft.graph.industryData.inboundActivityResults",
     "member": "errors",
@@ -8118,63 +8383,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.referenceValue/value",
-    "typePath": "microsoft.graph.industryData.referenceValue",
-    "member": "value",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "ReferenceValue"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.ComputedDefaultValue"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.reset(microsoft.graph.industryData.provisioningFlow)",
-    "typePath": "microsoft.graph.industryData.reset(microsoft.graph.industryData.provisioningFlow)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "Reset(microsoft",
-      "Graph",
-      "IndustryData",
-      "ProvisioningFlow)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultNamespace"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.start(Collection(microsoft.graph.industryData.industryDataRun))",
-    "typePath": "microsoft.graph.industryData.start(Collection(microsoft.graph.industryData.industryDataRun))",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "Start(Collection(microsoft",
-      "Graph",
-      "IndustryData",
-      "IndustryDataRun))"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultNamespace"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.industryData.userConfiguration/roleGroup",
     "typePath": "microsoft.graph.industryData.userConfiguration",
     "member": "roleGroup",
@@ -8220,26 +8428,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.validate(microsoft.graph.industryData.industryDataConnector)",
-    "typePath": "microsoft.graph.industryData.validate(microsoft.graph.industryData.industryDataConnector)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "Validate(microsoft",
-      "Graph",
-      "IndustryData",
-      "IndustryDataConnector)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultNamespace"
     ],
     "description": "",
     "longDescription": ""
@@ -8408,22 +8596,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.ipRange",
-    "typePath": "microsoft.graph.ipRange",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IpRange"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.ipReferenceData",
     "typePath": "microsoft.graph.ipReferenceData",
     "member": "",
@@ -8447,38 +8619,6 @@
       "Microsoft",
       "Graph",
       "IpSecurityProfile"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.iPv4CidrRange",
-    "typePath": "microsoft.graph.iPv4CidrRange",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IPv4CidrRange"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.iPv6CidrRange",
-    "typePath": "microsoft.graph.iPv6CidrRange",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IPv6CidrRange"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -8530,22 +8670,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.macOsVppApp/appleDeviceAppDeliveryProtocolType",
-    "typePath": "microsoft.graph.macOsVppApp",
-    "member": "appleDeviceAppDeliveryProtocolType",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MacOsVppApp"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.DefaultValue"
     ],
     "description": "",
     "longDescription": ""
@@ -9106,7 +9230,6 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -10040,7 +10163,6 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -10091,7 +10213,6 @@
       "ManagedMobileLobApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -11201,7 +11322,6 @@
       "MobileLobApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -12246,6 +12366,22 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.place/lastUpdatedTime",
+    "typePath": "microsoft.graph.place",
+    "member": "lastUpdatedTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Place"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -14027,6 +14163,96 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.case/slaPolicies",
+    "typePath": "microsoft.graph.security.caseManagement.case",
+    "member": "slaPolicies",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "Case"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry/breachTargetDateTime",
+    "typePath": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry",
+    "member": "breachTargetDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "CaseSlaPolicyEntry"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry/policyDisplayName",
+    "typePath": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry",
+    "member": "policyDisplayName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "CaseSlaPolicyEntry"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry/policyId",
+    "typePath": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry",
+    "member": "policyId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "CaseSlaPolicyEntry"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry/status",
+    "typePath": "microsoft.graph.security.caseManagement.caseSlaPolicyEntry",
+    "member": "status",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "CaseSlaPolicyEntry"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.collectInvestigationPackageResponseAction",
     "typePath": "microsoft.graph.security.collectInvestigationPackageResponseAction",
     "member": "",
@@ -15465,8 +15691,7 @@
       "SyncComponent"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.DefaultValue"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16096,7 +16321,6 @@
       "Win32CatalogApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -16113,7 +16337,6 @@
       "Win32CatalogApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
@@ -16427,7 +16650,6 @@
       "WindowsUniversalAppX"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
       "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
