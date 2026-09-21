@@ -4757,6 +4757,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.subscription/webPushEncryptionSecret",
+    "typePath": "microsoft.graph.subscription",
+    "member": "webPushEncryptionSecret",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Subscription"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Permissions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.trending/resourceReference",
     "typePath": "microsoft.graph.trending",
     "member": "resourceReference",

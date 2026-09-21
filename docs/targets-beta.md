@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-09-14T09:43:40.448Z
-Total annotation targets: 1003
+Generated at: 2026-09-21T09:48:06.208Z
+Total annotation targets: 997
 
 ## Namespace Target Tree
 
@@ -39,8 +39,6 @@ Total annotation targets: 1003
         - Synchronization, Collection(microsoft
           - Graph
             - SynchronizationSecretKeyStringValuePair))
-    - Admin
-      - exchange
     - AgentCardManifest
       - createdBy
       - createdDateTime
@@ -183,6 +181,11 @@ Total annotation targets: 1003
       - lastModifiedDateTime
     - CloudAppSecurityProfile
     - CloudAppSecurityState
+    - CloudLicensing
+      - DeviceCloudLicensing
+        - assignments
+        - usageRights
+        - waitingMembers
     - CloudPC
       - connectionSettings
       - frontlineCloudPcAvailability
@@ -279,9 +282,6 @@ Total annotation targets: 1003
     - CorrelatedObjectLinkSource
     - CorrelatedObjectLinkTarget
     - CorrelationError
-    - CreateImportSession(microsoft
-      - Graph
-        - Mailbox)
     - CredentialUsageSummary
     - CredentialUserRegistrationDetails
     - CrossTenantMigrationJob
@@ -320,6 +320,8 @@ Total annotation targets: 1003
       - maximumForegroundBandwidthPercentage
     - DeliveryOptimizationMaxCacheSizeAbsolute
       - maximumCacheSizeInGigabytes
+    - Device
+      - cloudLicensing
     - DeviceAndAppManagementAssignedRoleDefinition
       - permissions
       - roleDefinitionDisplayName
@@ -551,13 +553,6 @@ Total annotation targets: 1003
             - ContentInfo, microsoft
               - Graph
                 - DowngradeJustification)
-    - ExchangeAdmin
-    - ExchangeSettings
-    - ExportItemResponse
-    - ExportItems(microsoft
-      - Graph
-        - Mailbox, Collection(Edm
-          - String))
     - External
     - ExternalConnection
       - state
@@ -831,13 +826,9 @@ Total annotation targets: 1003
     - LiveCaptionOptions
     - LogonType
     - LogonUser
-    - Mailbox
     - MailboxExclusionUnit
       - displayName
       - email
-    - MailboxFolder
-    - MailboxItem
-    - MailboxItemImportSession
     - MailboxProtectionUnit
       - displayName
       - email
@@ -1475,8 +1466,6 @@ Total annotation targets: 1003
     - UsernameSignInIdentifier
     - UserSecurityProfile
     - UserSecurityState
-    - UserSettings
-      - exchange
     - ValidateCredentials(Collection(microsoft
       - Graph
         - SynchronizationJob), Edm
@@ -1568,7 +1557,6 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.accountAlias |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.accountStatus |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.acquireAccessToken(microsoft.graph.synchronization, Collection(microsoft.graph.synchronizationSecretKeyStringValuePair)) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.admin/exchange |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.agentCardManifest/createdBy |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentCardManifest/createdDateTime |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentCollection/createdBy |  |  | Org.OData.Core.V1.Immutable |
@@ -1666,6 +1654,10 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.changeTrackedEntity/lastModifiedDateTime |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.cloudAppSecurityProfile |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudAppSecurityState |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.cloudLicensing.deviceCloudLicensing |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.cloudLicensing.deviceCloudLicensing/assignments |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.cloudLicensing.deviceCloudLicensing/usageRights |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.cloudLicensing.deviceCloudLicensing/waitingMembers |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPC/connectionSettings |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPC/frontlineCloudPcAvailability |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPC/statusDetails |  |  | Org.OData.Core.V1.Revisions |
@@ -1739,7 +1731,4 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.correlatedObjectLinkSource |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlatedObjectLinkTarget |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlationError |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.createImportSession(microsoft.graph.mailbox) |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.credentialUsageSummary |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.credentialUserRegistrationDetails |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationJob |  |  | Org.OData.Core.V1.Revisions |

@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-09-14T09:43:40.696Z
-Total annotation targets: 305
+Generated at: 2026-09-21T09:48:06.415Z
+Total annotation targets: 306
 
 ## Namespace Target Tree
 
@@ -396,6 +396,8 @@ Total annotation targets: 305
     - SiteRestoreArtifact
       - restoredSiteName
       - restoredSiteWebUrl
+    - Subscription
+      - webPushEncryptionSecret
     - Trending
       - resourceReference
       - resourceVisualization

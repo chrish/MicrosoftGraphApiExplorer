@@ -405,22 +405,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.admin/exchange",
-    "typePath": "microsoft.graph.admin",
-    "member": "exchange",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Admin"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.agentCardManifest/createdBy",
     "typePath": "microsoft.graph.agentCardManifest",
     "member": "createdBy",
@@ -2004,6 +1988,74 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudLicensing.deviceCloudLicensing",
+    "typePath": "microsoft.graph.cloudLicensing.deviceCloudLicensing",
+    "member": "",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudLicensing",
+      "DeviceCloudLicensing"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudLicensing.deviceCloudLicensing/assignments",
+    "typePath": "microsoft.graph.cloudLicensing.deviceCloudLicensing",
+    "member": "assignments",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudLicensing",
+      "DeviceCloudLicensing"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudLicensing.deviceCloudLicensing/usageRights",
+    "typePath": "microsoft.graph.cloudLicensing.deviceCloudLicensing",
+    "member": "usageRights",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudLicensing",
+      "DeviceCloudLicensing"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudLicensing.deviceCloudLicensing/waitingMembers",
+    "typePath": "microsoft.graph.cloudLicensing.deviceCloudLicensing",
+    "member": "waitingMembers",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudLicensing",
+      "DeviceCloudLicensing"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.cloudPC/connectionSettings",
     "typePath": "microsoft.graph.cloudPC",
     "member": "connectionSettings",
@@ -3182,24 +3234,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.createImportSession(microsoft.graph.mailbox)",
-    "typePath": "microsoft.graph.createImportSession(microsoft.graph.mailbox)",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CreateImportSession(microsoft",
-      "Graph",
-      "Mailbox)"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.credentialUsageSummary",
     "typePath": "microsoft.graph.credentialUsageSummary",
     "member": "",
@@ -3591,6 +3625,22 @@
     ],
     "description": "",
     "longDescription": "The value 0 (zero) means \"unlimited\" cache. Delivery Optimization will clear the cache when the device is running low on disk space. Valid values 0 to 4294967295"
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.device/cloudLicensing",
+    "typePath": "microsoft.graph.device",
+    "member": "cloudLicensing",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Device"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -6174,73 +6224,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.exchangeAdmin",
-    "typePath": "microsoft.graph.exchangeAdmin",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ExchangeAdmin"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.exchangeSettings",
-    "typePath": "microsoft.graph.exchangeSettings",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ExchangeSettings"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.exportItemResponse",
-    "typePath": "microsoft.graph.exportItemResponse",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ExportItemResponse"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.exportItems(microsoft.graph.mailbox, Collection(Edm.String))",
-    "typePath": "microsoft.graph.exportItems(microsoft.graph.mailbox, Collection(Edm.String))",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ExportItems(microsoft",
-      "Graph",
-      "Mailbox, Collection(Edm",
-      "String))"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.external",
     "typePath": "microsoft.graph.external",
     "member": "",
@@ -8676,22 +8659,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mailbox",
-    "typePath": "microsoft.graph.mailbox",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Mailbox"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.mailboxExclusionUnit/displayName",
     "typePath": "microsoft.graph.mailboxExclusionUnit",
     "member": "displayName",
@@ -8718,54 +8685,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mailboxFolder",
-    "typePath": "microsoft.graph.mailboxFolder",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MailboxFolder"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mailboxItem",
-    "typePath": "microsoft.graph.mailboxItem",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MailboxItem"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mailboxItemImportSession",
-    "typePath": "microsoft.graph.mailboxItemImportSession",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MailboxItemImportSession"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
     ],
     "description": "",
     "longDescription": ""
@@ -16204,22 +16123,6 @@
       "Microsoft",
       "Graph",
       "UserSecurityState"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.userSettings/exchange",
-    "typePath": "microsoft.graph.userSettings",
-    "member": "exchange",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "UserSettings"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
