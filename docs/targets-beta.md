@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-09-21T09:48:06.208Z
-Total annotation targets: 997
+Generated at: 2026-09-28T10:44:43.487Z
+Total annotation targets: 927
 
 ## Namespace Target Tree
 
@@ -56,8 +56,6 @@ Total annotation targets: 997
     - AgentRiskDetection
       - agentDisplayName
       - agentId
-    - AirPrintDestination
-      - resourcePath
     - Alert
     - AlertDetection
     - AlertFeedback
@@ -69,7 +67,6 @@ Total annotation targets: 997
     - AndroidForWorkApp
       - appIdentifier
       - packageId
-    - AndroidManagedAppRegistration
     - AndroidManagedStoreApp
       - appStoreUrl
       - appTracks
@@ -108,6 +105,8 @@ Total annotation targets: 997
       - owners
     - ArtifactQuery
       - queryExpression
+    - AssignmentFilterSupportedProperty
+      - evaluationSource
     - AttendanceRecord
       - registrantId
     - AttributeInfo
@@ -116,14 +115,6 @@ Total annotation targets: 997
     - AvailableProviderTypes(Collection(microsoft
       - Graph
         - IdentityProvider))
-    - AwsActionsPermissionsDefinitionAction
-      - statements
-    - AwsIdentityAccessManagementKeyAgeFinding
-      - accessKey
-    - AwsIdentityAccessManagementKeyUsageFinding
-      - accessKey
-    - AwsSecretInformationAccessFinding
-      - identity
     - B2cIdentityUserFlow
       - identityProviders
     - B2xIdentityUserFlow
@@ -131,38 +122,20 @@ Total annotation targets: 997
     - BackupRestoreRoot
       - protectionUnits
     - BookingAppointment
-      - anonymousJoinWebUrl
-      - customerId
       - customerNotes
       - duration
       - filledAttendeesCount
-      - invoiceUrl
-      - joinWebUrl
-      - onlineMeetingUrl
-      - reminders
       - serviceId
-      - serviceName
-      - serviceNotes
     - BookingBusiness
       - isPublished
       - publicUrl
-      - webSiteUrl
     - BookingCurrency
       - symbol
-    - BookingCustomQuestion
-      - displayName
-    - BookingNamedEntity
-      - displayName
-    - BookingPageSettings
-      - privacyPolicyWebUrl
-      - termsAndConditionsWebUrl
     - BookingService
-      - defaultReminders
       - webUrl
     - CallRecords
       - CallRecord
         - organizer
-        - organizer_v2
         - participants
       - ParticipantEndpoint
         - identity
@@ -248,8 +221,6 @@ Total annotation targets: 997
       - resourceAccessCount
       - totalComanagedCount
       - windowsUpdateForBusinessCount
-    - Community
-      - groupId
     - CompanySubscription
       - ocpSubscriptionId
     - ConditionalAccessApplications
@@ -267,16 +238,9 @@ Total annotation targets: 997
     - ControlConfiguration
     - CopilotSearchDataSourcesConfiguration
     - CopilotSearchHit
-      - preview
-      - resourceMetadata
-      - resourceType
-      - webUrl
     - CopilotSearchResourceMetadataDictionary
     - CopilotSearchResourceType
     - CopilotSearchResponse
-      - nextLink
-      - searchHits
-      - totalCount
     - CorrelatedIdentity
     - CorrelatedObjectLinkMapping
     - CorrelatedObjectLinkSource
@@ -312,14 +276,6 @@ Total annotation targets: 997
       - Graph
         - TiIndicator), Collection(Edm
           - String))
-    - DeliveryOptimizationBandwidthAbsolute
-      - maximumDownloadBandwidthInKilobytesPerSecond
-      - maximumUploadBandwidthInKilobytesPerSecond
-    - DeliveryOptimizationBandwidthPercentage
-      - maximumBackgroundBandwidthPercentage
-      - maximumForegroundBandwidthPercentage
-    - DeliveryOptimizationMaxCacheSizeAbsolute
-      - maximumCacheSizeInGigabytes
     - Device
       - cloudLicensing
     - DeviceAndAppManagementAssignedRoleDefinition
@@ -331,6 +287,8 @@ Total annotation targets: 997
     - DeviceAndAppManagementAssignedRoleDetails
       - roleAssignmentIds
       - roleDefinitionIds
+    - DeviceAndAppManagementAssignmentFilter
+      - evaluationMode
     - DeviceAssignmentItem
       - assignmentItemActionIntent
       - assignmentItemActionStatus
@@ -379,12 +337,9 @@ Total annotation targets: 997
       - templateDisplayName
       - templateDisplayVersion
       - templateFamily
-    - DeviceManagementConfigurationSetting
-      - settingDefinitions
     - DeviceManagementReusablePolicySetting
       - createdDateTime
       - lastModifiedDateTime
-      - referencingConfigurationPolicies
       - referencingConfigurationPolicyCount
       - version
     - DeviceManagementScript
@@ -470,26 +425,14 @@ Total annotation targets: 997
       - webUrl
     - EmailRole
     - EmailSignInIdentifier
-    - EmbeddedSIMActivationCode
-      - integratedCircuitCardIdentifier
-      - matchingIdentifier
-      - smdpPlusServerAddress
     - EncryptBuffer(microsoft
       - Graph
         - InformationProtection, Edm
           - Binary, Edm
             - Guid)
-    - EngagementAsyncOperation
-      - operationType
-      - resourceId
-    - EngagementConversation
-      - creationMode
-      - starterId
     - EngagementConversationMessage
       - createdDateTime
-      - creationMode
       - lastModifiedDateTime
-      - replyToId
     - EngagementConversationMessageReaction
       - createdDateTime
       - reactionBy
@@ -497,8 +440,6 @@ Total annotation targets: 997
     - EngagementRoleMember
       - createdDateTime
       - userId
-    - EngagementUploadSession
-      - id
     - EntitlementManagement
       - controlConfigurations
     - EntitySetNames
@@ -557,8 +498,6 @@ Total annotation targets: 997
     - ExternalConnection
       - state
     - ExternalConnectors
-      - External
-        - authorizationSystems
       - ExternalConnection
         - state
       - IdentitySourceType
@@ -663,6 +602,11 @@ Total annotation targets: 997
                       - String), Edm
                         - Int32, Edm
                           - Int32)
+    - GraphService
+      - copilot
+      - employeeExperience
+      - identityProviders
+      - reports
     - HardwareConfiguration
       - createdDateTime
       - lastModifiedDateTime
@@ -680,8 +624,6 @@ Total annotation targets: 997
       - signInIdentifiers
       - userFlows
     - IdentityCorrelation
-    - IdentityFinding
-      - identity
     - IdentityGovernance
       - CancelProcessing(microsoft
         - Graph
@@ -691,6 +633,10 @@ Total annotation targets: 997
                 - IdentityGovernance
                   - CancelScope)
       - GuestSponsorTrigger
+      - LifecyclePolicy
+        - policySource
+      - LifecyclePolicyPriorityConfiguration
+        - subjectType
       - LifecycleWorkflowProcessingStatus
         - canceling
       - OperatorBetween
@@ -717,8 +663,6 @@ Total annotation targets: 997
     - IdentityInfo
     - IdentityProvider
     - IdentitySourceType
-    - InactiveGroupFinding
-      - group
     - InactiveUsersByApplicationMetricBase
     - IndustryData
       - AdditionalUserOptions
@@ -732,8 +676,6 @@ Total annotation targets: 997
         - people
         - unmatchedPeopleByRole
         - warnings
-      - ApiDataConnector
-        - baseUrl
       - AzureDataLakeConnector
         - fileFormat
       - Credential
@@ -761,8 +703,6 @@ Total annotation targets: 997
         - activityId
         - displayName
         - status
-      - IndustryDataConnector
-        - sourceSystem
       - IndustryDataRun
         - blockingError
         - displayName
@@ -785,10 +725,6 @@ Total annotation targets: 997
         - inboundTotals
         - runId
         - status
-      - OAuth2ClientCredential
-        - tokenUrl
-      - OAuthClientCredential
-        - clientSecret
       - OutboundProvisioningFlowSet
         - createdDateTime
         - lastModifiedDateTime
@@ -803,11 +739,8 @@ Total annotation targets: 997
         - lastModifiedDateTime
         - referenceType
         - source
-      - UserConfiguration
-        - roleGroup
       - UserMatchingSetting
         - priorityOrder
-        - roleGroup
       - ValidateOperation
         - errors
         - warnings
@@ -819,7 +752,6 @@ Total annotation targets: 997
       - maximum
       - minimum
     - InvestigationSecurityState
-    - IosManagedAppRegistration
     - IpCategory
     - IpReferenceData
     - IpSecurityProfile
@@ -843,7 +775,6 @@ Total annotation targets: 997
     - MalwareState
     - ManagedApp
       - appAvailability
-    - ManagedAppRegistration
     - ManagedDevice
       - aadRegistered
       - activationLockBypassCode
@@ -861,7 +792,6 @@ Total annotation targets: 997
       - deviceCategoryDisplayName
       - deviceEnrollmentType
       - deviceHealthAttestationState
-      - deviceHealthScriptStates
       - deviceName
       - deviceRegistrationState
       - deviceType
@@ -916,12 +846,10 @@ Total annotation targets: 997
       - usersLoggedOn
       - wiFiMacAddress
       - windowsActiveMalwareCount
-      - windowsProtectionState
       - windowsRemediatedMalwareCount
     - ManagedDeviceCleanupRule
       - lastModifiedDateTime
     - ManagedMobileLobApp
-      - contentVersions
       - size
     - MarkAsJunk(microsoft
       - Graph
@@ -1008,7 +936,6 @@ Total annotation targets: 997
       - supersededAppCount
       - supersedingAppCount
     - MobileLobApp
-      - contentVersions
       - size
     - MonthlyInactiveUsersByApplicationMetric
     - MonthlyUserInsightMetricsRoot
@@ -1178,10 +1105,6 @@ Total annotation targets: 997
       - isStateSetByMicrosoft
     - RedirectUriWildcardConfiguration
       - isStateSetByMicrosoft
-    - ReferenceAttachment
-      - previewUrl
-      - sourceUrl
-      - thumbnailUrl
     - RefreshDeviceComplianceReportSummarization(Collection(microsoft
       - Graph
         - DeviceCompliancePolicy))
@@ -1207,8 +1130,6 @@ Total annotation targets: 997
     - ResourceOperation
       - enabledForScopeValidation
       - resource
-    - RestorePointSearchResult
-      - restorePoint
     - Retrieval(microsoft
       - Graph
         - CopilotRoot, Edm
@@ -1276,6 +1197,10 @@ Total annotation targets: 997
         - impactedAssets
         - mitreTechniques
       - AllowFileResponseAction
+      - AuditLogQuery
+        - approximateReturnedRecordCount
+        - isRecordCountLimitExceeded
+        - recordCountLimit
       - BlockFileResponseAction
       - CaseManagement
         - Case
@@ -1333,8 +1258,6 @@ Total annotation targets: 997
         - period
       - RunAntivirusScanResponseAction
       - RunDetails
-      - SensorSettings
-        - networkAdapters
       - SoftDeleteResponseAction
       - StopAndQuarantineFileResponseAction
     - SecurityAction
@@ -1403,8 +1326,6 @@ Total annotation targets: 997
         - TiIndicator), Collection(microsoft
           - Graph
             - TiIndicator))
-    - Subscription
-      - webPushEncryptionSecret
     - SyncComponent
       - moreInfo
       - name
@@ -1458,8 +1379,6 @@ Total annotation targets: 997
     - UsedInsight
       - resourceReference
       - resourceVisualization
-    - User
-      - deviceEnrollmentConfigurations
     - UserAccount
     - UserAccountSecurityType
     - UserCredentialUsageDetails
@@ -1489,37 +1408,20 @@ Total annotation targets: 997
             - Binary, Edm
               - String)
     - VulnerabilityState
-    - Win32CatalogApp
-      - latestUpgradeCatalogPackage
-      - referencedCatalogPackage
     - Win32MobileAppCatalogPackage
       - applicableArchitectures
       - branchDisplayName
       - branchId
       - locales
       - packageAutoUpdateCapable
-    - Windows10EndpointProtectionConfiguration
-      - dmaGuardDeviceEnumerationPolicy
     - Windows81GeneralConfiguration
       - applyOnlyToWindows81
     - Windows81VpnConfiguration
       - applyOnlyToWindows81
-    - WindowsDeliveryOptimizationConfiguration
-      - foregroundDownloadFromHttpDelayInSeconds
-      - groupIdSource
-      - minimumBatteryPercentageAllowedToUpload
-      - minimumDiskSizeAllowedToPeerInGigabytes
-      - minimumFileSizeToCacheInMegabytes
-      - restrictPeerSelectionBy
-    - WindowsManagedAppRegistration
     - WindowsPhone81GeneralConfiguration
       - applyOnlyToWindowsPhone81
     - WindowsPhoneEASEmailProfileConfiguration
       - applyOnlyToWindowsPhone81
-    - WindowsSetting
-      - instances
-    - WindowsUniversalAppX
-      - committedContainedApps
     - WindowsUpdateForBusinessConfiguration
       - featureUpdatesPauseStartDate
       - qualityUpdatesPauseStartDate
@@ -1568,29 +1470,27 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.agentInstance/createdDateTime |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentRiskDetection/agentDisplayName |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.agentRiskDetection/agentId |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.airPrintDestination/resourcePath |  | The Resource Path associated with the printer. This corresponds to the rp parameter of the _ipps.tcp Bonjour record. For example: printers/Canon_MG5300_series, printers/Xerox_Phaser_7600, ipp/print, Epson_IPP_Printer. | Org.OData.Core.V1.LongDescription |
 | microsoft.graph.alert |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertDetection |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertFeedback |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertHistoryState |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertStatus |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertTrigger |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode/passcode |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidForWorkApp/appIdentifier |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidForWorkApp/packageId |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedAppRegistration |  | The ManagedAppRegistration resource represents the details of an app, with management capability, used by a member of the organization. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.androidManagedStoreApp/appStoreUrl |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreApp/appTracks |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreApp/isPrivate |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreApp/packageId |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreApp/supportsOemConfig |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreApp/totalLicenseCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreApp/usedLicenseCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreAppConfiguration/appSupportsOemConfig |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreAppTrack/trackAlias |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidManagedStoreAppTrack/trackId |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.androidStoreApp/packageId |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.applePushNotificationCertificate/certificateSerialNumber |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
+| microsoft.graph.androidDeviceComplianceLocalActionLockDeviceWithPasscode/passcode |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidForWorkApp/appIdentifier |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidForWorkApp/packageId |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/appStoreUrl |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/appTracks |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/isPrivate |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/packageId |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/supportsOemConfig |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/totalLicenseCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreApp/usedLicenseCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreAppConfiguration/appSupportsOemConfig |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreAppTrack/trackAlias |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidManagedStoreAppTrack/trackId |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.androidStoreApp/packageId |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.applePushNotificationCertificate/certificateSerialNumber |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.application/createdByAppId |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.applicationPermissionsRequired |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.approvalItem/allowCancel |  |  | Org.OData.Core.V1.Computed |
@@ -1607,42 +1507,23 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.approvalItemResponse/createdDateTime |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.approvalItemResponse/owners |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.artifactQuery/queryExpression |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.assignmentFilterSupportedProperty/evaluationSource |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.attendanceRecord/registrantId |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.attributeInfo |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.audienceRestriction/isStateSetByMicrosoft |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.availableProviderTypes(Collection(microsoft.graph.identityProvider)) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.awsActionsPermissionsDefinitionAction/statements |  |  | Org.OData.Core.V1.AutoExpand |
-| microsoft.graph.awsIdentityAccessManagementKeyAgeFinding/accessKey |  |  | Org.OData.Core.V1.AutoExpand |
-| microsoft.graph.awsIdentityAccessManagementKeyUsageFinding/accessKey |  |  | Org.OData.Core.V1.AutoExpand |
-| microsoft.graph.awsSecretInformationAccessFinding/identity |  |  | Org.OData.Core.V1.AutoExpand |
 | microsoft.graph.b2cIdentityUserFlow/identityProviders |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.b2xIdentityUserFlow/identityProviders |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.backupRestoreRoot/protectionUnits |  |  | Org.OData.Core.V1.ExplicitOperationBindings |
-| microsoft.graph.bookingAppointment/anonymousJoinWebUrl |  |  | Org.OData.Core.V1.IsURL |
-| microsoft.graph.bookingAppointment/customerId |  | If CustomerId is not specified when an appointment is created then a new customer is created based on the appointment customer information. Once set, the customerId should be considered immutable. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingAppointment/customerNotes |  | The value of this property is only available when reading an individual booking appointment by id. Its value can only be set when creating a new appointment with a new customer, ie, without specifying a CustomerId. After that, the property is computed from the customer represented by CustomerId. | Org.OData.Core.V1.Immutable, Org.OData.Core.V1.LongDescription |
+| microsoft.graph.bookingAppointment/customerNotes |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.bookingAppointment/duration |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.bookingAppointment/filledAttendeesCount |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.bookingAppointment/invoiceUrl |  |  | Org.OData.Core.V1.IsURL |
-| microsoft.graph.bookingAppointment/joinWebUrl |  |  | Org.OData.Core.V1.IsURL |
-| microsoft.graph.bookingAppointment/onlineMeetingUrl |  |  | Org.OData.Core.V1.IsURL |
-| microsoft.graph.bookingAppointment/reminders |  | The value of this property is only available when reading an individual booking appointment by id. | Org.OData.Core.V1.LongDescription |
 | microsoft.graph.bookingAppointment/serviceId |  |  | Org.OData.Core.V1.Immutable |
-| microsoft.graph.bookingAppointment/serviceName |  | This property is optional when creating a new appointment. If not specified, it is computed from the service associated with the appointment by the service id. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingAppointment/serviceNotes |  | The value of this property is only available when reading an individual booking appointment by id. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingBusiness |  | The bookingBusiness is the top level object which contains business information and related business objects such as appointments, customers, services and staff members. | Org.OData.Core.V1.LongDescription |
 | microsoft.graph.bookingBusiness/isPublished |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.bookingBusiness/publicUrl |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.IsURL |
-| microsoft.graph.bookingBusiness/webSiteUrl |  | Example: https://www.contoso.com | Org.OData.Core.V1.IsURL, Org.OData.Core.V1.LongDescription |
+| microsoft.graph.bookingBusiness/publicUrl |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.bookingCurrency/symbol |  |  | Org.OData.Core.V1.IsLanguageDependent |
-| microsoft.graph.bookingCustomQuestion/displayName |  | The display name is suitable for human-readable interfaces. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingNamedEntity/displayName |  | The display name is suitable for human-readable interfaces. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingPageSettings/privacyPolicyWebUrl |  | Example: https://www.contoso.com | Org.OData.Core.V1.IsURL, Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingPageSettings/termsAndConditionsWebUrl |  | Example: https://www.contoso.com | Org.OData.Core.V1.IsURL, Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingService/defaultReminders |  | The value of this property is only available when reading an individual booking service by id. | Org.OData.Core.V1.LongDescription |
-| microsoft.graph.bookingService/webUrl |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.IsURL |
+| microsoft.graph.bookingService/webUrl |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.callRecords.callRecord/organizer |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.callRecords.callRecord/organizer_v2 |  |  | Org.OData.Core.V1.AutoExpand |
 | microsoft.graph.callRecords.callRecord/participants |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.callRecords.participantEndpoint/identity |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cancelPrintJob(microsoft.graph.printJob) |  |  | Org.OData.Core.V1.Revisions |
@@ -1693,16 +1574,15 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.cloudPcUserSetting/notificationSetting |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcUserSetting/selfServiceEnabled |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcWindowsSettings |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.comanagedDevicesSummary/compliancePolicyCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/configurationSettingsCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/endpointProtectionCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/inventoryCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/modernAppsCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/officeAppsCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/resourceAccessCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/totalComanagedCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.comanagedDevicesSummary/windowsUpdateForBusinessCount |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Permissions |
-| microsoft.graph.community/groupId |  |  | Org.OData.Core.V1.Permissions |
+| microsoft.graph.comanagedDevicesSummary/compliancePolicyCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/configurationSettingsCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/endpointProtectionCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/inventoryCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/modernAppsCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/officeAppsCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/resourceAccessCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/totalComanagedCount |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.comanagedDevicesSummary/windowsUpdateForBusinessCount |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.companySubscription/ocpSubscriptionId |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.conditionalAccessApplications/globalSecureAccess |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.conditionalAccessApplications/networkAccess |  |  | Org.OData.Core.V1.Revisions |
@@ -1716,19 +1596,41 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.controlConfiguration |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchDataSourcesConfiguration |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchHit |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.copilotSearchHit/preview |  |  | Org.OData.Core.V1.Permissions |
-| microsoft.graph.copilotSearchHit/resourceMetadata |  |  | Org.OData.Core.V1.Permissions |
-| microsoft.graph.copilotSearchHit/resourceType |  |  | Org.OData.Core.V1.Permissions |
-| microsoft.graph.copilotSearchHit/webUrl |  |  | Org.OData.Core.V1.Permissions |
 | microsoft.graph.copilotSearchResourceMetadataDictionary |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchResourceType |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchResponse |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.copilotSearchResponse/nextLink |  |  | Org.OData.Core.V1.IsURL, Org.OData.Core.V1.Permissions |
-| microsoft.graph.copilotSearchResponse/searchHits |  |  | Org.OData.Core.V1.Permissions |
-| microsoft.graph.copilotSearchResponse/totalCount |  |  | Org.OData.Core.V1.Permissions |
 | microsoft.graph.correlatedIdentity |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlatedObjectLinkMapping |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlatedObjectLinkSource |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlatedObjectLinkTarget |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlationError |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.credentialUsageSummary |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.credentialUserRegistrationDetails |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.crossTenantMigrationJob |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.crossTenantMigrationJobStatus |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.crossTenantMigrationJobType |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.crossTenantMigrationServiceStatus |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.crossTenantMigrationServiceStatusDetails |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.crossTenantMigrationTask |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customAccessPackageWorkflowExtension |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customExtensionHandler |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customExtensionHandlerInstance |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customObjectFieldDefinition |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customObjectProperties |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customUsernameSignInIdentifier |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.dailyInactiveUsersByApplicationMetric |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.dailyUserInsightMetricsRoot/inactiveUsersByApplication |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.decryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Binary) |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.deleteTiIndicators(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.deleteTiIndicatorsByExternalId(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.device/cloudLicensing |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.deviceAndAppManagementAssignedRoleDefinition/permissions |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAndAppManagementAssignedRoleDefinition/roleDefinitionDisplayName |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAndAppManagementAssignedRoleDetail/permissions |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAndAppManagementAssignedRoleDetail/roleDefinitions |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAndAppManagementAssignedRoleDetails/roleAssignmentIds |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAndAppManagementAssignedRoleDetails/roleDefinitionIds |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAndAppManagementAssignmentFilter/evaluationMode |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAssignmentItem/assignmentItemActionIntent |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAssignmentItem/assignmentItemActionStatus |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.deviceAssignmentItem/errorCode |  |  | Org.OData.Core.V1.Computed |

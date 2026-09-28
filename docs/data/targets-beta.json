@@ -581,22 +581,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.airPrintDestination/resourcePath",
-    "typePath": "microsoft.graph.airPrintDestination",
-    "member": "resourcePath",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AirPrintDestination"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The Resource Path associated with the printer. This corresponds to the rp parameter of the _ipps.tcp Bonjour record. For example: printers/Canon_MG5300_series, printers/Xerox_Phaser_7600, ipp/print, Epson_IPP_Printer."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.alert",
     "typePath": "microsoft.graph.alert",
     "member": "",
@@ -702,8 +686,7 @@
       "AndroidDeviceComplianceLocalActionLockDeviceWithPasscode"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -719,8 +702,7 @@
       "AndroidForWorkApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -736,27 +718,10 @@
       "AndroidForWorkApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.androidManagedAppRegistration",
-    "typePath": "microsoft.graph.androidManagedAppRegistration",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AndroidManagedAppRegistration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The ManagedAppRegistration resource represents the details of an app, with management capability, used by a member of the organization."
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -769,8 +734,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -786,8 +750,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -803,8 +766,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -820,8 +782,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -837,8 +798,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -854,8 +814,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -871,8 +830,7 @@
       "AndroidManagedStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -888,8 +846,7 @@
       "AndroidManagedStoreAppConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -905,8 +862,7 @@
       "AndroidManagedStoreAppTrack"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -922,8 +878,7 @@
       "AndroidManagedStoreAppTrack"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -939,8 +894,7 @@
       "AndroidStoreApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -956,8 +910,7 @@
       "ApplePushNotificationCertificate"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -1220,6 +1173,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.assignmentFilterSupportedProperty/evaluationSource",
+    "typePath": "microsoft.graph.assignmentFilterSupportedProperty",
+    "member": "evaluationSource",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AssignmentFilterSupportedProperty"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.attendanceRecord/registrantId",
     "typePath": "microsoft.graph.attendanceRecord",
     "member": "registrantId",
@@ -1286,70 +1255,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.awsActionsPermissionsDefinitionAction/statements",
-    "typePath": "microsoft.graph.awsActionsPermissionsDefinitionAction",
-    "member": "statements",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AwsActionsPermissionsDefinitionAction"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.awsIdentityAccessManagementKeyAgeFinding/accessKey",
-    "typePath": "microsoft.graph.awsIdentityAccessManagementKeyAgeFinding",
-    "member": "accessKey",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AwsIdentityAccessManagementKeyAgeFinding"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.awsIdentityAccessManagementKeyUsageFinding/accessKey",
-    "typePath": "microsoft.graph.awsIdentityAccessManagementKeyUsageFinding",
-    "member": "accessKey",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AwsIdentityAccessManagementKeyUsageFinding"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.awsSecretInformationAccessFinding/identity",
-    "typePath": "microsoft.graph.awsSecretInformationAccessFinding",
-    "member": "identity",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "AwsSecretInformationAccessFinding"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.b2cIdentityUserFlow/identityProviders",
     "typePath": "microsoft.graph.b2cIdentityUserFlow",
     "member": "identityProviders",
@@ -1398,38 +1303,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/anonymousJoinWebUrl",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "anonymousJoinWebUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/customerId",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "customerId",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "If CustomerId is not specified when an appointment is created then a new customer is created based on the appointment customer information. Once set, the customerId should be considered immutable."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.bookingAppointment/customerNotes",
     "typePath": "microsoft.graph.bookingAppointment",
     "member": "customerNotes",
@@ -1439,11 +1312,10 @@
       "BookingAppointment"
     ],
     "terms": [
-      "Org.OData.Core.V1.Immutable",
-      "Org.OData.Core.V1.LongDescription"
+      "Org.OData.Core.V1.Immutable"
     ],
     "description": "",
-    "longDescription": "The value of this property is only available when reading an individual booking appointment by id. Its value can only be set when creating a new appointment with a new customer, ie, without specifying a CustomerId. After that, the property is computed from the customer represented by CustomerId."
+    "longDescription": ""
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -1479,70 +1351,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/invoiceUrl",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "invoiceUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/joinWebUrl",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "joinWebUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/onlineMeetingUrl",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "onlineMeetingUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/reminders",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "reminders",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The value of this property is only available when reading an individual booking appointment by id."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.bookingAppointment/serviceId",
     "typePath": "microsoft.graph.bookingAppointment",
     "member": "serviceId",
@@ -1556,54 +1364,6 @@
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/serviceName",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "serviceName",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "This property is optional when creating a new appointment. If not specified, it is computed from the service associated with the appointment by the service id."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingAppointment/serviceNotes",
-    "typePath": "microsoft.graph.bookingAppointment",
-    "member": "serviceNotes",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingAppointment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The value of this property is only available when reading an individual booking appointment by id."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingBusiness",
-    "typePath": "microsoft.graph.bookingBusiness",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingBusiness"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The bookingBusiness is the top level object which contains business information and related business objects such as appointments, customers, services and staff members."
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -1632,28 +1392,10 @@
       "BookingBusiness"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.IsURL"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingBusiness/webSiteUrl",
-    "typePath": "microsoft.graph.bookingBusiness",
-    "member": "webSiteUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingBusiness"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL",
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Example: https://www.contoso.com"
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -1673,88 +1415,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingCustomQuestion/displayName",
-    "typePath": "microsoft.graph.bookingCustomQuestion",
-    "member": "displayName",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingCustomQuestion"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The display name is suitable for human-readable interfaces."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingNamedEntity/displayName",
-    "typePath": "microsoft.graph.bookingNamedEntity",
-    "member": "displayName",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingNamedEntity"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The display name is suitable for human-readable interfaces."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingPageSettings/privacyPolicyWebUrl",
-    "typePath": "microsoft.graph.bookingPageSettings",
-    "member": "privacyPolicyWebUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingPageSettings"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL",
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Example: https://www.contoso.com"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingPageSettings/termsAndConditionsWebUrl",
-    "typePath": "microsoft.graph.bookingPageSettings",
-    "member": "termsAndConditionsWebUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingPageSettings"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL",
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Example: https://www.contoso.com"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.bookingService/defaultReminders",
-    "typePath": "microsoft.graph.bookingService",
-    "member": "defaultReminders",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "BookingService"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The value of this property is only available when reading an individual booking service by id."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.bookingService/webUrl",
     "typePath": "microsoft.graph.bookingService",
     "member": "webUrl",
@@ -1764,8 +1424,7 @@
       "BookingService"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.IsURL"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -1783,23 +1442,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.callRecords.callRecord/organizer_v2",
-    "typePath": "microsoft.graph.callRecords.callRecord",
-    "member": "organizer_v2",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CallRecords",
-      "CallRecord"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
     ],
     "description": "",
     "longDescription": ""
@@ -2625,8 +2267,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2642,8 +2283,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2659,8 +2299,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2676,8 +2315,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2693,8 +2331,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2710,8 +2347,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2727,8 +2363,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2744,8 +2379,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2761,24 +2395,7 @@
       "ComanagedDevicesSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.community/groupId",
-    "typePath": "microsoft.graph.community",
-    "member": "groupId",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Community"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -2993,70 +2610,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchHit/preview",
-    "typePath": "microsoft.graph.copilotSearchHit",
-    "member": "preview",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchHit"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchHit/resourceMetadata",
-    "typePath": "microsoft.graph.copilotSearchHit",
-    "member": "resourceMetadata",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchHit"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchHit/resourceType",
-    "typePath": "microsoft.graph.copilotSearchHit",
-    "member": "resourceType",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchHit"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchHit/webUrl",
-    "typePath": "microsoft.graph.copilotSearchHit",
-    "member": "webUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchHit"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.copilotSearchResourceMetadataDictionary",
     "typePath": "microsoft.graph.copilotSearchResourceMetadataDictionary",
     "member": "",
@@ -3099,55 +2652,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchResponse/nextLink",
-    "typePath": "microsoft.graph.copilotSearchResponse",
-    "member": "nextLink",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchResponse"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchResponse/searchHits",
-    "typePath": "microsoft.graph.copilotSearchResponse",
-    "member": "searchHits",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchResponse"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.copilotSearchResponse/totalCount",
-    "typePath": "microsoft.graph.copilotSearchResponse",
-    "member": "totalCount",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CopilotSearchResponse"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
     "longDescription": ""
@@ -3548,86 +3052,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deliveryOptimizationBandwidthAbsolute/maximumDownloadBandwidthInKilobytesPerSecond",
-    "typePath": "microsoft.graph.deliveryOptimizationBandwidthAbsolute",
-    "member": "maximumDownloadBandwidthInKilobytesPerSecond",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeliveryOptimizationBandwidthAbsolute"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The value 0 (zero) means that Delivery Optimization dynamically adjusts to use the available bandwidth for downloads. Valid values 0 to 4294967295"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deliveryOptimizationBandwidthAbsolute/maximumUploadBandwidthInKilobytesPerSecond",
-    "typePath": "microsoft.graph.deliveryOptimizationBandwidthAbsolute",
-    "member": "maximumUploadBandwidthInKilobytesPerSecond",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeliveryOptimizationBandwidthAbsolute"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The default value is 0, which permits unlimited possible bandwidth (optimized for minimal usage of upload bandwidth). Valid values 0 to 4000000"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deliveryOptimizationBandwidthPercentage/maximumBackgroundBandwidthPercentage",
-    "typePath": "microsoft.graph.deliveryOptimizationBandwidthPercentage",
-    "member": "maximumBackgroundBandwidthPercentage",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeliveryOptimizationBandwidthPercentage"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The default value 0 (zero) means that Delivery Optimization dynamically adjusts to use the available bandwidth for background downloads. Valid values 0 to 100"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deliveryOptimizationBandwidthPercentage/maximumForegroundBandwidthPercentage",
-    "typePath": "microsoft.graph.deliveryOptimizationBandwidthPercentage",
-    "member": "maximumForegroundBandwidthPercentage",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeliveryOptimizationBandwidthPercentage"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The default value 0 (zero) means that Delivery Optimization dynamically adjusts to use the available bandwidth for foreground downloads. Valid values 0 to 100"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deliveryOptimizationMaxCacheSizeAbsolute/maximumCacheSizeInGigabytes",
-    "typePath": "microsoft.graph.deliveryOptimizationMaxCacheSizeAbsolute",
-    "member": "maximumCacheSizeInGigabytes",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeliveryOptimizationMaxCacheSizeAbsolute"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The value 0 (zero) means \"unlimited\" cache. Delivery Optimization will clear the cache when the device is running low on disk space. Valid values 0 to 4294967295"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.device/cloudLicensing",
     "typePath": "microsoft.graph.device",
     "member": "cloudLicensing",
@@ -3653,8 +3077,7 @@
       "DeviceAndAppManagementAssignedRoleDefinition"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3670,8 +3093,7 @@
       "DeviceAndAppManagementAssignedRoleDefinition"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3687,8 +3109,7 @@
       "DeviceAndAppManagementAssignedRoleDetail"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3704,8 +3125,7 @@
       "DeviceAndAppManagementAssignedRoleDetail"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3721,8 +3141,7 @@
       "DeviceAndAppManagementAssignedRoleDetails"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3738,8 +3157,23 @@
       "DeviceAndAppManagementAssignedRoleDetails"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.deviceAndAppManagementAssignmentFilter/evaluationMode",
+    "typePath": "microsoft.graph.deviceAndAppManagementAssignmentFilter",
+    "member": "evaluationMode",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "DeviceAndAppManagementAssignmentFilter"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3755,8 +3189,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3772,8 +3205,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3789,8 +3221,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3806,8 +3237,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3823,8 +3253,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3840,8 +3269,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3857,8 +3285,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3874,8 +3301,7 @@
       "DeviceAssignmentItem"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3891,8 +3317,7 @@
       "DeviceComplianceScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3908,8 +3333,7 @@
       "DeviceComplianceScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3925,8 +3349,7 @@
       "DeviceConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3942,8 +3365,7 @@
       "DeviceConfigurationAssignment"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3959,8 +3381,7 @@
       "DeviceConfigurationAssignment"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -3992,8 +3413,7 @@
       "DeviceCustomAttributeShellScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4009,8 +3429,7 @@
       "DeviceCustomAttributeShellScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4042,8 +3461,7 @@
       "DeviceHealthScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4059,8 +3477,7 @@
       "DeviceHealthScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4110,8 +3527,7 @@
       "DeviceManagement"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4143,8 +3559,7 @@
       "DeviceManagement"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4160,8 +3575,7 @@
       "DeviceManagement"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4177,8 +3591,7 @@
       "DeviceManagement"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4194,8 +3607,7 @@
       "DeviceManagementCompliancePolicy"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4211,8 +3623,7 @@
       "DeviceManagementCompliancePolicy"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4228,8 +3639,7 @@
       "DeviceManagementCompliancePolicy"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4245,8 +3655,7 @@
       "DeviceManagementCompliancePolicy"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4262,8 +3671,7 @@
       "DeviceManagementConfigurationPolicy"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4279,8 +3687,7 @@
       "DeviceManagementConfigurationPolicyTemplate"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4296,8 +3703,7 @@
       "DeviceManagementConfigurationPolicyTemplate"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4313,8 +3719,7 @@
       "DeviceManagementConfigurationPolicyTemplateReference"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4330,8 +3735,7 @@
       "DeviceManagementConfigurationPolicyTemplateReference"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4347,24 +3751,7 @@
       "DeviceManagementConfigurationPolicyTemplateReference"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceManagementConfigurationSetting/settingDefinitions",
-    "typePath": "microsoft.graph.deviceManagementConfigurationSetting",
-    "member": "settingDefinitions",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceManagementConfigurationSetting"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4380,8 +3767,7 @@
       "DeviceManagementReusablePolicySetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4397,24 +3783,7 @@
       "DeviceManagementReusablePolicySetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.deviceManagementReusablePolicySetting/referencingConfigurationPolicies",
-    "typePath": "microsoft.graph.deviceManagementReusablePolicySetting",
-    "member": "referencingConfigurationPolicies",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "DeviceManagementReusablePolicySetting"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4430,8 +3799,7 @@
       "DeviceManagementReusablePolicySetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4447,8 +3815,7 @@
       "DeviceManagementReusablePolicySetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4464,8 +3831,7 @@
       "DeviceManagementScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4481,8 +3847,7 @@
       "DeviceManagementScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4498,8 +3863,7 @@
       "DeviceShellScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -4515,8 +3879,7 @@
       "DeviceShellScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -5505,54 +4868,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.embeddedSIMActivationCode/integratedCircuitCardIdentifier",
-    "typePath": "microsoft.graph.embeddedSIMActivationCode",
-    "member": "integratedCircuitCardIdentifier",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EmbeddedSIMActivationCode"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The input must match the following regular expression: '^[0-9]{19}[0-9]?$'."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.embeddedSIMActivationCode/matchingIdentifier",
-    "typePath": "microsoft.graph.embeddedSIMActivationCode",
-    "member": "matchingIdentifier",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EmbeddedSIMActivationCode"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The input must match the following regular expression: '^[a-zA-Z0-9\\-]*$'."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.embeddedSIMActivationCode/smdpPlusServerAddress",
-    "typePath": "microsoft.graph.embeddedSIMActivationCode",
-    "member": "smdpPlusServerAddress",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EmbeddedSIMActivationCode"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The input must match the following regular expression: '^([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\\.)+[a-zA-Z]{2,}$'."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.encryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Guid)",
     "typePath": "microsoft.graph.encryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Guid)",
     "member": "",
@@ -5567,70 +4882,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementAsyncOperation/operationType",
-    "typePath": "microsoft.graph.engagementAsyncOperation",
-    "member": "operationType",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementAsyncOperation"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementAsyncOperation/resourceId",
-    "typePath": "microsoft.graph.engagementAsyncOperation",
-    "member": "resourceId",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementAsyncOperation"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementConversation/creationMode",
-    "typePath": "microsoft.graph.engagementConversation",
-    "member": "creationMode",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementConversation"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementConversation/starterId",
-    "typePath": "microsoft.graph.engagementConversation",
-    "member": "starterId",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementConversation"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
     "longDescription": ""
@@ -5653,22 +4904,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementConversationMessage/creationMode",
-    "typePath": "microsoft.graph.engagementConversationMessage",
-    "member": "creationMode",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementConversationMessage"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.engagementConversationMessage/lastModifiedDateTime",
     "typePath": "microsoft.graph.engagementConversationMessage",
     "member": "lastModifiedDateTime",
@@ -5679,22 +4914,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementConversationMessage/replyToId",
-    "typePath": "microsoft.graph.engagementConversationMessage",
-    "member": "replyToId",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementConversationMessage"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
     "longDescription": ""
@@ -5775,22 +4994,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.engagementUploadSession/id",
-    "typePath": "microsoft.graph.engagementUploadSession",
-    "member": "id",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "EngagementUploadSession"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
     ],
     "description": "",
     "longDescription": ""
@@ -6266,23 +5469,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.externalConnectors.external/authorizationSystems",
-    "typePath": "microsoft.graph.externalConnectors.external",
-    "member": "authorizationSystems",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ExternalConnectors",
-      "External"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
     ],
     "description": "",
     "longDescription": ""
@@ -6782,6 +5968,70 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.GraphService/copilot",
+    "typePath": "microsoft.graph.GraphService",
+    "member": "copilot",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "GraphService"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.ExplicitOperationBindings"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.GraphService/employeeExperience/communities",
+    "typePath": "microsoft.graph.GraphService",
+    "member": "employeeExperience",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "GraphService"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.ExplicitOperationBindings"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.GraphService/identityProviders",
+    "typePath": "microsoft.graph.GraphService",
+    "member": "identityProviders",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "GraphService"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.GraphService/reports",
+    "typePath": "microsoft.graph.GraphService",
+    "member": "reports",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "GraphService"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.ExplicitOperationBindings"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.hardwareConfiguration/createdDateTime",
     "typePath": "microsoft.graph.hardwareConfiguration",
     "member": "createdDateTime",
@@ -6791,8 +6041,7 @@
       "HardwareConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -6808,8 +6057,7 @@
       "HardwareConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -6825,8 +6073,7 @@
       "HardwarePasswordDetail"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -6842,8 +6089,7 @@
       "HardwarePasswordDetail"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -6859,8 +6105,7 @@
       "HardwarePasswordInfo"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -6876,8 +6121,7 @@
       "HardwarePasswordInfo"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -6980,22 +6224,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.identityFinding/identity",
-    "typePath": "microsoft.graph.identityFinding",
-    "member": "identity",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IdentityFinding"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.identityGovernance.cancelProcessing(microsoft.graph.identityGovernance.workflow, microsoft.graph.identityGovernance.cancelScope)",
     "typePath": "microsoft.graph.identityGovernance.cancelProcessing(microsoft.graph.identityGovernance.workflow, microsoft.graph.identityGovernance.cancelScope)",
     "member": "",
@@ -7030,6 +6258,40 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.lifecyclePolicy/policySource",
+    "typePath": "microsoft.graph.identityGovernance.lifecyclePolicy",
+    "member": "policySource",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "LifecyclePolicy"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Immutable"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.identityGovernance.lifecyclePolicyPriorityConfiguration/subjectType",
+    "typePath": "microsoft.graph.identityGovernance.lifecyclePolicyPriorityConfiguration",
+    "member": "subjectType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "IdentityGovernance",
+      "LifecyclePolicyPriorityConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Immutable"
     ],
     "description": "",
     "longDescription": ""
@@ -7296,22 +6558,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.inactiveGroupFinding/group",
-    "typePath": "microsoft.graph.inactiveGroupFinding",
-    "member": "group",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "InactiveGroupFinding"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.inactiveUsersByApplicationMetricBase",
     "typePath": "microsoft.graph.inactiveUsersByApplicationMetricBase",
     "member": "",
@@ -7481,23 +6727,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.apiDataConnector/baseUrl",
-    "typePath": "microsoft.graph.industryData.apiDataConnector",
-    "member": "baseUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "ApiDataConnector"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.industryData.azureDataLakeConnector/fileFormat",
     "typePath": "microsoft.graph.industryData.azureDataLakeConnector",
     "member": "fileFormat",
@@ -7610,8 +6839,7 @@
       "FileUploadSession"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.IsURL"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -7833,23 +7061,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.industryDataConnector/sourceSystem",
-    "typePath": "microsoft.graph.industryData.industryDataConnector",
-    "member": "sourceSystem",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "IndustryDataConnector"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
     ],
     "description": "",
     "longDescription": ""
@@ -8145,40 +7356,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.oAuth2ClientCredential/tokenUrl",
-    "typePath": "microsoft.graph.industryData.oAuth2ClientCredential",
-    "member": "tokenUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "OAuth2ClientCredential"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.oAuthClientCredential/clientSecret",
-    "typePath": "microsoft.graph.industryData.oAuthClientCredential",
-    "member": "clientSecret",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "OAuthClientCredential"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.industryData.outboundProvisioningFlowSet/createdDateTime",
     "typePath": "microsoft.graph.industryData.outboundProvisioningFlowSet",
     "member": "createdDateTime",
@@ -8366,23 +7543,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.userConfiguration/roleGroup",
-    "typePath": "microsoft.graph.industryData.userConfiguration",
-    "member": "roleGroup",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "UserConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.industryData.userMatchingSetting/priorityOrder",
     "typePath": "microsoft.graph.industryData.userMatchingSetting",
     "member": "priorityOrder",
@@ -8394,23 +7554,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.ComputedDefaultValue"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.industryData.userMatchingSetting/roleGroup",
-    "typePath": "microsoft.graph.industryData.userMatchingSetting",
-    "member": "roleGroup",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IndustryData",
-      "UserMatchingSetting"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
     ],
     "description": "",
     "longDescription": ""
@@ -8544,22 +7687,6 @@
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.iosManagedAppRegistration",
-    "typePath": "microsoft.graph.iosManagedAppRegistration",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "IosManagedAppRegistration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The ManagedAppRegistration resource represents the details of an app, with management capability, used by a member of the organization."
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -8844,27 +7971,10 @@
       "ManagedApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.managedAppRegistration",
-    "typePath": "microsoft.graph.managedAppRegistration",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ManagedAppRegistration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The ManagedAppRegistration resource represents the details of an app, with management capability, used by a member of the organization."
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -8877,8 +7987,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8894,8 +8003,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8911,8 +8019,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8928,8 +8035,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8945,8 +8051,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8962,8 +8067,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8979,8 +8083,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -8996,8 +8099,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9013,8 +8115,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9030,8 +8131,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9047,8 +8147,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9064,8 +8163,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9081,8 +8179,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9098,8 +8195,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9115,8 +8211,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9132,24 +8227,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.managedDevice/deviceHealthScriptStates",
-    "typePath": "microsoft.graph.managedDevice",
-    "member": "deviceHealthScriptStates",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ManagedDevice"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9165,8 +8243,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9182,8 +8259,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9199,8 +8275,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9216,8 +8291,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9233,8 +8307,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9250,8 +8323,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9267,8 +8339,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9284,8 +8355,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9301,8 +8371,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9318,8 +8387,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9335,8 +8403,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9352,8 +8419,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9369,8 +8435,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9386,8 +8451,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9403,8 +8467,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9420,8 +8483,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9437,8 +8499,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9454,8 +8515,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9471,8 +8531,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9488,8 +8547,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9505,8 +8563,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9522,8 +8579,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9539,8 +8595,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9556,8 +8611,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9573,8 +8627,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9590,8 +8643,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9607,8 +8659,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9624,8 +8675,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9641,8 +8691,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9658,8 +8707,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9675,8 +8723,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9692,8 +8739,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9709,8 +8755,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9726,8 +8771,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9743,8 +8787,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9760,8 +8803,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9777,8 +8819,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9794,8 +8835,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9811,8 +8851,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9828,8 +8867,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9861,8 +8899,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9878,8 +8915,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9895,8 +8931,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9912,8 +8947,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9929,8 +8963,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9946,8 +8979,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9963,8 +8995,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9980,8 +9011,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -9997,8 +9027,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10014,8 +9043,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10031,8 +9059,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10048,8 +9075,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10065,24 +9091,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.managedDevice/windowsProtectionState",
-    "typePath": "microsoft.graph.managedDevice",
-    "member": "windowsProtectionState",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ManagedDevice"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10098,8 +9107,7 @@
       "ManagedDevice"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10115,24 +9123,7 @@
       "ManagedDeviceCleanupRule"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.managedMobileLobApp/contentVersions",
-    "typePath": "microsoft.graph.managedMobileLobApp",
-    "member": "contentVersions",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ManagedMobileLobApp"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10148,8 +9139,7 @@
       "ManagedMobileLobApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10459,8 +9449,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10476,8 +9465,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10493,8 +9481,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10510,8 +9497,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10527,8 +9513,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10544,8 +9529,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10561,8 +9545,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10578,8 +9561,7 @@
       "MobileApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10595,8 +9577,7 @@
       "MobileAppAssignment"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10612,8 +9593,7 @@
       "MobileAppAssignment"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10629,8 +9609,7 @@
       "MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10646,8 +9625,7 @@
       "MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10663,8 +9641,7 @@
       "MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10680,8 +9657,7 @@
       "MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10697,8 +9673,7 @@
       "MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10714,8 +9689,7 @@
       "MobileAppCategory"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10731,8 +9705,7 @@
       "MobileAppContentFile"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10748,8 +9721,7 @@
       "MobileAppContentFile"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10765,8 +9737,7 @@
       "MobileAppContentFile"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10782,8 +9753,7 @@
       "MobileAppContentFile"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10799,8 +9769,7 @@
       "MobileAppContentFile"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10816,8 +9785,7 @@
       "MobileAppContentFile"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10833,8 +9801,7 @@
       "MobileAppContentScript"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10850,8 +9817,7 @@
       "MobileAppDependency"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10867,8 +9833,7 @@
       "MobileAppDependency"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10884,8 +9849,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10901,8 +9865,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10918,8 +9881,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10935,8 +9897,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10952,8 +9913,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10969,8 +9929,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -10986,8 +9945,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11003,8 +9961,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11020,8 +9977,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11037,8 +9993,7 @@
       "MobileAppInstallSummary"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11054,8 +10009,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11071,8 +10025,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11088,8 +10041,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11105,8 +10057,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11122,8 +10073,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11139,8 +10089,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11156,8 +10105,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11173,8 +10121,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11190,8 +10137,7 @@
       "MobileAppRelationship"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11207,8 +10153,7 @@
       "MobileAppSupersedence"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11224,24 +10169,7 @@
       "MobileAppSupersedence"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.mobileLobApp/contentVersions",
-    "typePath": "microsoft.graph.mobileLobApp",
-    "member": "contentVersions",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MobileLobApp"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11257,8 +10185,7 @@
       "MobileLobApp"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11738,8 +10665,7 @@
       "OmaSetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11755,8 +10681,7 @@
       "OmaSetting"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11884,8 +10809,7 @@
       "OperationApprovalPolicy"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11901,8 +10825,7 @@
       "OperationApprovalPolicySet"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11918,8 +10841,7 @@
       "OperationApprovalPolicySet"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11935,8 +10857,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11952,8 +10873,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11969,8 +10889,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -11986,8 +10905,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12003,8 +10921,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12020,8 +10937,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12037,8 +10953,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12054,8 +10969,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12071,8 +10985,7 @@
       "OperationApprovalRequest"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12088,8 +11001,7 @@
       "OperationApprovalRequestEntityStatus"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12105,8 +11017,7 @@
       "OperationApprovalRequestEntityStatus"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12122,8 +11033,7 @@
       "OperationApprovalRequestEntityStatus"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -12139,8 +11049,7 @@
       "OperationApprovalRequestEntityStatus"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -13182,8 +12091,7 @@
       "RecommendationConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -13264,54 +12172,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.referenceAttachment/previewUrl",
-    "typePath": "microsoft.graph.referenceAttachment",
-    "member": "previewUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ReferenceAttachment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.referenceAttachment/sourceUrl",
-    "typePath": "microsoft.graph.referenceAttachment",
-    "member": "sourceUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ReferenceAttachment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.referenceAttachment/thumbnailUrl",
-    "typePath": "microsoft.graph.referenceAttachment",
-    "member": "thumbnailUrl",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "ReferenceAttachment"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.IsURL"
     ],
     "description": "",
     "longDescription": ""
@@ -13571,8 +12431,7 @@
       "ResourceOperation"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -13588,24 +12447,7 @@
       "ResourceOperation"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.restorePointSearchResult/restorePoint",
-    "typePath": "microsoft.graph.restorePointSearchResult",
-    "member": "restorePoint",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "RestorePointSearchResult"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -13709,8 +12551,7 @@
       "RoleScopeTag"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -14059,6 +12900,57 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.auditLogQuery/approximateReturnedRecordCount",
+    "typePath": "microsoft.graph.security.auditLogQuery",
+    "member": "approximateReturnedRecordCount",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AuditLogQuery"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.auditLogQuery/isRecordCountLimitExceeded",
+    "typePath": "microsoft.graph.security.auditLogQuery",
+    "member": "isRecordCountLimitExceeded",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AuditLogQuery"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.auditLogQuery/recordCountLimit",
+    "typePath": "microsoft.graph.security.auditLogQuery",
+    "member": "recordCountLimit",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "AuditLogQuery"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -14781,23 +13673,6 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.security.sensorSettings/networkAdapters",
-    "typePath": "microsoft.graph.security.sensorSettings",
-    "member": "networkAdapters",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Security",
-      "SensorSettings"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
     ],
     "description": "",
     "longDescription": ""
@@ -15537,22 +14412,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.subscription/webPushEncryptionSecret",
-    "typePath": "microsoft.graph.subscription",
-    "member": "webPushEncryptionSecret",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Subscription"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.syncComponent/moreInfo",
     "typePath": "microsoft.graph.syncComponent",
     "member": "moreInfo",
@@ -16020,22 +14879,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.user/deviceEnrollmentConfigurations",
-    "typePath": "microsoft.graph.user",
-    "member": "deviceEnrollmentConfigurations",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "User"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Get enrollment configurations targeted to the user"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.userAccount",
     "typePath": "microsoft.graph.userAccount",
     "member": "",
@@ -16215,38 +15058,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.win32CatalogApp/latestUpgradeCatalogPackage",
-    "typePath": "microsoft.graph.win32CatalogApp",
-    "member": "latestUpgradeCatalogPackage",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Win32CatalogApp"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.win32CatalogApp/referencedCatalogPackage",
-    "typePath": "microsoft.graph.win32CatalogApp",
-    "member": "referencedCatalogPackage",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Win32CatalogApp"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.win32MobileAppCatalogPackage/applicableArchitectures",
     "typePath": "microsoft.graph.win32MobileAppCatalogPackage",
     "member": "applicableArchitectures",
@@ -16256,8 +15067,7 @@
       "Win32MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16273,8 +15083,7 @@
       "Win32MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16290,8 +15099,7 @@
       "Win32MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16307,8 +15115,7 @@
       "Win32MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16324,27 +15131,10 @@
       "Win32MobileAppCatalogPackage"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windows10EndpointProtectionConfiguration/dmaGuardDeviceEnumerationPolicy",
-    "typePath": "microsoft.graph.windows10EndpointProtectionConfiguration",
-    "member": "dmaGuardDeviceEnumerationPolicy",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "Windows10EndpointProtectionConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "This policy is intended to provide additional security against external DMA capable devices. It allows for more control over the enumeration of external DMA capable devices incompatible with DMA Remapping/device memory isolation and sandboxing. This policy only takes effect when Kernel DMA Protection is supported and enabled by the system firmware. Kernel DMA Protection is a platform feature that cannot be controlled via policy or by end user. It has to be supported by the system at the time of manufacturing. To check if the system supports Kernel DMA Protection, please check the Kernel DMA Protection field in the Summary page of MSINFO32.exe."
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -16357,8 +15147,7 @@
       "Windows81GeneralConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16374,123 +15163,10 @@
       "Windows81VpnConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsDeliveryOptimizationConfiguration/foregroundDownloadFromHttpDelayInSeconds",
-    "typePath": "microsoft.graph.windowsDeliveryOptimizationConfiguration",
-    "member": "foregroundDownloadFromHttpDelayInSeconds",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsDeliveryOptimizationConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Specifying 0 sets Delivery Optimization to manage this setting using the cloud service. Valid values 0 to 86400"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsDeliveryOptimizationConfiguration/groupIdSource",
-    "typePath": "microsoft.graph.windowsDeliveryOptimizationConfiguration",
-    "member": "groupIdSource",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsDeliveryOptimizationConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The options set in this policy only apply to Delivery Optimization mode Group (2) download mode. If Group (2) isn't set as Download mode, this policy will be ignored. For option 3 - DHCP Option ID, the client will query DHCP Option ID 234 and use the returned GUID value as the Group ID."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsDeliveryOptimizationConfiguration/minimumBatteryPercentageAllowedToUpload",
-    "typePath": "microsoft.graph.windowsDeliveryOptimizationConfiguration",
-    "member": "minimumBatteryPercentageAllowedToUpload",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsDeliveryOptimizationConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The default value is 0. The value 0 (zero) means \"not limited\" and the cloud service default value will be used. Valid values 0 to 100"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsDeliveryOptimizationConfiguration/minimumDiskSizeAllowedToPeerInGigabytes",
-    "typePath": "microsoft.graph.windowsDeliveryOptimizationConfiguration",
-    "member": "minimumDiskSizeAllowedToPeerInGigabytes",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsDeliveryOptimizationConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Recommended values: 64 GB to 256 GB. Valid values 1 to 100000"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsDeliveryOptimizationConfiguration/minimumFileSizeToCacheInMegabytes",
-    "typePath": "microsoft.graph.windowsDeliveryOptimizationConfiguration",
-    "member": "minimumFileSizeToCacheInMegabytes",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsDeliveryOptimizationConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Recommended values: 1 MB to 100,000 MB. Valid values 1 to 100000"
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsDeliveryOptimizationConfiguration/restrictPeerSelectionBy",
-    "typePath": "microsoft.graph.windowsDeliveryOptimizationConfiguration",
-    "member": "restrictPeerSelectionBy",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsDeliveryOptimizationConfiguration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "Option 1 (Subnet mask) only applies to Delivery Optimization modes Download Mode LAN (1) and Group (2)."
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsManagedAppRegistration",
-    "typePath": "microsoft.graph.windowsManagedAppRegistration",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsManagedAppRegistration"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.LongDescription"
-    ],
-    "description": "",
-    "longDescription": "The ManagedAppRegistration resource represents the details of an app, with management capability, used by a member of the organization."
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
@@ -16503,8 +15179,7 @@
       "WindowsPhone81GeneralConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16520,40 +15195,7 @@
       "WindowsPhoneEASEmailProfileConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsSetting/instances",
-    "typePath": "microsoft.graph.windowsSetting",
-    "member": "instances",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsSetting"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.AutoExpand"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.windowsUniversalAppX/committedContainedApps",
-    "typePath": "microsoft.graph.windowsUniversalAppX",
-    "member": "committedContainedApps",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "WindowsUniversalAppX"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16569,8 +15211,7 @@
       "WindowsUpdateForBusinessConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
@@ -16586,8 +15227,7 @@
       "WindowsUpdateForBusinessConfiguration"
     ],
     "terms": [
-      "Org.OData.Core.V1.Computed",
-      "Org.OData.Core.V1.Permissions"
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""
