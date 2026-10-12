@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-10-05T11:19:11.766Z
-Total annotation targets: 927
+Generated at: 2026-10-12T11:47:54.499Z
+Total annotation targets: 957
 
 ## Namespace Target Tree
 
@@ -133,6 +133,10 @@ Total annotation targets: 927
       - symbol
     - BookingService
       - webUrl
+    - Bucket
+      - capabilities
+      - creationInfo
+      - planId
     - CallRecords
       - CallRecord
         - organizer
@@ -145,6 +149,8 @@ Total annotation targets: 927
     - CancelSecurityAction(microsoft
       - Graph
         - SecurityAction)
+    - CategoryDefinition
+      - capabilities
     - Certification
       - certificationDetailsUrl
       - isCertifiedByMicrosoft
@@ -152,13 +158,11 @@ Total annotation targets: 927
       - createdDateTime
       - lastModifiedBy
       - lastModifiedDateTime
+    - ChecklistItemV4
+      - capabilities
+      - createdBy
     - CloudAppSecurityProfile
     - CloudAppSecurityState
-    - CloudLicensing
-      - DeviceCloudLicensing
-        - assignments
-        - usageRights
-        - waitingMembers
     - CloudPC
       - connectionSettings
       - frontlineCloudPcAvailability
@@ -235,6 +239,9 @@ Total annotation targets: 927
     - ConnectionDirection
     - ConnectionOperation
     - ConnectionStatus
+    - ContentLink
+      - capabilities
+      - createdBy
     - ControlConfiguration
     - CopilotSearchDataSourcesConfiguration
     - CopilotSearchHit
@@ -257,6 +264,14 @@ Total annotation targets: 927
     - CustomAccessPackageWorkflowExtension
     - CustomExtensionHandler
     - CustomExtensionHandlerInstance
+    - CustomFieldDefinition
+      - createdBy
+      - createdDateTime
+      - deletedBy
+      - deletedDateTime
+      - planId
+    - CustomFieldValue
+      - customFieldDefinitionId
     - CustomObjectFieldDefinition
     - CustomObjectProperties
     - CustomUsernameSignInIdentifier
@@ -276,8 +291,8 @@ Total annotation targets: 927
       - Graph
         - TiIndicator), Collection(Edm
           - String))
-    - Device
-      - cloudLicensing
+    - Dependency
+      - creationInfo
     - DeviceAndAppManagementAssignedRoleDefinition
       - permissions
       - roleDefinitionDisplayName
@@ -602,6 +617,11 @@ Total annotation targets: 927
                       - String), Edm
                         - Int32, Edm
                           - Int32)
+    - Goal
+      - capabilities
+      - createdBy
+      - createdDateTime
+      - planId
     - GraphService
       - copilot
       - employeeExperience
@@ -616,6 +636,8 @@ Total annotation targets: 927
     - HardwarePasswordInfo
       - currentPassword
       - previousPasswords
+    - HistoryItem
+      - occurredDateTime
     - HostSecurityProfile
     - HostSecurityState
     - IdentifierUriRestriction
@@ -1018,8 +1040,17 @@ Total annotation targets: 927
     - PhotoAllowedOperations
     - Place
       - lastUpdatedTime
+    - Plan
+      - capabilities
+      - container
+      - creationInfo
+    - PlanContextLink
+      - createdDateTime
     - Planner
       - goals
+    - PlannerChatMessage
+      - createdBy
+      - createdDateTime
     - PlannerGoal
     - PlannerGoalStatus
     - PlannerPlan
@@ -1260,6 +1291,12 @@ Total annotation targets: 927
       - RunDetails
       - SoftDeleteResponseAction
       - StopAndQuarantineFileResponseAction
+      - Workbook
+        - createdAtDateTime
+        - createdByUpn
+        - etag
+        - lastUpdatedByUpn
+        - updatedAtDateTime
     - SecurityAction
     - SecurityActionState
     - SecurityBaselineCategoryStateSummary
@@ -1335,6 +1372,10 @@ Total annotation targets: 927
       - secrets
     - SynchronizationSecret
     - SynchronizationSecretKeyStringValuePair
+    - Task
+      - capabilities
+      - creationInfo
+      - planId
     - TeamsAdministration
       - PolicyIdentifierDetail
     - TenantSecureScores(Collection(microsoft
@@ -1381,6 +1422,8 @@ Total annotation targets: 927
       - resourceVisualization
     - UserAccount
     - UserAccountSecurityType
+    - UserAssignment
+      - capabilities
     - UserCredentialUsageDetails
     - UsernameSignInIdentifier
     - UserSecurityProfile
@@ -1523,22 +1566,24 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.bookingBusiness/publicUrl |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.bookingCurrency/symbol |  |  | Org.OData.Core.V1.IsLanguageDependent |
 | microsoft.graph.bookingService/webUrl |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.bucket/capabilities |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.bucket/creationInfo |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.bucket/planId |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.callRecords.callRecord/organizer |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.callRecords.callRecord/participants |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.callRecords.participantEndpoint/identity |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cancelPrintJob(microsoft.graph.printJob) |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cancelSecurityAction(microsoft.graph.securityAction) |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.categoryDefinition/capabilities |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.certification/certificationDetailsUrl |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.certification/isCertifiedByMicrosoft |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.changeTrackedEntity/createdDateTime |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.changeTrackedEntity/lastModifiedBy |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.changeTrackedEntity/lastModifiedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.checklistItemV4/capabilities |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.checklistItemV4/createdBy |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.cloudAppSecurityProfile |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudAppSecurityState |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.cloudLicensing.deviceCloudLicensing |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.cloudLicensing.deviceCloudLicensing/assignments |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.cloudLicensing.deviceCloudLicensing/usageRights |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.cloudLicensing.deviceCloudLicensing/waitingMembers |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPC/connectionSettings |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPC/frontlineCloudPcAvailability |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPC/statusDetails |  |  | Org.OData.Core.V1.Revisions |
@@ -1593,6 +1638,8 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.connectionDirection |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.connectionOperation |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.connectionStatus |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.contentLink/capabilities |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.contentLink/createdBy |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.controlConfiguration |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchDataSourcesConfiguration |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchHit |  |  | Org.OData.Core.V1.Revisions |
@@ -1615,6 +1662,12 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.customAccessPackageWorkflowExtension |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customExtensionHandler |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customExtensionHandlerInstance |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.customFieldDefinition/createdBy |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.customFieldDefinition/createdDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.customFieldDefinition/deletedBy |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.customFieldDefinition/deletedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.customFieldDefinition/planId |  |  | Org.OData.Core.V1.Immutable |
+| microsoft.graph.customFieldValue/customFieldDefinitionId |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.customObjectFieldDefinition |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customObjectProperties |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customUsernameSignInIdentifier |  |  | Org.OData.Core.V1.Revisions |
@@ -1623,14 +1676,4 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.decryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Binary) |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.deleteTiIndicators(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.deleteTiIndicatorsByExternalId(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.device/cloudLicensing |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.deviceAndAppManagementAssignedRoleDefinition/permissions |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAndAppManagementAssignedRoleDefinition/roleDefinitionDisplayName |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAndAppManagementAssignedRoleDetail/permissions |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAndAppManagementAssignedRoleDetail/roleDefinitions |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAndAppManagementAssignedRoleDetails/roleAssignmentIds |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAndAppManagementAssignedRoleDetails/roleDefinitionIds |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAndAppManagementAssignmentFilter/evaluationMode |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAssignmentItem/assignmentItemActionIntent |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAssignmentItem/assignmentItemActionStatus |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.deviceAssignmentItem/errorCode |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.dependency/creationInfo |  |  | Org.OData.Core.V1.Computed |
