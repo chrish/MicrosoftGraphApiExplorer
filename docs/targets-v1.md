@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-10-12T11:47:54.863Z
-Total annotation targets: 277
+Generated at: 2026-10-19T09:45:24.119Z
+Total annotation targets: 287
 
 ## Namespace Target Tree
 
@@ -96,6 +96,19 @@ Total annotation targets: 277
       - tenantId
     - ConnectionDirection
     - ConnectionStatus
+    - CopilotPackageDetail
+      - requestMetadata
+    - CopilotPackageRequestInfo
+      - additionalMetadata
+      - assignees
+      - identifier
+      - requestedBy
+      - requestedDateTime
+    - CopilotPackageRequestMetadata
+      - requests
+    - CopilotPackageRequestPrincipal
+      - principalType
+      - userPrincipalName
     - CreateSnapshot(Collection(microsoft
       - Graph
         - ConfigurationBaseline), Edm
@@ -294,6 +307,8 @@ Total annotation targets: 277
     - Permission
       - grantedTo
       - grantedToIdentities
+    - Place
+      - lastUpdatedTime
     - PlannerPlan
       - owner
     - Presence
@@ -453,6 +468,15 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.configurationSnapshotJob/tenantId |  |  | Org.OData.Core.V1.Computed, Org.OData.Core.V1.Immutable |
 | microsoft.graph.connectionDirection |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.connectionStatus |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.copilotPackageDetail/requestMetadata |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/additionalMetadata |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/assignees |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/identifier |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/requestedBy |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/requestedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestMetadata/requests |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestPrincipal/principalType |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestPrincipal/userPrincipalName |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.createSnapshot(Collection(microsoft.graph.configurationBaseline), Edm.String, Edm.String, Collection(Edm.String)) |  |  | Org.OData.Core.V1.RequiresExplicitBinding |
 | microsoft.graph.directory/remoteTenantGroups |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.driftedProperty/currentValue |  |  | Org.OData.Core.V1.Computed |
@@ -579,12 +603,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.managedDevice/serialNumber |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.managedDevice/subscriberCarrier |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.managedDevice/totalStorageSpaceInBytes |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedDevice/udid |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedDevice/userDisplayName |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedDevice/userId |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedDevice/userPrincipalName |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedDevice/wiFiMacAddress |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedMobileLobApp/size |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.messageSecurityState |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.mobileApp/createdDateTime |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.mobileApp/lastModifiedDateTime |  |  | Org.OData.Core.V1.Computed |

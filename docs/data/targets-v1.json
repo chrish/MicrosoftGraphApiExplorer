@@ -1052,6 +1052,150 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/requestMetadata",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "requestMetadata",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/additionalMetadata",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "additionalMetadata",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/assignees",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "assignees",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/identifier",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "identifier",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/requestedBy",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "requestedBy",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/requestedDateTime",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "requestedDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestMetadata/requests",
+    "typePath": "microsoft.graph.copilotPackageRequestMetadata",
+    "member": "requests",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestMetadata"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestPrincipal/principalType",
+    "typePath": "microsoft.graph.copilotPackageRequestPrincipal",
+    "member": "principalType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestPrincipal"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestPrincipal/userPrincipalName",
+    "typePath": "microsoft.graph.copilotPackageRequestPrincipal",
+    "member": "userPrincipalName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestPrincipal"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.createSnapshot(Collection(microsoft.graph.configurationBaseline), Edm.String, Edm.String, Collection(Edm.String))",
     "typePath": "microsoft.graph.createSnapshot(Collection(microsoft.graph.configurationBaseline), Edm.String, Edm.String, Collection(Edm.String))",
     "member": "",
@@ -3598,6 +3742,22 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.place/lastUpdatedTime",
+    "typePath": "microsoft.graph.place",
+    "member": "lastUpdatedTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Place"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""

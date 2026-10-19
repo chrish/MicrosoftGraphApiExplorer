@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-10-12T11:47:54.499Z
-Total annotation targets: 957
+Generated at: 2026-10-19T09:45:23.952Z
+Total annotation targets: 995
 
 ## Namespace Target Tree
 
@@ -188,6 +188,8 @@ Total annotation targets: 957
     - CloudPcLaunchInfo
     - CloudPcNotificationSetting
     - CloudPcOnPremisesConnection
+      - adDomainPassword
+      - adDomainUsername
       - healthCheckStatusDetails
       - type
     - CloudPcOnPremisesConnectionHealthCheck
@@ -243,6 +245,19 @@ Total annotation targets: 957
       - capabilities
       - createdBy
     - ControlConfiguration
+    - CopilotPackageDetail
+      - requestMetadata
+    - CopilotPackageRequestInfo
+      - additionalMetadata
+      - assignees
+      - identifier
+      - requestedBy
+      - requestedDateTime
+    - CopilotPackageRequestMetadata
+      - requests
+    - CopilotPackageRequestPrincipal
+      - principalType
+      - userPrincipalName
     - CopilotSearchDataSourcesConfiguration
     - CopilotSearchHit
     - CopilotSearchResourceMetadataDictionary
@@ -255,12 +270,6 @@ Total annotation targets: 957
     - CorrelationError
     - CredentialUsageSummary
     - CredentialUserRegistrationDetails
-    - CrossTenantMigrationJob
-    - CrossTenantMigrationJobStatus
-    - CrossTenantMigrationJobType
-    - CrossTenantMigrationServiceStatus
-    - CrossTenantMigrationServiceStatusDetails
-    - CrossTenantMigrationTask
     - CustomAccessPackageWorkflowExtension
     - CustomExtensionHandler
     - CustomExtensionHandlerInstance
@@ -900,7 +909,6 @@ Total annotation targets: 957
       - totalActiveStorageUsedInBytes
     - MicrosoftManagedDesktop
       - type
-    - MigrationsRoot
     - MobileApp
       - createdDateTime
       - dependentAppCount
@@ -1241,6 +1249,8 @@ Total annotation targets: 957
           - policyDisplayName
           - policyId
           - status
+        - SlaPolicyTimer
+          - policyTimerId
       - CollectInvestigationPackageResponseAction
       - ConnectorValidateResult
       - DetectionAction
@@ -1469,6 +1479,46 @@ Total annotation targets: 957
       - featureUpdatesPauseStartDate
       - qualityUpdatesPauseStartDate
     - WindowsUpdates
+      - ApplicableCatalog
+        - deviceCount
+        - hasRecommendedDevice
+      - ApplicableCatalogSummary
+        - aggregatedDeviceCount
+        - hasRecommendedDevice
+        - policies
+      - ApplicableDevice
+        - isRecommended
+      - DeviceProfile
+        - azureAdDeviceId
+        - deviceModel
+        - deviceName
+        - hotpatchReadiness
+        - osBuild
+        - osStatus
+        - osVersion
+        - serialNumber
+      - DriverUpdateDeviceStatus
+        - aadDeviceId
+        - clientState
+        - clientSubstate
+        - deviceName
+        - lastEventDateTime
+        - policyId
+        - policyName
+        - ringId
+        - ringName
+        - serviceState
+        - serviceSubstate
+      - DriverUpdateReport
+        - class
+        - displayName
+        - manufacturer
+        - releaseDateTime
+        - version
+      - PolicyAssignment
+        - azureAdDeviceId
+        - policyId
+        - policyName
       - UpdatableAssetEnrollment
 
 ## Target Catalog Preview (first 200 rows)
@@ -1602,6 +1652,8 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.cloudPcGalleryImage/skuDisplayName |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcLaunchInfo |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcNotificationSetting |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.cloudPcOnPremisesConnection/adDomainPassword |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.cloudPcOnPremisesConnection/adDomainUsername |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcOnPremisesConnection/healthCheckStatusDetails |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcOnPremisesConnection/type |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.cloudPcOnPremisesConnectionHealthCheck/additionalDetails |  |  | Org.OData.Core.V1.Revisions |
@@ -1641,6 +1693,15 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.contentLink/capabilities |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.contentLink/createdBy |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.controlConfiguration |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.copilotPackageDetail/requestMetadata |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/additionalMetadata |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/assignees |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/identifier |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/requestedBy |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestInfo/requestedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestMetadata/requests |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestPrincipal/principalType |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.copilotPackageRequestPrincipal/userPrincipalName |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.copilotSearchDataSourcesConfiguration |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchHit |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.copilotSearchResourceMetadataDictionary |  |  | Org.OData.Core.V1.Revisions |
@@ -1653,12 +1714,6 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.correlationError |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.credentialUsageSummary |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.credentialUserRegistrationDetails |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationJob |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationJobStatus |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationJobType |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationServiceStatus |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationServiceStatusDetails |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.crossTenantMigrationTask |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customAccessPackageWorkflowExtension |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customExtensionHandler |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customExtensionHandlerInstance |  |  | Org.OData.Core.V1.Revisions |
@@ -1672,8 +1727,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.customObjectProperties |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.customUsernameSignInIdentifier |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.dailyInactiveUsersByApplicationMetric |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.dailyUserInsightMetricsRoot/inactiveUsersByApplication |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.decryptBuffer(microsoft.graph.informationProtection, Edm.Binary, Edm.Binary) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.deleteTiIndicators(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.deleteTiIndicatorsByExternalId(Collection(microsoft.graph.tiIndicator), Collection(Edm.String)) |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.dependency/creationInfo |  |  | Org.OData.Core.V1.Computed |

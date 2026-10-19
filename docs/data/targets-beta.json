@@ -2014,6 +2014,38 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudPcOnPremisesConnection/adDomainPassword",
+    "typePath": "microsoft.graph.cloudPcOnPremisesConnection",
+    "member": "adDomainPassword",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudPcOnPremisesConnection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.cloudPcOnPremisesConnection/adDomainUsername",
+    "typePath": "microsoft.graph.cloudPcOnPremisesConnection",
+    "member": "adDomainUsername",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CloudPcOnPremisesConnection"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.cloudPcOnPremisesConnection/healthCheckStatusDetails",
     "typePath": "microsoft.graph.cloudPcOnPremisesConnection",
     "member": "healthCheckStatusDetails",
@@ -2638,6 +2670,150 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageDetail/requestMetadata",
+    "typePath": "microsoft.graph.copilotPackageDetail",
+    "member": "requestMetadata",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageDetail"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/additionalMetadata",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "additionalMetadata",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/assignees",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "assignees",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/identifier",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "identifier",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/requestedBy",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "requestedBy",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestInfo/requestedDateTime",
+    "typePath": "microsoft.graph.copilotPackageRequestInfo",
+    "member": "requestedDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestInfo"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestMetadata/requests",
+    "typePath": "microsoft.graph.copilotPackageRequestMetadata",
+    "member": "requests",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestMetadata"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestPrincipal/principalType",
+    "typePath": "microsoft.graph.copilotPackageRequestPrincipal",
+    "member": "principalType",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestPrincipal"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.copilotPackageRequestPrincipal/userPrincipalName",
+    "typePath": "microsoft.graph.copilotPackageRequestPrincipal",
+    "member": "userPrincipalName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "CopilotPackageRequestPrincipal"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.copilotSearchDataSourcesConfiguration",
     "typePath": "microsoft.graph.copilotSearchDataSourcesConfiguration",
     "member": "",
@@ -2821,102 +2997,6 @@
       "Microsoft",
       "Graph",
       "CredentialUserRegistrationDetails"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.crossTenantMigrationJob",
-    "typePath": "microsoft.graph.crossTenantMigrationJob",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CrossTenantMigrationJob"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.crossTenantMigrationJobStatus",
-    "typePath": "microsoft.graph.crossTenantMigrationJobStatus",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CrossTenantMigrationJobStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.crossTenantMigrationJobType",
-    "typePath": "microsoft.graph.crossTenantMigrationJobType",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CrossTenantMigrationJobType"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.crossTenantMigrationServiceStatus",
-    "typePath": "microsoft.graph.crossTenantMigrationServiceStatus",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CrossTenantMigrationServiceStatus"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.crossTenantMigrationServiceStatusDetails",
-    "typePath": "microsoft.graph.crossTenantMigrationServiceStatusDetails",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CrossTenantMigrationServiceStatusDetails"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.crossTenantMigrationTask",
-    "typePath": "microsoft.graph.crossTenantMigrationTask",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "CrossTenantMigrationTask"
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
@@ -9660,22 +9740,6 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
-    "target": "microsoft.graph.migrationsRoot",
-    "typePath": "microsoft.graph.migrationsRoot",
-    "member": "",
-    "segments": [
-      "Microsoft",
-      "Graph",
-      "MigrationsRoot"
-    ],
-    "terms": [
-      "Org.OData.Core.V1.Revisions"
-    ],
-    "description": "",
-    "longDescription": ""
-  },
-  {
-    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.mobileApp/createdDateTime",
     "typePath": "microsoft.graph.mobileApp",
     "member": "createdDateTime",
@@ -13396,6 +13460,25 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.security.caseManagement.slaPolicyTimer/policyTimerId",
+    "typePath": "microsoft.graph.security.caseManagement.slaPolicyTimer",
+    "member": "policyTimerId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "Security",
+      "CaseManagement",
+      "SlaPolicyTimer"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed",
+      "Org.OData.Core.V1.Immutable"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.security.collectInvestigationPackageResponseAction",
     "typePath": "microsoft.graph.security.collectInvestigationPackageResponseAction",
     "member": "",
@@ -15708,6 +15791,567 @@
       "Microsoft",
       "Graph",
       "WindowsUpdateForBusinessConfiguration"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.applicableCatalog/deviceCount",
+    "typePath": "microsoft.graph.windowsUpdates.applicableCatalog",
+    "member": "deviceCount",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "ApplicableCatalog"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.applicableCatalog/hasRecommendedDevice",
+    "typePath": "microsoft.graph.windowsUpdates.applicableCatalog",
+    "member": "hasRecommendedDevice",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "ApplicableCatalog"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.applicableCatalogSummary/aggregatedDeviceCount",
+    "typePath": "microsoft.graph.windowsUpdates.applicableCatalogSummary",
+    "member": "aggregatedDeviceCount",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "ApplicableCatalogSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.applicableCatalogSummary/hasRecommendedDevice",
+    "typePath": "microsoft.graph.windowsUpdates.applicableCatalogSummary",
+    "member": "hasRecommendedDevice",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "ApplicableCatalogSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.applicableCatalogSummary/policies",
+    "typePath": "microsoft.graph.windowsUpdates.applicableCatalogSummary",
+    "member": "policies",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "ApplicableCatalogSummary"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.applicableDevice/isRecommended",
+    "typePath": "microsoft.graph.windowsUpdates.applicableDevice",
+    "member": "isRecommended",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "ApplicableDevice"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/azureAdDeviceId",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "azureAdDeviceId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/deviceModel",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "deviceModel",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/deviceName",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "deviceName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/hotpatchReadiness",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "hotpatchReadiness",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/osBuild",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "osBuild",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/osStatus",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "osStatus",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/osVersion",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "osVersion",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.deviceProfile/serialNumber",
+    "typePath": "microsoft.graph.windowsUpdates.deviceProfile",
+    "member": "serialNumber",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DeviceProfile"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/aadDeviceId",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "aadDeviceId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/clientState",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "clientState",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/clientSubstate",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "clientSubstate",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/deviceName",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "deviceName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/lastEventDateTime",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "lastEventDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/policyId",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "policyId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/policyName",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "policyName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/ringId",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "ringId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/ringName",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "ringName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/serviceState",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "serviceState",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus/serviceSubstate",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateDeviceStatus",
+    "member": "serviceSubstate",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateDeviceStatus"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateReport/class",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateReport",
+    "member": "class",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateReport/displayName",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateReport",
+    "member": "displayName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateReport/manufacturer",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateReport",
+    "member": "manufacturer",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateReport/releaseDateTime",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateReport",
+    "member": "releaseDateTime",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.driverUpdateReport/version",
+    "typePath": "microsoft.graph.windowsUpdates.driverUpdateReport",
+    "member": "version",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "DriverUpdateReport"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.policyAssignment/azureAdDeviceId",
+    "typePath": "microsoft.graph.windowsUpdates.policyAssignment",
+    "member": "azureAdDeviceId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "PolicyAssignment"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.policyAssignment/policyId",
+    "typePath": "microsoft.graph.windowsUpdates.policyAssignment",
+    "member": "policyId",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "PolicyAssignment"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.windowsUpdates.policyAssignment/policyName",
+    "typePath": "microsoft.graph.windowsUpdates.policyAssignment",
+    "member": "policyName",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "WindowsUpdates",
+      "PolicyAssignment"
     ],
     "terms": [
       "Org.OData.Core.V1.Computed"
