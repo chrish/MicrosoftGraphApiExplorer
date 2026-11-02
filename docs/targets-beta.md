@@ -2,7 +2,7 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-10-26T09:57:09.197Z
+Generated at: 2026-11-02T12:10:40.353Z
 Total annotation targets: 995
 
 ## Namespace Target Tree
