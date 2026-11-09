@@ -49,6 +49,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.agentUser/managerApplications",
+    "typePath": "microsoft.graph.agentUser",
+    "member": "managerApplications",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "AgentUser"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.alert",
     "typePath": "microsoft.graph.alert",
     "member": "",
@@ -3476,6 +3492,22 @@
   },
   {
     "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.mobileAppContentScript/state",
+    "typePath": "microsoft.graph.mobileAppContentScript",
+    "member": "state",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "MobileAppContentScript"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
     "target": "microsoft.graph.mobileAppRelationship/sourceDisplayName",
     "typePath": "microsoft.graph.mobileAppRelationship",
     "member": "sourceDisplayName",
@@ -3854,6 +3886,22 @@
     ],
     "terms": [
       "Org.OData.Core.V1.Revisions"
+    ],
+    "description": "",
+    "longDescription": ""
+  },
+  {
+    "namespace": "microsoft.graph.identityGovernance",
+    "target": "microsoft.graph.protectionUnitBase/pendingRetentionPeriodChange",
+    "typePath": "microsoft.graph.protectionUnitBase",
+    "member": "pendingRetentionPeriodChange",
+    "segments": [
+      "Microsoft",
+      "Graph",
+      "ProtectionUnitBase"
+    ],
+    "terms": [
+      "Org.OData.Core.V1.Computed"
     ],
     "description": "",
     "longDescription": ""

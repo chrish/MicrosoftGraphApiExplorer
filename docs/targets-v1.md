@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/v1.0/$metadata
 
-Generated at: 2026-11-02T12:10:40.485Z
-Total annotation targets: 287
+Generated at: 2026-11-09T12:41:38.640Z
+Total annotation targets: 290
 
 ## Namespace Target Tree
 
@@ -13,6 +13,8 @@ Total annotation targets: 287
       - agentIdentityBlueprintId
       - managerApplications
     - AgentIdentityBlueprintPrincipal
+      - managerApplications
+    - AgentUser
       - managerApplications
     - Alert
     - AlertDetection
@@ -284,6 +286,8 @@ Total annotation targets: 287
       - createdDateTime
       - isCommitted
       - uploadState
+    - MobileAppContentScript
+      - state
     - MobileAppRelationship
       - sourceDisplayName
       - sourceDisplayVersion
@@ -319,6 +323,8 @@ Total annotation targets: 287
     - ProcessConversationMetadata
       - accessedResources
     - ProcessIntegrityLevel
+    - ProtectionUnitBase
+      - pendingRetentionPeriodChange
     - Recent(microsoft
       - Graph
         - Drive)
@@ -406,6 +412,7 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.agentIdentity/agentIdentityBlueprintId |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentIdentity/managerApplications |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentUser/managerApplications |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.alert |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertDetection |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertFeedback |  |  | Org.OData.Core.V1.Revisions |
@@ -602,4 +609,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.managedDevice/requireUserEnrollmentApproval |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.managedDevice/serialNumber |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.managedDevice/subscriberCarrier |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.managedDevice/totalStorageSpaceInBytes |  |  | Org.OData.Core.V1.Computed |

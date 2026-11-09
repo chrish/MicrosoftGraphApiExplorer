@@ -2,8 +2,8 @@
 
 Generated from https://graph.microsoft.com/beta/$metadata
 
-Generated at: 2026-11-02T12:10:40.353Z
-Total annotation targets: 995
+Generated at: 2026-11-09T12:41:38.427Z
+Total annotation targets: 1084
 
 ## Namespace Target Tree
 
@@ -50,12 +50,31 @@ Total annotation targets: 995
       - managerApplications
     - AgentIdentityBlueprintPrincipal
       - managerApplications
+    - AgentInfo
+      - applicationId
+      - definitionName
+      - displayName
+      - key
     - AgentInstance
       - createdBy
       - createdDateTime
     - AgentRiskDetection
       - agentDisplayName
       - agentId
+    - AgentRun
+      - agent
+      - completedDateTime
+      - createdDateTime
+      - durationInMilliseconds
+      - failureInfo
+      - initiatedBy
+      - lastModifiedDateTime
+      - startedDateTime
+      - status
+      - statusDetail
+    - AgentRunFailureInfo
+      - errorType
+      - message
     - Alert
     - AlertDetection
     - AlertFeedback
@@ -268,6 +287,9 @@ Total annotation targets: 995
     - CorrelatedObjectLinkSource
     - CorrelatedObjectLinkTarget
     - CorrelationError
+    - CredentialProvenance
+      - assertedBy
+      - classification
     - CredentialUsageSummary
     - CredentialUserRegistrationDetails
     - CustomAccessPackageWorkflowExtension
@@ -694,6 +716,10 @@ Total annotation targets: 995
     - IdentityInfo
     - IdentityProvider
     - IdentitySourceType
+    - IdentityVerificationStatus
+      - expiryDateTime
+      - lastVerifiedDateTime
+      - state
     - InactiveUsersByApplicationMetricBase
     - IndustryData
       - AdditionalUserOptions
@@ -782,7 +808,35 @@ Total annotation targets: 995
     - IntegerRange
       - maximum
       - minimum
+    - InvestigationIdentitySet
+      - agent
+    - InvestigationInput
+      - displayName
+      - kind
+      - value
+    - InvestigationMessage
+      - agentTurnId
+      - author
+      - content
+      - createdDateTime
+      - kind
+      - role
+      - sequenceId
+    - InvestigationMessageAuthor
+      - key
+      - role
+    - InvestigationOutput
+      - content
+      - kind
     - InvestigationSecurityState
+    - InvestigationSession
+      - createdDateTime
+      - displayName
+      - initiatedBy
+      - lastModifiedDateTime
+      - status
+      - statusDetail
+      - tags
     - IpCategory
     - IpReferenceData
     - IpSecurityProfile
@@ -1066,6 +1120,26 @@ Total annotation targets: 995
       - owner
     - PlannerTask
       - goalIds
+    - PlaybookDefinition
+      - acceptedInputTypes
+      - description
+      - displayName
+      - uniqueName
+    - PoliciesEvaluationDetail
+      - appliedPolicyEffects
+      - assignedPolicyDisplayName
+      - assignmentUniqueName
+      - enforcementMode
+      - errorDetails
+      - reasons
+    - PoliciesEvaluationResult
+      - appliedPoliciesEffects
+      - details
+      - httpMethod
+      - isBlocked
+      - message
+      - normalizedRequestInput
+      - resourceUri
     - Presence
       - sequenceNumber
     - Print
@@ -1169,6 +1243,28 @@ Total annotation targets: 995
     - ResourceOperation
       - enabledForScopeValidation
       - resource
+    - ResourcePolicyAssignment
+      - createdDateTime
+      - deletedDateTime
+      - lastModifiedDateTime
+    - ResourcePolicyConfiguration
+      - lastModifiedDateTime
+    - ResourcePolicyDefinition
+      - category
+      - createdDateTime
+      - deletedDateTime
+      - description
+      - displayName
+      - lastModifiedDateTime
+      - paramsSchema
+      - version
+    - ResourcePolicyDefinitionVersion
+      - lastModifiedDateTime
+      - paramsSchema
+      - policy
+      - version
+    - ResourcePolicyRule
+      - appliesTo
     - Retrieval(microsoft
       - Graph
         - CopilotRoot, Edm
@@ -1454,6 +1550,21 @@ Total annotation targets: 995
               - Boolean, Collection(microsoft
                 - Graph
                   - SynchronizationSecretKeyStringValuePair))
+    - VerificationEventDetail
+      - expiresDateTime
+      - externalCredentialId
+      - issuedDateTime
+      - source
+      - verifiedDateTime
+      - verifiedIdProfileId
+    - VerificationEventLifecycle
+      - invalidatedDateTime
+      - source
+      - state
+    - VerificationEventOverride
+      - actorId
+      - actorType
+      - overriddenDateTime
     - VerifySignature(microsoft
       - Graph
         - InformationProtection, Edm
@@ -1559,10 +1670,26 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.agentIdentity/agentIdentityBlueprintId |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentIdentity/managerApplications |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.agentIdentityBlueprintPrincipal/managerApplications |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentInfo/applicationId |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentInfo/definitionName |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentInfo/displayName |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentInfo/key |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.agentInstance/createdBy |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentInstance/createdDateTime |  |  | Org.OData.Core.V1.Immutable |
 | microsoft.graph.agentRiskDetection/agentDisplayName |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.agentRiskDetection/agentId |  |  | Org.OData.Core.V1.Revisions |
+| microsoft.graph.agentRun/agent |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/completedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/createdDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/durationInMilliseconds |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/failureInfo |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/initiatedBy |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/lastModifiedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/startedDateTime |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/status |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRun/statusDetail |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRunFailureInfo/errorType |  |  | Org.OData.Core.V1.Computed |
+| microsoft.graph.agentRunFailureInfo/message |  |  | Org.OData.Core.V1.Computed |
 | microsoft.graph.alert |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertDetection |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.alertFeedback |  |  | Org.OData.Core.V1.Revisions |
@@ -1711,19 +1838,3 @@ The complete searchable catalog is available in the website table and JSON datas
 | microsoft.graph.correlatedObjectLinkMapping |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlatedObjectLinkSource |  |  | Org.OData.Core.V1.Revisions |
 | microsoft.graph.correlatedObjectLinkTarget |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.correlationError |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.credentialUsageSummary |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.credentialUserRegistrationDetails |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customAccessPackageWorkflowExtension |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customExtensionHandler |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customExtensionHandlerInstance |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customFieldDefinition/createdBy |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.customFieldDefinition/createdDateTime |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.customFieldDefinition/deletedBy |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.customFieldDefinition/deletedDateTime |  |  | Org.OData.Core.V1.Computed |
-| microsoft.graph.customFieldDefinition/planId |  |  | Org.OData.Core.V1.Immutable |
-| microsoft.graph.customFieldValue/customFieldDefinitionId |  |  | Org.OData.Core.V1.Immutable |
-| microsoft.graph.customObjectFieldDefinition |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customObjectProperties |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.customUsernameSignInIdentifier |  |  | Org.OData.Core.V1.Revisions |
-| microsoft.graph.dailyInactiveUsersByApplicationMetric |  |  | Org.OData.Core.V1.Revisions |
