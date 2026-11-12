@@ -9,6 +9,6 @@
     "refresh": "node scripts/build-site.mjs --fetch"
   },
   "dependencies": {
-    "fast-xml-parser": "5.7.2"
+    "fast-xml-parser": "5.12.0"
   }
 }
